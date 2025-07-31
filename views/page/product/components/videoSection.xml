@@ -9,7 +9,7 @@
                 loop="loop"
                 muted="muted"
                 playsinline="playsinline">
-                <source src="/mpa_website/static/src/video/produk.mp4" type="video/mp4"/>
+                <source src="/mpa_website/static/src/video/produk_tulisan1.mov" type="video/mp4"/>
                 <p class="text-gray-700 dark:text-gray-400">Your browser does not support the video tag.</p>
             </video>
             <div class="absolute inset-0 flex flex-col items-center py-5 text-white px-4 md:px-8 lg:px-16">
@@ -22,14 +22,6 @@
                 <a href="/contact-us" class="btn-mpa-primary">
                     Contact Us
                 </a>
-                <div class="w-2/3 ml-auto my-auto text-white">
-                    <h3 class="text-2xl font-bold">
-                        Batu 5-10 mm
-                    </h3>
-                    <p>
-                        Batu ukuran 5–10 mm, atau sering disebut batu screening, merupakan hasil pemrosesan mesin pemecah batu dengan ukuran seragam dan presisi tinggi. Material ini biasa digunakan sebagai campuran utama dalam pembuatan aspal hotmix serta penebalan struktur jalan pada proses Asphalt Mixing Plant (AMP).
-                    </p>
-                </div>
             </div>
         </section>
 

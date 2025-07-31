@@ -1,46 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="video_home_section" name="Video Home Section">
-        <section class="relative h-[3800vh]">
-            <div class="sticky flex top-0 h-screen w-full overflow-hidden">
-                <video 
-                    t-att-id="'scrollVideo'" 
-                    class="h-full w-full object-cover"
-                    preload="auto"
-                    muted="muted"
-                    playsinline="playsinline">
-                        <source src="/mpa_website/static/src/video/speedup.mp4" type="video/mp4"/>
-                    <p class="text-gray-700 dark:text-gray-400">Your browser does not support the video tag.</p>
-                </video>
-                <div id="batu1" class="absolute hidden top-[5rem] right-[4rem] z-50 text-2xl font-bold">
-                    <h3>Batu</h3>
-                    <h3>5-10 mm</h3>
-                </div>
-                <div id="batu2" class="absolute hidden top-[14rem] right-[14rem] z-50 text-2xl font-bold">
-                    <h3>Batu</h3>
-                    <h3>10-20 mm</h3>
-                </div>
-                <div id="batu3" class="absolute hidden top-[21rem] right-[25rem] z-50 text-2xl font-bold">
-                    <h3>Batu</h3>
-                    <h3>20-30 mm</h3>
-                </div>
-                <div id="batu4" class="absolute hidden top-[30rem] right-[12rem] z-50 text-2xl font-bold">
-                    <h3>Batu</h3>
-                    <h3>30-50 mm</h3>
-                </div>
-                <div id="batu5" class="absolute hidden top-[33rem] right-[15rem] z-50 text-2xl font-bold">
-                    <h3>Batu</h3>
-                    <h3>50-70 mm</h3>
-                </div>
-                <div id="batu6" class="absolute hidden top-[10rem] right-[13rem] z-50 text-2xl font-bold">
-                    <h3>Batu Pondasi</h3>
-                    <h3>20-30 cm</h3>
-                </div>
-                <div id="batu7" class="absolute hidden top-[25rem] right-[25rem] z-50 text-2xl font-bold">
-                    <h3>Batu Bolder</h3>
-                    <h3>30 cm up</h3>
-                </div>
-            </div>
+        <section class="relative flex h-screen">
+            <video 
+                class="h-full w-full object-cover"
+                preload="auto" 
+                autoplay="autoplay"
+                muted="muted"
+                playsinline="playsinline">
+                <source src="/mpa_website/static/src/video/produk_home_tulisan.mov" type="video/mp4"/>
+                <p class="text-gray-700 dark:text-gray-400">Your browser does not support the video tag.</p>
+            </video>
         </section>
 
         <script type="text/javascript">
