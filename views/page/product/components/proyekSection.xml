@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="proyek_product_section" name="Proyek Product Section">
+        <div class="px-20 py-10 bg-mpa-secondary">
+            <div class="mb-5 text-white">
+                <h1 class="text-4xl font-bold text-center mb-2">Proyek</h1>
+                <p class="text-center">Kami telah menjadi bagian dari berbagai proyek besar di sektor konstruksi, baik pemerintah maupun swasta. </p>
+                <div class="w-full flex mt-5">
+                    <button class="btn-mpa-primary m-auto">Learn More</button>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center mb-20">
+                <div class="flex relative">
+                    <img src="/mpa_website/static/src/img/KOY00555.jpg" 
+                            alt="About MPA" 
+                            loading="lazy"
+                            class="w-[300px] h-[392px] bg-gray-500 object-cover object-center z-30 m-auto transform"/>
+                    <div class="absolute w-[300px] h-[392px] bg-mpa-primary -bottom-10 -right-2 z-20">
+                        <div class="absolute bottom-4 right-7 text-white text-lg">Learn more</div>
+                    </div>
+                </div>
+                <div class="flex relative">
+                    <img src="/mpa_website/static/src/img/KOY00440.jpg" 
+                            alt="About MPA" 
+                            loading="lazy"
+                            class="w-[300px] h-[392px] bg-gray-500 object-cover object-center z-30 m-auto transform"/>
+                    <div class="absolute w-[300px] h-[392px] bg-mpa-primary -bottom-10 -right-2 z-20">
+                        <div class="absolute bottom-4 right-7 text-white text-lg">Learn more</div>
+                    </div>
+                </div>
+                <div class="flex relative">
+                    <img src="/mpa_website/static/src/img/IMG_3114.jpg" 
+                            alt="About MPA" 
+                            loading="lazy"
+                            class="w-[300px] h-[392px] bg-gray-500 object-cover object-center z-30 m-auto transform"/>
+                    <div class="absolute w-[300px] h-[392px] bg-mpa-primary -bottom-10 -right-2 z-20">
+                        <div class="absolute bottom-4 right-7 text-white text-lg">Learn more</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+</odoo>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="about_home_section" name="About Home Section">
+        <div class="relative bg-mpa-secondary py-24">
+            <!-- Card that overflows to top -->
+            <div class="mx-auto">
+                <div class="bg-white/95 border border-mpa-primary p-4 -mt-48 mb-16 mx-20">
+                    <div class="flex flex-col md:flex-row divide-y md:divide-y-0 md:divide-x divide-mpa-primary text-center">
+                        <div class="flex-1 md:py-0 md:px-4">
+                            <h3 class="text-4xl font-bold text-mpa-primary mb-2">49 Hektar</h3>
+                            <p class="text-xl text-mpa-secondary">Luas Area Tambang</p>
+                        </div>
+                        <div class="flex-1 md:py-0 md:px-4">
+                            <h3 class="text-4xl font-bold text-mpa-primary mb-2">4 IUP</h3>
+                            <p class="text-xl text-mpa-secondary">Area Tambang</p>
+                        </div>
+                        <div class="flex-[2] md:py-0 md:px-4">
+                            <h3 class="text-4xl font-bold text-mpa-primary mb-2">100.000 m³/bulan</h3>
+                            <p class="text-xl text-mpa-secondary">Total Kapasitas Produksi</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Grid with 2 columns -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <!-- Image column -->
+                    <div class="relative flex h-[570px] w-[570px] rounded-lg shadow-xl ml-auto">
+                        <div class="bg-mpa-primary flex backdrop-blur-sm w-[570px] h-[570px] top-0 right-0 absolute">
+                            <img src="/mpa_website/static/src/img/KOY00459.jpg" 
+                             alt="About MPA" 
+                             loading="lazy"
+                             class="w-[570px] h-[570px] bg-gray-500 object-cover object-center mt-10 -ml-10"/>
+                        </div>
+                    </div>
+                    
+                    <!-- Text column -->
+                    <div class="space-y-6">
+                        <h3 class="font-thin italic text-white">Kualitas Unggul untuk Proyek Tangguh</h3>
+                        <h2 class="text-4xl font-bold text-white">Mitraniaga Perkasa Abadi</h2>
+                        <p class="text-white leading-relaxed">
+                            Perusahaan yang bergerak di bidang perdagangan/pengadaan (trading) material konstruksi untuk berbagai kebutuhan pembangunan. Didirikan pada bulan Desember 2022, perusahaan kami komitmen untuk menyediakan material berkualitas tinggi guna mendukung berbagai proyek infrastruktur dan pembangunan di Indonesia, khususnya Indonesia Timur.
+                        </p>
+                        <button class="btn-mpa-primary">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+</odoo>

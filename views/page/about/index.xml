@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="about_page" name="Home Page">
+        <t t-call="website.layout">
+            <t t-call="mpa_website.assets_css"/>
+            <t t-call="mpa_website.assets_js"/>
+
+            <t t-call="mpa_website.navbar"/>
+
+            <t t-call="mpa_website.hero_about_section"/>
+            <t t-call="mpa_website.about_about_section"/>
+            <t t-call="mpa_website.visimisi_about_section"/>
+            <t t-call="mpa_website.value_about_section"/>
+            <t t-call="mpa_website.proyek_about_section"/>
+            <t t-call="mpa_website.fasility_about_section"/>
+            <t t-call="mpa_website.legal_about_section"/>
+
+            <t t-call="mpa_website.footer"/>
+
+        </t>
+    </template>
+
+    <record id="action_about_page" model="ir.actions.act_url">
+        <field name="name">About Page</field>
+        <field name="url">/about</field>
+        <field name="target">self</field>
+    </record>
+</odoo>

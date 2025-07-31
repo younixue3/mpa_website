@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="value_about_section" name="About About Section">
+        <div class="relative bg-white py-24">
+            <!-- Card that overflows to top -->
+            <div class="mx-auto px-20">
+                <div class="mb-5">
+                    <h1 class="text-4xl font-bold text-center mb-2">Nilai-nilai Perusahaan</h1>
+                    <p class="text-center">Kami percaya bahwa membangun fondasi yang kuat bukan hanya soal material, tetapi juga soal nilai yang kami pegang dalam setiap proses kerja.</p>
+                </div>
+                <!-- Grid with 2 columns -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+                    <div class="flex relative">
+                        <img src="/mpa_website/static/src/img/1020mm.jpeg" 
+                             alt="About MPA" 
+                             loading="lazy"
+                             class="w-[300px] h-[392px] bg-gray-500 object-cover object-center z-30 m-auto transform scale-90"/>
+                        <div class="absolute w-4/6 h-14 bg-mpa-primary top-0 -right-2 z-20"></div>
+                        <div class="absolute w-4/6 h-14 bg-mpa-primary bottom-0 left-0 -ml-2 z-20"></div>
+                        <div class="absolute w-full -bottom-4 flex justify-center">
+                            <div class="bg-mpa-secondary w-2/3 h-14 flex items-center justify-center z-40 rounded-sm shadow-md">
+                                <span class="text-white font-medium text-lg leading-tight">Quality Excellence</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex relative">
+                        <img src="/mpa_website/static/src/img/KOY00502.jpg" 
+                             alt="About MPA" 
+                             loading="lazy"
+                             class="w-[300px] h-[392px] bg-gray-500 object-cover object-center z-30 m-auto transform scale-90"/>
+                        <div class="absolute w-4/6 h-14 bg-mpa-primary top-0 -right-2 z-20"></div>
+                        <div class="absolute w-4/6 h-14 bg-mpa-primary bottom-0 left-0 -ml-2 z-20"></div>
+                        <div class="absolute w-full -bottom-4 flex justify-center">
+                            <div class="bg-mpa-secondary w-2/3 h-14 flex items-center justify-center z-40 rounded-sm shadow-md">
+                                <span class="text-white font-medium text-lg leading-tight">Reliability</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex relative">
+                        <img src="/mpa_website/static/src/img/KOY00604.jpg" 
+                             alt="About MPA" 
+                             loading="lazy"
+                             class="w-[300px] h-[392px] bg-gray-500 object-cover object-center z-30 m-auto transform scale-90"/>
+                        <div class="absolute w-4/6 h-14 bg-mpa-primary top-0 -right-1 z-20"></div>
+                        <div class="absolute w-4/6 h-14 bg-mpa-primary bottom-0 left-0 -ml-1 z-20"></div>
+                        <div class="absolute w-full -bottom-4 flex justify-center">
+                            <div class="bg-mpa-secondary w-2/3 h-14 flex items-center justify-center z-40 rounded-sm shadow-md">
+                                <span class="text-white font-medium text-lg leading-tight">Collaboration</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-16 space-y-3">
+                    <div class="flex items-start gap-8 group hover:bg-gray-50 p-3 rounded-lg transition-all duration-300">
+                        <div class="w-56 text-center bg-mpa-primary text-white py-1 shadow-md group-hover:shadow-lg group-hover:scale-105 transition-all duration-300">
+                            <span class="font-medium text-lg">Quality Excellence</span>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed flex-1 group-hover:text-gray-900 transition-colors duration-300">
+                            Setiap batu yang kami kirimkan telah melalui proses seleksi dan kontrol mutu yang ketat. Bagi kami, pengalaman adalah bekal dan kualitas adalah komitmen.
+                        </p>
+                    </div>
+                    <div class="flex items-start gap-8 group hover:bg-gray-50 p-3 rounded-lg transition-all duration-300">
+                        <div class="w-56 text-center bg-mpa-primary text-white py-1 shadow-md group-hover:shadow-lg group-hover:scale-105 transition-all duration-300">
+                            <span class="font-medium text-lg">Reliability</span>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed flex-1 group-hover:text-gray-900 transition-colors duration-300">
+                            Kami berkomitmen untuk selalu dapat diandalkan dalam setiap aspek layanan kami. Ketepatan waktu, konsistensi kualitas, dan profesionalisme adalah prioritas utama.
+                        </p>
+                    </div>
+                    <div class="flex items-start gap-8 group hover:bg-gray-50 p-3 rounded-lg transition-all duration-300">
+                        <div class="w-56 text-center bg-mpa-primary text-white py-1 shadow-md group-hover:shadow-lg group-hover:scale-105 transition-all duration-300">
+                            <span class="font-medium text-lg">Collaboration</span>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed flex-1 group-hover:text-gray-900 transition-colors duration-300">
+                            Kami percaya bahwa kesuksesan terbaik dicapai melalui kerjasama yang erat. Dengan mengedepankan komunikasi terbuka dan saling mendukung, kami membangun hubungan yang berkelanjutan.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+</odoo>

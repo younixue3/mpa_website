@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="material_product_section" name="Material Product Section">
+      <div class="flex gap-20 justify-center items-center min-h-screen bg-gray-100">
+        <div class="max-w-sm rounded-lg shadow-lg overflow-hidden scale-90">
+          <img 
+            class="w-[35rem] h-96 object-cover object-center bg-gray-500" 
+            src="/mpa_website/static/src/img/pasircuci.jpeg"
+            alt="Pasir Cuci Material"
+          />
+          <div class="bg-mpa-primary p-6">
+            <h1 class="text-2xl font-bold text-white mb-2">
+              Pasir Cuci
+            </h1>
+            <p class="text-gray-100 text-sm leading-relaxed">
+              Pasir cuci kami bebas dari lumpur dan material organik, menjadikannya pilihan utama untuk pekerjaan beton mutu tinggi.
+            </p>
+          </div>
+        </div>
+        <div class="max-w-sm rounded-lg shadow-lg overflow-hidden">
+          <img 
+            class="w-[35rem] h-96 object-cover object-center bg-gray-500" 
+            src="/mpa_website/static/src/img/pasircuci.jpeg"
+            alt="Pasir Cuci Material"
+          />
+          <div class="bg-mpa-primary p-6">
+            <h1 class="text-2xl font-bold text-white mb-2">
+              Pasir Cuci
+            </h1>
+            <p class="text-gray-100 text-sm leading-relaxed">
+              Pasir cuci kami bebas dari lumpur dan material organik, menjadikannya pilihan utama untuk pekerjaan beton mutu tinggi.
+            </p>
+          </div>
+        </div>
+        <div class="max-w-sm rounded-lg shadow-lg overflow-hidden scale-90">
+          <img 
+            class="w-[35rem] h-96 object-cover object-center bg-gray-500" 
+            src="/mpa_website/static/src/img/pasircuci.jpeg"
+            alt="Pasir Cuci Material"
+          />
+          <div class="bg-mpa-primary p-6">
+            <h1 class="text-2xl font-bold text-white mb-2">
+              Pasir Cuci
+            </h1>
+            <p class="text-gray-100 text-sm leading-relaxed">
+              Pasir cuci kami bebas dari lumpur dan material organik, menjadikannya pilihan utama untuk pekerjaan beton mutu tinggi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </template>
+</odoo>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="about_about_section" name="About About Section">
+        <div class="relative bg-white py-24">
+            <!-- Card that overflows to top -->
+            <div class="mx-auto">
+                <!-- Grid with 2 columns -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <!-- Image column -->
+                    <div class="relative flex h-[570px] w-[570px] rounded-lg shadow-xl ml-auto">
+                        <div class="bg-mpa-primary flex backdrop-blur-sm w-[570px] h-[570px] top-0 right-0 absolute">
+                            <img src="/mpa_website/static/src/img/KOY00459.jpg" 
+                             alt="About MPA" 
+                             loading="lazy"
+                             class="w-[570px] h-[570px] bg-gray-500 object-cover object-center mt-10 -ml-10"/>
+                        </div>
+                    </div>
+                    
+                    <!-- Text column -->
+                    <div class="space-y-6">
+                        <h3 class="font-thin italic text-black">Kualitas Unggul untuk Proyek Tangguh</h3>
+                        <h2 class="text-4xl font-bold text-black">Mitraniaga Perkasa Abadi</h2>
+                        <p class="text-black leading-relaxed">
+                            Perusahaan yang bergerak di bidang perdagangan/pengadaan (trading) material konstruksi untuk berbagai kebutuhan pembangunan. Didirikan pada bulan Desember 2022, perusahaan kami komitmen untuk menyediakan material berkualitas tinggi guna mendukung berbagai proyek infrastruktur dan pembangunan di Indonesia, khususnya Indonesia Timur.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+</odoo>

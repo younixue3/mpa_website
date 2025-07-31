@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="proyek_page" name="Proyek Page">
+        <t t-call="website.layout">
+            <t t-call="mpa_website.assets_css"/>
+            <t t-call="mpa_website.assets_js"/>
+
+            <t t-call="mpa_website.navbar"/>
+
+            <t t-call="mpa_website.hero_proyek_section"/>
+            <t t-call="mpa_website.client_proyek_section"/>
+
+            <t t-call="mpa_website.footer"/>
+
+        </t>
+    </template>
+
+    <record id="action_proyek_page" model="ir.actions.act_url">
+        <field name="name">Proyek Page</field>
+        <field name="url">/proyek</field>  
+        <field name="target">self</field>
+    </record>
+</odoo>

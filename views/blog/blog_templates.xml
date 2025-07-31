@@ -1,0 +1,43 @@
+<odoo>
+    <template id="custom_button_blog_detail" inherit_id="website.layout" name="Custom Button in Blog Detail">
+        <!-- <xpath expr="//main//div[hasclass('o_wblog_post_content_field')]" position="before">
+            <t t-if="'/blog/' in request.httprequest.path and request.httprequest.path != '/blog'">
+                <div class="container mt-3">
+                  <a href="/ulin_event" class="btn btn-success">
+                    ⬅ Back To Event
+                  </a>
+                </div>
+            </t>
+        </xpath> -->
+      <xpath expr="//div[@id='wrapwrap']" position="before">
+        <xpath expr="//div[@id='wrap']" position="before">
+            <xpath expr="//div[@id='o_wblog_post_main']" position="inside">
+                <t t-if="'/blog/' in request.httprequest.path and request.httprequest.path != '/blog'">
+                  <style>
+                    .btn-primary {
+                      background-color: #4a752c;
+                      color: #fff;
+                      border: none;
+                      padding: 10px 20px;
+                      border-radius: 5px;
+                      font-size: 16px;
+                      cursor: pointer;
+                      box-shadow: none;
+                    }
+
+                    .btn-primary:hover {
+                      background-color: #4a752c;
+                      color: white !important;
+                    }
+                  </style>
+                    <div class="tw-fixed tw-top-5 tw-left-10 tw-z-50">
+                        <a href="/ulin_event" class="btn btn-primary">
+                        &lt; BACK TO EVENT
+                        </a>
+                    </div>
+                </t>
+            </xpath>
+        </xpath>
+      </xpath>
+    </template>
+  </odoo>

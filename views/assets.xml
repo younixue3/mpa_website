@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- CSS untuk frontend -->
+    <template id="assets_css" name="Landing Page CSS">
+            <link rel="stylesheet" type="text/css"
+                href="/custom_tailwind/static/src/css/dist/output.css" />
+            <!-- Google Fonts -->
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    </template>
+
+    <!-- JS untuk frontend -->
+    <template id="assets_js" name="Landing Page JS">
+        <xpath expr="." position="inside">
+            <script src="/mpa_website/static/src/js/main.js" charset="utf-8"></script>
+            <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+            <script src="/custom_tailwind/node_modules/flowbite/dist/flowbite.min.js"></script>
+            <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet"/>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+            integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"
+  integrity="sha512-Q+G390ZU2qKo+e4q+kVcJknwfGjKJOdyu5mVMcR95NqL6XaF4lY4nsSvIVB3NDP54ACsS9rqhE1DVqgpApl//Q=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        </xpath>
+    </template>
+
+</odoo>

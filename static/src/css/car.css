@@ -1,0 +1,18 @@
+/* Custom CSS untuk lingkaran profil */
+.profile-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* Membuat bentuk lingkaran */
+  border: 2px solid red; /* Border merah */
+  background-color: #f8f9fa; /* Warna background lingkaran */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Memastikan gambar tidak keluar dari lingkaran */
+  text-decoration: none;
+}
+
+.profile-circle img {
+  width: 100%;
+  height: auto;
+}

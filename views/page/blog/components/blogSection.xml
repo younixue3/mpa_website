@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="blog_blog_section" name="Hero Blog Section">
+        <div class="bg-mpa-secondary">
+            <div class="container mx-auto px-4 py-8">
+                <!-- Header -->
+                <div class="text-center mb-8">
+                    <h1 class="text-5xl font-bold text-white mb-14">Blog &amp; Artikel</h1>
+                    
+                    <!-- Search Bar -->
+                    <div class="max-w-md mx-auto relative mb-10">
+                        <input 
+                            type="text" 
+                            placeholder="Search" 
+                            class="w-full px-4 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-white focus:border-transparent"
+                        />
+                        <button class="absolute right-3 top-1/2 transform -translate-y-1/2">
+                            <svg class="w-5 h-5 text-mpa-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Articles Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+                    <!-- Article 1 -->
+                    <div class="bg-white overflow-hidden">
+                        <div class="h-48 bg-gray-200 relative">
+                            <img src="/mpa_website/static/src/img/KOY00555.jpg" 
+                                alt="Construction materials" 
+                                class="w-full h-full object-cover object-center" />
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-semibold text-gray-800 mb-3">Tips memilih material batu yang tepat</h3>
+                            <a href="#" class="text-mpa-primary font-medium hover:underline flex items-center">
+                                Learn more 
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Article 2 -->
+                    <div class="bg-white overflow-hidden">
+                        <div class="h-48 bg-gray-200 relative">
+                            <img src="/mpa_website/static/src/img/KOY00440.jpg"
+                                alt="Excavator" 
+                                class="w-full h-full object-cover" />
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-semibold text-gray-800 mb-3">Manfaat pasir cuci dalam pembangunan infrastruktur</h3>
+                            <a href="#" class="text-mpa-primary font-medium hover:underline flex items-center">
+                                Learn more 
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Article 3 -->
+                    <div class="bg-white overflow-hidden">
+                        <div class="h-48 bg-gray-200 relative">
+                            <img src="/mpa_website/static/src/img/IMG_3114.jpg"
+                                alt="Construction site" 
+                                class="w-full h-full object-cover" />
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-semibold text-gray-800 mb-3">Tren pembangunan dan konstruksi terbaru</h3>
+                            <a href="#" class="text-mpa-primary font-medium hover:underline flex items-center">
+                                Learn more 
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Article 1 -->
+                    <div class="bg-white overflow-hidden">
+                        <div class="h-48 bg-gray-200 relative">
+                            <img src="/mpa_website/static/src/img/KOY00555.jpg" 
+                                alt="Construction materials" 
+                                class="w-full h-full object-cover object-center" />
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-semibold text-gray-800 mb-3">Tips memilih material batu yang tepat</h3>
+                            <a href="#" class="text-mpa-primary font-medium hover:underline flex items-center">
+                                Learn more 
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Article 2 -->
+                    <div class="bg-white overflow-hidden">
+                        <div class="h-48 bg-gray-200 relative">
+                            <img src="/mpa_website/static/src/img/KOY00440.jpg"
+                                alt="Excavator" 
+                                class="w-full h-full object-cover" />
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-semibold text-gray-800 mb-3">Manfaat pasir cuci dalam pembangunan infrastruktur</h3>
+                            <a href="#" class="text-mpa-primary font-medium hover:underline flex items-center">
+                                Learn more 
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Article 3 -->
+                    <div class="bg-white overflow-hidden">
+                        <div class="h-48 bg-gray-200 relative">
+                            <img src="/mpa_website/static/src/img/IMG_3114.jpg"
+                                alt="Construction site" 
+                                class="w-full h-full object-cover" />
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-semibold text-gray-800 mb-3">Tren pembangunan dan konstruksi terbaru</h3>
+                            <a href="#" class="text-mpa-primary font-medium hover:underline flex items-center">
+                                Learn more 
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pagination -->
+                <div class="flex justify-center items-center space-x-2">
+                    <span class="text-white">Page 1 of 3</span>
+                    <button class="ml-2 text-white hover:text-mpa-primary transition-colors">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </template>
+</odoo>

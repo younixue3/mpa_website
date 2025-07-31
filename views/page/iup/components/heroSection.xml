@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="hero_iup_section" name="Hero IUP Section">
+        <div class="relative">
+            <img src="/mpa_website/static/src/img/IMG_3131.jpg" alt="Hero Image" class="w-full h-[32rem] bg-gray-300 object-cover object-center brightness-75"/>
+            <div class="absolute bottom-0 left-0 text-left text-white px-20">
+                <h1 class="text-2xl font-bold mb-2">Izin Usaha Pertambangan (IUP)</h1>
+                <p class="text-lg md:text-xl mb-6">Empat Lokasi, Satu Standar Kualitas.</p>
+            </div>
+        </div>
+    </template>
+</odoo>

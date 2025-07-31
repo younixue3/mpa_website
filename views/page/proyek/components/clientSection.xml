@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="client_proyek_section" name="client Proyek Section">
+        <div class="bg-mpa-secondary py-12">
+            <div class="container mx-auto mb-10">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <div class="bg-white p-8 text-center">
+                        <div class="text-mpa-primary">
+                            <div class="text-7xl font-bold mb-2">100+</div>
+                            <div class="text-xl">Clients across Indonesia</div>
+                        </div>
+                    </div>
+                    <div class="text-white text-lg leading-relaxed">
+                        <p class="font-light">
+                            Kami bangga telah menjadi bagian dari berbagai proyek berskala lokal hingga nasional. Klien kami mencakup perusahaan konstruksi, developer properti, instansi pemerintah, dan pelaku industri strategis yang mengutamakan kualitas material tambang untuk setiap pembangunan.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div>
+                    <img src="/mpa_website/static/src/img/KOY00555.jpg" width="342" height="434" alt="Column 1" class="bg-gray-500 w-full h-[434px] object-cover object-center"/>
+                </div>
+                <div>
+                    <img src="/mpa_website/static/src/img/KOY00440.jpg" width="342" height="434" alt="Column 2" class="bg-gray-500 w-full h-[434px] object-cover object-center"/>
+                </div>
+                <div>
+                    <img src="/mpa_website/static/src/img/IMG_3114.jpg" width="342" height="434" alt="Column 3" class="bg-gray-500 w-full h-[434px] object-cover object-center"/>
+                </div>
+            </div>
+        </div>
+    </template>
+</odoo>

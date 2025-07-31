@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="fasility_about_section" name="fasility About Section">
+        <div class="p-20 bg-mpa-secondary mt-20">
+            <div class="mt-10 mb-5 text-white">
+                <h1 class="text-4xl font-bold text-center mb-2">Armada &amp; Fasilitas</h1>
+                <p class="text-center">Untuk mendukung kelancaran produksi dan distribusi material tambang, kami didukung oleh fasilitas operasional dan armada pengangkut yang siap melayani kebutuhan proyek skala kecil hingga besar.</p>
+            </div>
+            <div class="mb-10">
+                <div class="flex gap-5 mb-5">
+                    <div class="flex relative">
+                        <img src="/mpa_website/static/src/img/DJI_0249.webp" 
+                                alt="About MPA" 
+                                loading="lazy"
+                                class="w-[426px] h-[239px] bg-gray-500 object-cover object-center z-30 m-auto transform"/>
+                        <div class="absolute w-[426px] h-[239px] bg-mpa-primary -bottom-10 -right-5 z-20">
+                        </div>
+                    </div>
+                    <div class="py-5">
+                        <div class="bg-white text-mpa-primary p-2 text-2xl font-bold mb-3 inline-block">
+                            Mesin Crusher
+                        </div>
+                        <p class="text-white">Grup kami memiliki 4 Plant Stone Crusher dan 2 Plant Sand Washer yang siap menyediakan produk batu terbaik sesuai kebutuhan pelanggan kami.</p>
+                    </div>
+                </div>
+                <div class="flex gap-5 mb-5">
+                    <div class="py-5 text-right">
+                        <div class="bg-white text-mpa-primary p-2 text-2xl font-bold mb-3 inline-block">
+                            Jetty &amp; Stockpile
+                        </div>
+                        <p class="text-white">4 area jetty mandiri seluas lebih dari 2 hektar akan menjamin kelancaran loading.</p>
+                    </div>
+                    <div class="flex relative">
+                        <img src="/mpa_website/static/src/img/DJI_0178.webp" 
+                                alt="About MPA" 
+                                loading="lazy"
+                                class="w-[426px] h-[239px] bg-gray-500 object-cover object-center z-30 m-auto transform"/>
+                        <div class="absolute w-[426px] h-[239px] bg-mpa-primary -bottom-10 -left-5 z-20">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex gap-5 mb-5">
+                    <div class="flex relative">
+                        <img src="/mpa_website/static/src/img/gzvvyjdvren5hdruuq4f.webp" 
+                                alt="About MPA" 
+                                loading="lazy"
+                                class="w-[426px] h-[239px] bg-gray-500 object-cover object-center z-30 m-auto transform"/>
+                        <div class="absolute w-[426px] h-[239px] bg-mpa-primary -bottom-10 -right-5 z-20">
+                        </div>
+                    </div>
+                    <div class="py-5">
+                        <div class="bg-white text-mpa-primary p-2 text-2xl font-bold mb-3 inline-block">
+                            Armada Distribusi
+                        </div>
+                        <p class="text-white">Lebih dari 70 unit alat berat dan dump truck menjamin kelancaran operasional.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+</odoo>

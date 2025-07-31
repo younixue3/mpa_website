@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="guarantee_home_section" name="About Home Section">
+        <section class="bg-mpa-secondary mx-auto px-20 py-16">
+            <div class="text-center mb-12">
+                <h2 class="text-5xl text-white font-bold">Jaminan MPA</h2>
+            </div>
+            <ol class="list-none space-y-8">
+                <!-- Jaminan Kualitas -->
+                <li class="flex items-start gap-6">
+                    <span class="text-9xl text-white font-bold leading-none">01</span>
+                    <div class="flex-1">
+                        <div class="bg-mpa-primary text-white py-1 px-6 mb-1 inline-block">
+                            <h3 class="text-xl font-semibold">Jaminan Kualitas</h3>
+                        </div>
+                        <p class="text-white/90 leading-relaxed">
+                            Seluruh produk batu Mitraniaga Perkasa Abadi telah lulus uji standar mutu dari UPT Laboratorium dan diakui oleh banyak proyek baik pemerintahan maupun swasta.
+                        </p>
+                    </div>
+                </li>
+
+                <!-- Jaminan Produksi -->
+                <li class="flex items-start gap-6">
+                    <span class="text-9xl text-white font-bold leading-none">02</span>
+                    <div class="flex-1">
+                        <div class="bg-mpa-primary text-white py-1 px-6 mb-1 inline-block">
+                            <h3 class="text-xl font-semibold">Jaminan Produksi</h3>
+                        </div>
+                        <p class="text-white/90 leading-relaxed">
+                            Mitraniaga Perkasa Abadi memiliki standarisasi yang tinggi dalam setiap produk yang dihasilkan. Proses produksi dari awal hingga akhir dilakukan dengan tahapan ketat dan pengawasan secara detail. Jaminan kami adalah penyediaan produk dengan mutu tinggi dan tepat waktu.
+                        </p>
+                    </div>
+                </li>
+
+                <!-- Harga Kompetitif -->
+                <li class="flex items-start gap-6">
+                    <span class="text-9xl text-white font-bold leading-none">03</span>
+                    <div class="flex-1">
+                        <div class="bg-mpa-primary text-white py-1 px-6 mb-1 inline-block">
+                            <h3 class="text-xl font-semibold">Harga Kompetitif</h3>
+                        </div>
+                        <p class="text-white/90 leading-relaxed">
+                            Harga yang ditawarkan oleh Mitraniaga Perkasa Abadi merupakan harga terbaik dengan kualitas produk dan layanan yang terbaik. Kami sangat terbuka dengan negosiasi syarat dan kondisi penawaran demi tercapainya kerjasama yang menguntungkan dan jangka panjang.
+                        </p>
+                    </div>
+                </li>
+            </ol>
+
+        </section>
+    </template>
+</odoo>

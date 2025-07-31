@@ -1,0 +1,366 @@
+@font-face {
+  font-family: "Muneo Sans";
+  src: url("/custom_TA/static/src/font/MuseoSans_500.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+}
+
+body {
+  font-family: "Muneo Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Muneo Sans", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.all-height {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.sm-height {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Custom Carousel Indicators */
+.custom-indicators button {
+  width: 150px !important; /* Panjang setiap indikator */
+  height: 10px; /* Tinggi indikator */
+  border-radius: 5px; /* Membuat indikator berbentuk oval */
+  background-color: rgba(0, 0, 0, 0.5); /* Warna dasar */
+  border: none; /* Hilangkan border */
+  transition: background-color 0.3s ease; /* Animasi saat perubahan */
+}
+
+.custom-indicators button.active {
+  background-color: #000; /* Warna hitam untuk indikator aktif */
+}
+.jbc {
+  height: 550px !important;
+}
+
+/* Style the grid-introduce class */
+.grid-introduce {
+  padding-left: 0; /* Remove default left padding */
+}
+
+.grid-introduce li {
+  position: relative;
+  padding-left: 40px; /* Add space for custom bullet */
+  font-size: 16px; /* Set text font size */
+  line-height: 1.5; /* Set line height for better vertical alignment */
+  list-style-type: none; /* Remove default list marker */
+}
+
+.grid-introduce li p {
+  display: inline-block; /* Prevent the <p> from affecting the layout */
+  margin: 60px; /* Remove any default margin from <p> */
+  line-height: 1.5; /* Adjust the line height */
+}
+
+.grid-introduce li::before {
+  content: "\2022"; /* Unicode bullet character */
+  font-size: 250px; /* Set bullet size to 250px */
+  position: absolute;
+  left: 0; /* Position the bullet to the left */
+  top: 42%; /* Align bullet vertically with the center */
+  transform: translateY(-50%); /* Fine-tune to center the bullet */
+  color: black; /* Set bullet color */
+}
+/* Card Pick */
+.card-shop {
+  position: relative;
+  width: 300px; /* Sesuaikan ukuran kartu */
+  height: 400px; /* Sesuaikan ukuran kartu */
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.card-shop-img-top {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.card-shop-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Overlay hitam */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.card-shop h3,
+.card-shop p,
+.card-shop a {
+  transform: translateY(20px);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  opacity: 0;
+}
+
+.card-shop:hover .card-shop-img-top {
+  transform: scale(1.1);
+}
+
+.card-shop:hover .card-shop-overlay {
+  opacity: 1;
+}
+
+.card-shop:hover h3,
+.card-shop:hover p,
+.card-shop:hover a {
+  transform: translateY(0);
+  opacity: 1;
+}
+.card-car {
+  border: 10px solid #ec2028 !important;
+}
+
+.card-he {
+  border: 10px solid #666666 !important;
+}
+
+.card-ulin {
+  border: 10px solid #4a752c !important;
+}
+
+a:hover {
+  color: white !important;
+}
+
+.owl-nav button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50% !important;
+  background: #ea1d2d !important;
+  color: white !important;
+  font-size: 20px !important;
+  transition: all 0.3s ease;
+  }
+
+.owl-prev {
+  left: -60px;
+  transition: left 0.3s ease;
+}
+.owl-next {
+  right: -60px;
+  transition: right 0.3s ease;
+}
+.owl-carousel:hover .owl-nav .owl-prev {
+  left: 0px;
+}
+.owl-carousel:hover .owl-nav .owl-next {
+  right: 0px;
+}
+
+.carousel-item {
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.6s ease-in-out;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.carousel-caption {
+  position: relative;
+  z-index: 2;
+  background: transparent;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.carousel-indicators {
+width: 600px !important;
+}
+
+.carousel-indicators .active {
+background-color: #ea1d2d !important;
+}
+
+.carousel-indicators [data-bs-target] {
+opacity: 1 !important;
+gap: 0;
+margin-left: 0!important;
+margin-right: 0!important;
+height: 5px !important;
+width: 100%!important;
+}
+
+.carousel-indicators button {
+background-color: #fff!important;
+height: 100% !important;
+width: 50px;
+}
+
+.carousel-caption .display-1 {
+  font-weight: 900 !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: 'Arial Black', sans-serif;
+}
+
+.custom-indicators {
+  z-index: 3;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  gap: 0
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 5% !important;
+  z-index: 3;
+}
+
+.testimonial-card {
+  margin: 0 auto;
+  border: 1px solid #eee;
+  border-radius: 15px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: row;
+  border: 4px solid black !important;
+  }
+  .testimonial-content {
+  padding: 1rem;
+  }
+  .testimonial-rating {
+  margin-bottom: 0.5rem;
+  text-align: right;
+  }
+  .testimonial-title {
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #333;
+  text-align: left;
+  }
+  .testimonial-text {
+  margin-bottom: 1rem;
+  color: #666;
+  line-height: 1.6;
+  text-align: left;
+  height: 128px;
+  overflow: hidden;
+  }
+  .testimonial-subtext {
+  font-size: 0.875rem;
+  color: #888;
+  text-align: left;
+  }
+  .testimonial-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #000;
+  margin-right: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  }
+  .owl-dots {
+    margin: auto !important;
+    width: 600px !important;
+    display: flex;
+  }
+  .owl-dots button.owl-dot {
+  background-color: white !important;
+  width: 100% !important;
+  height: 5px !important;
+  border-radius: 0 !important;
+  }
+  .owl-dots button.owl-dot.active {
+  background: #ea1d2d !important;;
+  }
+  .owl-dots span {
+    visibility: hidden;
+  }
+  .owl-stage {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  }
+
+  .owl-item {
+  width: 700px !important;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+  transform: scale(0.9)
+  }
+
+  .owl-item.center {
+  width: 700px !important;
+  opacity: 1;
+  transform: scale(1);
+  }
+
+  a:hover {
+    color: inherit !important;
+}
+
+/* Default list styling */
+ol li {
+  list-style-type: decimal !important;
+  margin-left: 1.5em; /* Add proper indentation */
+  padding-left: 0.5em; /* Add spacing between number and content */
+}
+
+ul li {
+  list-style-type: disc !important;
+  margin-left: 1.5em; /* Add proper indentation */
+  padding-left: 0.5em; /* Add spacing between bullet and content */
+}
+
+/* Ensure nested lists maintain proper styling */
+ol ol li {
+  list-style-type: lower-alpha !important;
+}
+
+ul ul li {
+  list-style-type: circle !important;
+}

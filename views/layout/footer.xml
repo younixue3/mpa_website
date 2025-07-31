@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="footer" name="Footer">
+        <footer class="bg-white py-12">
+            <div>
+                <div class="container">
+
+                    <div class="grid grid-cols-2 md:grid-cols-7 gap-8">
+                        <!-- Logo and Offices -->
+                        <div class="space-y-4 col-span-2">
+                            <div class="px-8">
+                                <img src="/mpa_website/static/logo-mpa.png" alt="Logo" class="w-16 h-auto"/>
+                            </div>
+                            <div>
+                                <h3 class="font-bold">Samarinda Office</h3>
+                                <p class="text-sm">Jl. Sei Kapuas No 3A, Samarinda - Kalimantan Timur</p>
+                            </div>
+                            <div>
+                                <h3 class="font-bold">Palu Office</h3>
+                                <p class="text-sm">Jl. Sultan Alaudin Perum Sultan Raja 60/80, Silae, Palu Sulteng</p>
+                            </div>
+                        </div>
+    
+                        <!-- About Section -->
+                        <div class="space-y-2 col-span-2">
+                            <h4 class="font-semibold">About</h4>
+                            <ul class="space-y-1 text-sm">
+                                <li><a href="/company-values" class="hover:text-orange-600">Nilai-nilai Perusahaan</a></li>
+                                <li><a href="/vision-mission" class="hover:text-orange-600">Visi &amp; Misi</a></li>
+                                <li><a href="/clients" class="hover:text-orange-600">Client</a></li>
+                                <li><a href="/main-mining" class="hover:text-orange-600">Tambang Utama</a></li>
+                                <li><a href="/legal" class="hover:text-orange-600">Legalitas, Sertifikasi, dan Keanggotaan &amp; Mitra</a></li>
+                            </ul>
+                        </div>
+    
+                        <!-- Products Section -->
+                        <div class="space-y-2">
+                            <h4 class="font-semibold">Product</h4>
+                            <ul class="space-y-1 text-sm">
+                                <li><a href="/products/stone" class="hover:text-orange-600">Batu</a></li>
+                                <li><a href="/products/washed-sand" class="hover:text-orange-600">Pasir Cuci</a></li>
+                                <li><a href="/products/stone-ash" class="hover:text-orange-600">Abu Batu</a></li>
+                                <li><a href="/products/aggregate-a" class="hover:text-orange-600">Agregat A</a></li>
+                                <li><a href="/products/aggregate-b" class="hover:text-orange-600">Agregat B</a></li>
+                            </ul>
+                        </div>
+    
+                        <!-- IUP Section -->
+                        <div class="space-y-2 col-span-2">
+                            <h4 class="font-semibold">IUP</h4>
+                            <ul class="space-y-1 text-sm">
+                                <li><a href="/iup/wpp" class="hover:text-orange-600">PT Watu Palu Prima</a></li>
+                                <li><a href="/iup/djmp" class="hover:text-orange-600">PT Davindo Jaya Mandiri Palu</a></li>
+                                <li><a href="/iup/kss" class="hover:text-orange-600">PT Karya Sopai Sejahtera</a></li>
+                                <li><a href="/iup/jp" class="hover:text-orange-600">PT Juba Pratama</a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                    <div class="flex w-full justify-end gap-2 px-10">
+                        <a href="https://wa.me/+6281234567890" target="_blank" class="rounded-full bg-orange-600 text-white p-2">
+                            <svg class="w-6 h-6 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path fill="currentColor" fill-rule="evenodd" d="M12 4a8 8 0 0 0-6.895 12.06l.569.718-.697 2.359 2.32-.648.379.243A8 8 0 1 0 12 4ZM2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10a9.96 9.96 0 0 1-5.016-1.347l-4.948 1.382 1.426-4.829-.006-.007-.033-.055A9.958 9.958 0 0 1 2 12Z" clip-rule="evenodd"/>
+                                <path fill="currentColor" d="M16.735 13.492c-.038-.018-1.497-.736-1.756-.83a1.008 1.008 0 0 0-.34-.075c-.196 0-.362.098-.49.291-.146.217-.587.732-.723.886-.018.02-.042.045-.057.045-.013 0-.239-.093-.307-.123-1.564-.68-2.751-2.313-2.914-2.589-.023-.04-.024-.057-.024-.057.005-.021.058-.074.085-.101.08-.079.166-.182.249-.283l.117-.14c.121-.14.175-.25.237-.375l.033-.066a.68.68 0 0 0-.02-.64c-.034-.069-.65-1.555-.715-1.711-.158-.377-.366-.552-.655-.552-.027 0 0 0-.112.005-.137.005-.883.104-1.213.311-.35.22-.94.924-.94 2.16 0 1.112.705 2.162 1.008 2.561l.041.06c1.161 1.695 2.608 2.951 4.074 3.537 1.412.564 2.081.63 2.461.63.16 0 .288-.013.4-.024l.072-.007c.488-.043 1.56-.599 1.804-1.276.192-.534.243-1.117.115-1.329-.088-.144-.239-.216-.43-.308Z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/multiprima.abadi" target="_blank" class="rounded-full bg-orange-600 text-white p-2">
+                            <svg class="w-6 h-6 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm0-2a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm6.5-.25a1.25 1.25 0 0 1-2.5 0 1.25 1.25 0 0 1 2.5 0ZM12 4c-2.474 0-2.878.007-4.029.058-.784.037-1.31.142-1.798.332-.434.168-.747.369-1.08.703a2.89 2.89 0 0 0-.704 1.08c-.19.49-.295 1.015-.331 1.798C4.006 9.075 4 9.461 4 12c0 2.474.007 2.878.058 4.029.037.783.142 1.31.332 1.797.168.435.369.748.703 1.08.337.336.65.537 1.08.704.494.191 1.02.297 1.798.333C9.075 19.994 9.461 20 12 20c2.474 0 2.878-.007 4.029-.058.782-.037 1.309-.142 1.797-.332.433-.168.747-.369 1.08-.703.336-.337.537-.65.704-1.08.19-.493.296-1.02.332-1.798.052-1.104.058-1.49.058-4.029 0-2.474-.007-2.878-.058-4.029-.037-.782-.142-1.31-.332-1.798a2.911 2.911 0 0 0-.703-1.08 2.884 2.884 0 0 0-1.08-.704c-.49-.19-1.016-.295-1.798-.331C14.925 4.006 14.539 4 12 4Zm0-2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2Z"/>
+                            </svg>
+                        </a>
+                        <a href="mailto:contact@multiprimaabadi.com" class="rounded-full bg-orange-600 text-white p-2">
+                            <svg class="w-6 h-6 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6Zm-2 0-8 5-8-5h16Zm0 12H4V8l8 5 8-5v10Z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/company/pt-multi-prima-abadi" target="_blank" class="rounded-full bg-orange-600 text-white p-2">
+                            <svg class="w-6 h-6 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2ZM9 17H6.477v-7H9v7ZM7.694 8.717c-.771 0-1.286-.514-1.286-1.2 0-.686.514-1.2 1.371-1.2.771 0 1.286.514 1.286 1.2 0 .686-.514 1.2-1.371 1.2ZM18 17h-2.442v-3.826c0-1.058-.651-1.302-.895-1.302s-1.058.163-1.058 1.302V17h-2.523v-7h2.523v.977c.325-.57.976-.977 2.197-.977 1.221 0 2.198.977 2.198 3.174V17Z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-mpa-primary mt-4 h-14">
+            </div>
+        </footer>
+    </template>
+</odoo>

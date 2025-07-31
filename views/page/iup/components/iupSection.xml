@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="iup_iup_section" name="Hero IUP Section">
+        <div class="grid grid-cols-2">
+            <img class="h-96 bg-gray-500 object-cover w-full" src="/mpa_website/static/src/img/site1.jpeg" alt="IUP Section Image"/>
+            <div class="bg-mpa-secondary flex flex-col items-start justify-center p-8">
+                <div class="w-full text-left text-white">
+                    <p class="italic text-lg mb-2">Spesialis Batu Split</p>
+                    <h3 class="text-2xl font-bold mb-4">PT. Watu Palu Prima</h3>
+                    <p class="mb-6">latar belakang tiap iup, tahun, luasan, kapasitas produksi 20.000 m3/bulan</p>
+                </div>
+                <div class="flex gap-4">
+                    <button class="btn-mpa-primary">Contact Us</button>
+                    <button class="btn-mpa-outline">See Our Location</button>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-2">
+            <div class="bg-white flex flex-col items-start justify-center p-8">
+                <div class="w-full text-left">
+                    <h3 class="text-2xl font-bold mb-4">PT. Davindo Jaya Mandiri Palu</h3>
+                    <p class="mb-6">latar belakang tiap iup, tahun, luasan, kapasitas produksi  10.000 m3/bulan</p>
+                </div>
+                <div class="flex gap-4">
+                    <button class="btn-mpa-primary">Contact Us</button>
+                    <button class="btn-mpa-outline">See Our Location</button>
+                </div>
+            </div>
+            <img class="h-96 bg-gray-500 object-cover w-full" src="/mpa_website/static/src/img/site2.jpeg" alt="IUP Section Image"/>
+        </div>
+        <div class="grid grid-cols-2">
+            <img class="h-96 bg-gray-500 object-cover w-full" src="/mpa_website/static/src/img/DJI_0331.jpg" alt="IUP Section Image"/>
+            <div class="bg-mpa-secondary flex flex-col items-start justify-center p-8">
+                <div class="w-full text-left text-white">
+                    <h3 class="text-2xl font-bold mb-4">PT. Karya Sopai Sejahtera</h3>
+                    <p class="mb-6">latar belakang tiap iup, tahun, luasan, kapasitas produksi  40.000 m3/bulan</p>
+                </div>
+                <div class="flex gap-4">
+                    <button class="btn-mpa-primary">Contact Us</button>
+                    <button class="btn-mpa-outline">See Our Location</button>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-2">
+            <div class="bg-white flex flex-col items-start justify-center p-8">
+                <div class="w-full text-left">
+                    <h3 class="text-2xl font-bold mb-4">PT. Juba Pratama</h3>
+                    <p class="mb-6">latar belakang tiap iup, tahun, luasan, kapasitas produksi  30.000 m3/bulan</p>
+                </div>
+                <div class="flex gap-4">
+                    <button class="btn-mpa-primary">Contact Us</button>
+                    <button class="btn-mpa-outline">See Our Location</button>
+                </div>
+            </div>
+            <img class="h-96 bg-gray-500 object-cover w-full" src="/mpa_website/static/src/img/site3.jpeg" alt="IUP Section Image"/>
+        </div>
+    </template>
+</odoo>
