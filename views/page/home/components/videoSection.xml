@@ -8,7 +8,7 @@
                 autoplay="autoplay"
                 muted="muted"
                 playsinline="playsinline">
-                <source src="/mpa_website/static/src/video/produk_home_tulisan.mov" type="video/mp4"/>
+                <source src="/mpa_website/static/src/video/produk_home_new.mp4" type="video/mp4"/>
                 <p class="text-gray-700 dark:text-gray-400">Your browser does not support the video tag.</p>
             </video>
         </section>

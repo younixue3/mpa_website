@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="product_home_section" name="Product Home Section">
+        <section class="py-16 bg-mpa-secondary">
+            <div class="container mx-auto px-4">
+                <div class="grid grid-cols-1 place-content-center md:grid-cols-3 gap-6">
+                    <div class="col-span-3 flex flex-row md:flex-col justify-center gap-6">
+                        <div class="h-64 w-80 flex flex-col items-center mb-8">
+                            <h2 class="text-4xl font-bold text-white mb-2 mx-auto mt-auto">Produk</h2>
+                            <div class="bg-mpa-primary text-white text-4xl font-bold py-3 px-8 rounded mx-auto mb-auto">
+                                Batu Split
+                            </div>
+                        </div>
+                        <!-- 5-10 mm -->
+                        <div class="flex flex-col items-center">
+                            <div class="h-64 w-80 mx-auto">
+                                <img src="/mpa_website/static/src/img/abubatumin.webp" alt="Batu Split 5-10 mm" class="w-full h-full object-cover rounded-lg mb-2"/>
+                            </div>
+                            <p class="text-white text-xl font-semibold text-center">5-10 mm</p>
+                        </div>
+                        
+                        <!-- 10-20 mm -->
+                        <div class="flex flex-col items-center">
+                            <div class="h-64 w-80 mx-auto">
+                                <img src="/mpa_website/static/src/img/1020mm.jpeg" alt="Batu Split 10-20 mm" class="w-full h-full object-cover rounded-lg mb-2"/>
+                            </div>
+                            <p class="text-white text-xl font-semibold text-center">10-20 mm</p>
+                        </div>
+                    </div>
+                    <div class="col-span-3 flex flex-row md:flex-col justify-center gap-6">
+                        <div class="flex flex-col items-center">
+                            <div class="h-64 w-80 mx-auto">
+                                <img src="/mpa_website/static/src/img/2030mm.jpeg" alt="Batu Split 20-30 mm" class="w-full h-full object-cover rounded-lg mb-2"/>
+                            </div>
+                            <p class="text-white text-xl font-semibold text-center">20-30 mm</p>
+                        </div>
+                        
+                        <!-- 30-50 mm -->
+                        <div class="flex flex-col items-center">
+                            <div class="h-64 w-80 mx-auto">
+                                <img src="/mpa_website/static/src/img/3050mm.jpeg" alt="Batu Split 30-50 mm" class="w-full h-full object-cover rounded-lg mb-2"/>
+                            </div>
+                            <p class="text-white text-xl font-semibold text-center">30-50 mm</p>
+                        </div>
+                        
+                        <!-- 50-70 mm -->
+                        <div class="flex flex-col items-center">
+                            <div class="h-64 w-80 mx-auto">
+                                <img src="/mpa_website/static/src/img/5070mm.jpeg" alt="Batu Split 50-70 mm" class="w-full h-full object-cover rounded-lg mb-2"/>
+                            </div>
+                            <p class="text-white text-xl font-semibold text-center">50-70 mm</p>
+                        </div>
+                    </div>
+                    <!-- 20-30 mm -->
+                    
+                    <div class="col-span-3 flex flex-row md:flex-col justify-center gap-6">
+                        <!-- Batu Pondasi -->
+                    <div class="flex flex-col items-center">
+                        <div class="h-64 w-80 mx-auto">
+                            <img src="/mpa_website/static/src/img/2030cm.jpeg" alt="Batu Pondasi" class="w-full h-full object-cover rounded-lg mb-2"/>
+                        </div>
+                        <p class="text-white text-xl font-semibold text-center">Batu Pondasi</p>
+                        <p class="text-white text-lg text-center">(20-30 cm)</p>
+                    </div>
+                    
+                    <!-- Batu Bolder -->
+                    <div class="flex flex-col items-center">
+                        <div class="h-64 w-80 mx-auto">
+                            <img src="/mpa_website/static/src/img/30cmup.jpeg" alt="Batu Bolder" class="w-full h-full object-cover rounded-lg mb-2"/>
+                        </div>
+                        <p class="text-white text-xl font-semibold text-center">Batu Bolder</p>
+                        <p class="text-white text-lg text-center">30 cm up</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

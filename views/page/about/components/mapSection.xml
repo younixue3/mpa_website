@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="map_about_section" name="Map Home Section">
+        <section class="relative flex h-screen">
+            <img 
+                class="h-full w-full object-cover"
+                src="/mpa_website/static/src/img/map_about.webp"
+                alt="Mining Material Products Hero Image"/>
+            <div class="absolute inset-0 flex h-full w-full justify-end items-center py-5 text-white px-4 md:px-8 lg:px-16">
+               <div class="bg-white p-10 w-3/5 ml-auto mt-auto mb-10">
+                    <h1 class="text-4xl font-bold mb-2">PALU</h1>
+                    <h4 class="text-xl font-semibold mb-2">Watusampu, Sulawesi Tengah</h4>
+                    <p class="mb-3">
+                        Tambang utama kami berlokasi di Palu, Sulawesi Tengah. Kawasan strategis yang dikenal dengan kandungan batuan alam berkualitas tinggi, seperti batu split, sirtu, dan pasir.
+                    </p>
+                    <p>
+                        Berlokasi dekat jalur distribusi darat dan pelabuhan, kami mampu menyediakan material dalam jumlah besar dengan pengiriman cepat dan efisien ke berbagai wilayah di Indonesia, termasuk Kalimantan, Sulawesi, dan kawasan timur Indonesia lainnya.
+                    </p>
+                    <div class="flex gap-4 justify-start mt-2">
+                        <a href="/shop" class="btn-mpa-primary">See Products</a>
+                        <a href="/contactus" class="btn-mpa-outline">Contact Us</a>
+                    </div>
+               </div>
+            </div>
+        </section>
+
+        <script type="text/javascript">
+
+        </script>
+    </template>
+</odoo>

@@ -10,17 +10,17 @@
             <div class="mb-6 border-b border-gray-200">
                 <ul class="flex justify-between gap-2 text-center" id="default-tab" data-tabs-toggle="#default-tab-content" role="tablist">
                     <li class="flex-1" role="presentation">
-                        <button class="w-full px-4 py-2 bg-gray-300 text-gray-700 aria-[selected=true]:bg-mpa-primary aria-[selected=true]:text-white" id="legal-tab" data-tabs-target="#legal" type="button" role="tab" aria-controls="legal" aria-selected="true">
+                        <button class="w-full px-4 py-2 bg-gray-300 aria-[selected=true]:bg-mpa-primary aria-[selected=true]:text-white aria-[selected=true]:hover:text-white aria-[selected=flase]:text-black aria-[selected=flase]:hover:text-black" id="legal-tab" data-tabs-target="#legal" type="button" role="tab" aria-controls="legal" aria-selected="true">
                             Legalitas
                         </button>
                     </li>
                     <li class="flex-1" role="presentation">
-                        <button class="w-full px-4 py-2 bg-gray-300 text-gray-700 aria-[selected=true]:bg-mpa-primary aria-[selected=true]:text-white" id="certification-tab" data-tabs-target="#certification" type="button" role="tab" aria-controls="certification" aria-selected="false">
+                        <button class="w-full px-4 py-2 bg-gray-300 aria-[selected=true]:bg-mpa-primary aria-[selected=true]:text-white aria-[selected=true]:hover:text-white aria-[selected=false]:text-black aria-[selected=false]:hover:text-black" id="certification-tab" data-tabs-target="#certification" type="button" role="tab" aria-controls="certification" aria-selected="false">
                             Sertifikasi
                         </button>
                     </li>
                     <li class="flex-1" role="presentation">
-                        <button class="w-full px-4 py-2 bg-gray-300 text-gray-700 aria-[selected=true]:bg-mpa-primary aria-[selected=true]:text-white" id="lab-tab" data-tabs-target="#lab" type="button" role="tab" aria-controls="lab" aria-selected="false">
+                        <button class="w-full px-4 py-2 bg-gray-300 aria-[selected=true]:bg-mpa-primary aria-[selected=true]:text-white aria-[selected=true]:hover:text-white aria-[selected=false]:text-black aria-[selected=false]:hover:text-black" id="lab-tab" data-tabs-target="#lab" type="button" role="tab" aria-controls="lab" aria-selected="false">
                             Hasil Uji Lab
                         </button>
                     </li>

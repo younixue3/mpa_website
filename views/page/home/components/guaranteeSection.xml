@@ -8,7 +8,7 @@
             <ol class="list-none space-y-8">
                 <!-- Jaminan Kualitas -->
                 <li class="flex items-start gap-6">
-                    <span class="text-9xl text-white font-bold leading-none">01</span>
+                    <span class="text-9xl text-white font-bold leading-none">1</span>
                     <div class="flex-1">
                         <div class="bg-mpa-primary text-white py-1 px-6 mb-1 inline-block">
                             <h3 class="text-xl font-semibold">Jaminan Kualitas</h3>
@@ -21,7 +21,7 @@
 
                 <!-- Jaminan Produksi -->
                 <li class="flex items-start gap-6">
-                    <span class="text-9xl text-white font-bold leading-none">02</span>
+                    <span class="text-9xl text-white font-bold leading-none">2</span>
                     <div class="flex-1">
                         <div class="bg-mpa-primary text-white py-1 px-6 mb-1 inline-block">
                             <h3 class="text-xl font-semibold">Jaminan Produksi</h3>
@@ -34,7 +34,7 @@
 
                 <!-- Harga Kompetitif -->
                 <li class="flex items-start gap-6">
-                    <span class="text-9xl text-white font-bold leading-none">03</span>
+                    <span class="text-9xl text-white font-bold leading-none">3</span>
                     <div class="flex-1">
                         <div class="bg-mpa-primary text-white py-1 px-6 mb-1 inline-block">
                             <h3 class="text-xl font-semibold">Harga Kompetitif</h3>

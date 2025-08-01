@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="proyek_about_section" name="Proyek About Section">
-        <div class="px-20">
+        <div class="px-20 pt-10">
             <div class="mb-5">
                 <h1 class="text-4xl font-bold text-center mb-2">Proyek</h1>
                 <p class="text-center">Kami telah menjadi bagian dari berbagai proyek besar di sektor konstruksi, baik pemerintah maupun swasta. </p>
