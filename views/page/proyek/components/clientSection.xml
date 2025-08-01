@@ -20,7 +20,7 @@
 
             <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div>
-                    <img src="/mpa_website/static/src/img/istanegara.jpg" width="342" height="434" alt="Column 1" class="bg-gray-500 w-full h-[434px] object-cover object-center"/>
+                    <img src="/mpa_website/static/src/img/istananegara.jpg" width="342" height="434" alt="Column 1" class="bg-gray-500 w-full h-[434px] object-cover object-center"/>
 
                 </div>
                 <div>
