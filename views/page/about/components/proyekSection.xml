@@ -11,7 +11,7 @@
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
                 <div class="flex relative">
-                    <img src="/mpa_website/static/src/img/KOY00555.jpg" 
+                    <img src="/mpa_website/static/src/img/istananegara.jpg" 
                             alt="About MPA" 
                             loading="lazy"
                             class="w-[300px] h-[392px] bg-gray-500 object-cover object-center z-30 m-auto transform"/>
@@ -20,7 +20,7 @@
                     </div>
                 </div>
                 <div class="flex relative">
-                    <img src="/mpa_website/static/src/img/KOY00440.jpg" 
+                    <img src="/mpa_website/static/src/img/kihi.jpg" 
                             alt="About MPA" 
                             loading="lazy"
                             class="w-[300px] h-[392px] bg-gray-500 object-cover object-center z-30 m-auto transform"/>
@@ -29,7 +29,7 @@
                     </div>
                 </div>
                 <div class="flex relative">
-                    <img src="/mpa_website/static/src/img/IMG_3114.jpg" 
+                    <img src="/mpa_website/static/src/img/jembatankuningpalu.jpg" 
                             alt="About MPA" 
                             loading="lazy"
                             class="w-[300px] h-[392px] bg-gray-500 object-cover object-center z-30 m-auto transform"/>

@@ -14,11 +14,11 @@
                             Legalitas
                         </button>
                     </li>
-                    <li class="flex-1" role="presentation">
+                    <!-- <li class="flex-1" role="presentation">
                         <button class="w-full px-4 py-2 bg-gray-300 aria-[selected=true]:bg-mpa-primary aria-[selected=true]:text-white aria-[selected=true]:hover:text-white aria-[selected=false]:text-black aria-[selected=false]:hover:text-black" id="certification-tab" data-tabs-target="#certification" type="button" role="tab" aria-controls="certification" aria-selected="false">
                             Sertifikasi
                         </button>
-                    </li>
+                    </li> -->
                     <li class="flex-1" role="presentation">
                         <button class="w-full px-4 py-2 bg-gray-300 aria-[selected=true]:bg-mpa-primary aria-[selected=true]:text-white aria-[selected=true]:hover:text-white aria-[selected=false]:text-black aria-[selected=false]:hover:text-black" id="lab-tab" data-tabs-target="#lab" type="button" role="tab" aria-controls="lab" aria-selected="false">
                             Hasil Uji Lab
@@ -58,7 +58,7 @@
                 </div>
 
                 <!-- Sertifikasi Tab -->
-                <div class="hidden" id="certification" role="tabpanel" aria-labelledby="certification-tab">
+                <!-- <div class="hidden" id="certification" role="tabpanel" aria-labelledby="certification-tab">
                     <p class="mb-4">
                         Untuk menjaga kualitas layanan dan produk, perusahaan kami telah memenuhi berbagai standar mutu dan keselamatan kerja:
                     </p>
@@ -80,7 +80,7 @@
                             <strong>Uji Laboratorium:</strong> Sucofindo &amp; Lembaga Terakreditasi
                         </li>
                     </ul>
-                </div>
+                </div> -->
 
                 <!-- Hasil Uji Lab Tab -->
                 <div class="hidden" id="lab" role="tabpanel" aria-labelledby="lab-tab">
