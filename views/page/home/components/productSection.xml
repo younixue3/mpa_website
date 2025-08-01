@@ -14,7 +14,7 @@
                         <!-- 5-10 mm -->
                         <div class="flex flex-col items-center">
                             <div class="h-64 w-80 mx-auto">
-                                <img src="/mpa_website/static/src/img/abubatumin.webp" alt="Batu Split 5-10 mm" class="w-full h-full object-cover rounded-lg mb-2"/>
+                                <img src="/mpa_website/static/src/img/38min.webp" alt="Batu Split 5-10 mm" class="w-full h-full object-cover rounded-lg mb-2"/>
                             </div>
                             <p class="text-white text-xl font-semibold text-center">5-10 mm</p>
                         </div>
@@ -22,7 +22,7 @@
                         <!-- 10-20 mm -->
                         <div class="flex flex-col items-center">
                             <div class="h-64 w-80 mx-auto">
-                                <img src="/mpa_website/static/src/img/1020mm.jpeg" alt="Batu Split 10-20 mm" class="w-full h-full object-cover rounded-lg mb-2"/>
+                                <img src="/mpa_website/static/src/img/12min.webp" alt="Batu Split 10-20 mm" class="w-full h-full object-cover rounded-lg mb-2"/>
                             </div>
                             <p class="text-white text-xl font-semibold text-center">10-20 mm</p>
                         </div>
@@ -30,7 +30,7 @@
                     <div class="col-span-3 flex flex-row md:flex-col justify-center gap-6">
                         <div class="flex flex-col items-center">
                             <div class="h-64 w-80 mx-auto">
-                                <img src="/mpa_website/static/src/img/2030mm.jpeg" alt="Batu Split 20-30 mm" class="w-full h-full object-cover rounded-lg mb-2"/>
+                                <img src="/mpa_website/static/src/img/23min.webp" alt="Batu Split 20-30 mm" class="w-full h-full object-cover rounded-lg mb-2"/>
                             </div>
                             <p class="text-white text-xl font-semibold text-center">20-30 mm</p>
                         </div>
@@ -46,7 +46,7 @@
                         <!-- 50-70 mm -->
                         <div class="flex flex-col items-center">
                             <div class="h-64 w-80 mx-auto">
-                                <img src="/mpa_website/static/src/img/5070mm.jpeg" alt="Batu Split 50-70 mm" class="w-full h-full object-cover rounded-lg mb-2"/>
+                                <img src="/mpa_website/static/src/img/5070mm.jpeg" alt="Batu Split 50-70 mm" class="w-full h-full object-cover object-top rounded-lg mb-2"/>
                             </div>
                             <p class="text-white text-xl font-semibold text-center">50-70 mm</p>
                         </div>

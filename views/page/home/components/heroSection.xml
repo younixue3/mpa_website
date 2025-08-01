@@ -7,8 +7,8 @@
                 <h1 class="text-4xl md:text-5xl font-bold mb-2">Mitraniaga Perkasa Abadi</h1>
                 <p class="text-lg md:text-xl mb-6">Kualitas Unggul untuk Proyek Tangguh</p>
                 <div class="flex gap-4 justify-center">
-                    <a href="/shop" class="btn-mpa-primary">See Products</a>
-                    <a href="/contactus" class="btn-mpa-outline">Contact Us</a>
+                    <a href="#" class="btn-mpa-primary">See Products</a>
+                    <a href="#" class="btn-mpa-outline">Contact Us</a>
                 </div>
             </div>
         </div>
