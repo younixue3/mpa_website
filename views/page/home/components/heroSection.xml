@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="hero_home_section" name="Hero Home Section">
-        <div class="relative">
-            <img src="/mpa_website/static/src/img/DJI_0174.webp" alt="Hero Image" class="w-full h-[32rem] bg-gray-300 object-cover object-center brightness-75"/>
-            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
-                <h1 class="text-4xl md:text-5xl font-bold mb-2">Mitraniaga Perkasa Abadi</h1>
-                <p class="text-lg md:text-xl mb-6">Kualitas Unggul untuk Proyek Tangguh</p>
-                <div class="flex gap-4 justify-center">
-                    <a href="#" class="btn-mpa-primary">See Products</a>
-                    <a href="#" class="btn-mpa-outline">Contact Us</a>
+        <div class="relative w-full">
+            <!-- Hero Image with responsive height -->
+            <img src="/mpa_website/static/src/img/DJI_0174.webp" 
+                alt="Hero Image" 
+                class="w-full h-[24rem] sm:h-[28rem] md:h-[32rem] bg-gray-300 object-cover object-center brightness-75"/>
+            
+            <!-- Content Container with better mobile responsiveness -->
+            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white w-full px-4 sm:px-6 md:px-8">
+                <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-2 leading-tight">Mitraniaga Perkasa Abadi</h1>
+                <p class="text-base sm:text-lg md:text-xl mb-4 sm:mb-6 max-w-2xl mx-auto">Kualitas Unggul untuk Proyek Tangguh</p>
+                <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">
+                    <a href="#" class="btn-mpa-primary w-full sm:w-auto px-6 py-2">See Products</a>
+                    <a href="#" class="btn-mpa-outline w-full sm:w-auto px-6 py-2">Contact Us</a>
                 </div>
             </div>
         </div>
