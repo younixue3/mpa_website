@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="video_product_section" name="Video Product Section">
-        <section class="relative flex h-screen">
+        <section class="relative flex h-[70rem] md:h-screen">
             <video 
-                class="h-full w-full object-cover"
+                class="hidden md:block h-full w-full object-cover"
+
                 preload="auto" 
                 autoplay="autoplay"
                 loop="loop"
@@ -12,9 +13,10 @@
                 <source src="/mpa_website/static/src/video/produk_tulisan1.mov" type="video/mp4"/>
                 <p class="text-gray-700 dark:text-gray-400">Your browser does not support the video tag.</p>
             </video>
+            <img src="/mpa_website/static/src/img/DJI_0309.jpg" class="md:hidden h-full object-cover object-right backdrop-brightness-50" />
             <div class="absolute inset-0 flex flex-col items-center py-5 text-white px-4 md:px-8 lg:px-16">
                 <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-8 tracking-tight drop-shadow-lg">
-                    Mining Material Products
+                    Produk Material Tambang
                 </h1>
                 <div class="max-w-4xl text-center mb-6 font-light">
                     Kami menyediakan berbagai jenis batu tambang yang telah melalui proses pemilahan, pemecahan, dan pengujian kualitas untuk memastikan kekuatan, kepadatan, dan konsistensi material. Cocok untuk berbagai kebutuhan konstruksi mulai dari perumahan, jalan, jembatan, hingga proyek skala besar industri. Semua produk kami telah melalui proses penyortiran dan pengujian mutu yang ketat.
@@ -22,11 +24,181 @@
                 <a href="/contact-us" class="btn-mpa-primary">
                     Contact Us
                 </a>
+                <div>
+                    <div id="default-carousel" class="relative w-full md:hidden" data-carousel="slide">
+                        <!-- Carousel wrapper -->
+                        <div class="relative h-[392px] overflow-hidden rounded-lg">
+                            <!-- Item 1 -->
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item="">
+                                <img src="/mpa_website/static/src/img/" 
+                                    alt="Quality Excellence" 
+                                    loading="lazy"
+                                    class="w-full h-[392px] object-cover object-center"/>
+                            </div>
+                            <!-- Item 2 -->
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item="">
+                                <img src="/mpa_website/static/src/img/" 
+                                    alt="Reliability" 
+                                    loading="lazy"
+                                    class="w-full h-[392px] object-cover object-center"/>
+                            </div>
+                        </div>
+                        <!-- Slider indicators -->
+                        <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+                            <button type="button" class="w-3 h-3 rounded-full bg-mpa-primary/50" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                            <button type="button" class="w-3 h-3 rounded-full bg-mpa-primary/50" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                        </div>
+                        <!-- Slider controls -->
+                        <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev="">
+                            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-mpa-primary/30 group-hover:bg-mpa-primary/50 group-focus:ring-4 group-focus:ring-mpa-primary group-focus:outline-none">
+                                <svg class="w-4 h-4 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                                </svg>
+                                <span class="sr-only">Previous</span>
+                            </span>
+                        </button>
+                        <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next="">
+                            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-mpa-primary/30 group-hover:bg-mpa-primary/50 group-focus:ring-4 group-focus:ring-mpa-primary group-focus:outline-none">
+                                <svg class="w-4 h-4 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                                </svg>
+                                <span class="sr-only">Next</span>
+                            </span>
+                        </button>
+                    </div>
+                    <!-- Here Title Section -->
+                    <div class="md:hidden">
+                        <div class="flex relative h-5 mt-5">
+                            <div class="w-full m-auto flex justify-center">
+                                <div class="w-2/3 flex items-center justify-center z-40 rounded-sm shadow-md">
+                                    <span class="text-white font-medium text-lg leading-tight">Collaboration</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p id="paragraph-title" class="mt-2 text-center">
+                            Batu ukuran 5-10 mm atau sering disebut batu screening, merupakan hasil pemrosesan mesin pemecah batu dengan ukuran seragam dan presisi tinggi. Material ini biasa digunakan sebagai campuran utama dalam pembuatan aspal hotmix serta penebalan struktur jalan pada proses Asphalt Mixing Plant (AMO).
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
 
         <script type="text/javascript">
+            document.addEventListener('DOMContentLoaded', function() {
+                const titles = ['Batu 5-10 mm', 'Batu 10-20 mm']; 
 
+                const titleElement = document.querySelector('.flex.relative.h-20 .bg-mpa-secondary span');
+                const carousel = document.getElementById('default-carousel');
+                
+                // Jika carousel tidak ditemukan, keluar dari fungsi
+                if (!carousel) return;
+                
+                function setTitle(name) { 
+                    if (titleElement) {
+                        titleElement.textContent = name; 
+                    }
+                } 
+
+                const items = carousel.querySelectorAll('[data-carousel-item]'); 
+                const prevButton = carousel.querySelector('[data-carousel-prev]'); 
+                const nextButton = carousel.querySelector('[data-carousel-next]'); 
+                const indicators = carousel.querySelectorAll('[data-carousel-slide-to]');
+                let currentIndex = 0; 
+                let autoplayInterval;
+
+                const paragraphs = [
+                    "Batu ukuran 5-10 mm atau sering disebut batu screening, merupakan hasil pemrosesan mesin pemecah batu dengan ukuran seragam dan presisi tinggi. Material ini biasa digunakan sebagai campuran utama dalam pembuatan aspal hotmix serta penebalan struktur jalan pada proses Asphalt Mixing Plant (AMO).",
+                    "Batu ukuran 10-20 mm merupakan material favorit dalam dunia konstruksi. Ukurannya yang seragam dengan daya tahan tinggi menjadikannya pilihan utama untuk pengecoran struktur ringan hingga berat.",
+                ];
+                
+                const paragraphElement = document.getElementById('paragraph-title');
+                
+                function showItem(index) { 
+                    // Update carousel items
+                    items.forEach(i => {
+                        i.classList.remove('block');
+                        i.classList.add('hidden');
+                    }); 
+                    items[index].classList.remove('hidden');
+                    items[index].classList.add('block'); 
+                    
+                    // Update indicators
+                    indicators.forEach((indicator, i) => {
+                        if (i === index) {
+                            indicator.setAttribute('aria-current', 'true');
+                            indicator.classList.add('bg-mpa-primary');
+                            indicator.classList.remove('bg-mpa-primary/50');
+                        } else {
+                            indicator.setAttribute('aria-current', 'false');
+                            indicator.classList.remove('bg-mpa-primary');
+                            indicator.classList.add('bg-mpa-primary/50');
+                        }
+                    });
+                    
+                    // Update title and paragraph
+                    setTitle(titles[index]);
+                    if (paragraphElement) {
+                        paragraphElement.textContent = paragraphs[index];
+                    }
+                } 
+
+                // Initialize first item
+                showItem(0);
+
+                // Add click event for indicators
+                indicators.forEach((indicator, index) => {
+                    indicator.addEventListener('click', () => {
+                        currentIndex = index;
+                        showItem(currentIndex);
+                        
+                        // Reset autoplay timer when manually changing slides
+                        resetAutoplay();
+                    });
+                });
+
+                prevButton.addEventListener('click', () => { 
+                    currentIndex = (currentIndex - 1 + items.length) % items.length; 
+                    showItem(currentIndex); 
+                    
+                    // Reset autoplay timer when manually changing slides
+                    resetAutoplay();
+                }); 
+
+                nextButton.addEventListener('click', () => { 
+                    currentIndex = (currentIndex + 1) % items.length; 
+                    showItem(currentIndex); 
+                    
+                    // Reset autoplay timer when manually changing slides
+                    resetAutoplay();
+                }); 
+                
+                // Function to start autoplay
+                function startAutoplay() {
+                    autoplayInterval = setInterval(() => {
+                        currentIndex = (currentIndex + 1) % items.length;
+                        showItem(currentIndex);
+                    }, 5000);
+                }
+                
+                // Function to reset autoplay
+                function resetAutoplay() {
+                    clearInterval(autoplayInterval);
+                    startAutoplay();
+                }
+                
+                // Start autoplay
+                startAutoplay();
+                
+                // Pause autoplay when hovering over carousel
+                carousel.addEventListener('mouseenter', () => {
+                    clearInterval(autoplayInterval);
+                });
+                
+                // Resume autoplay when mouse leaves carousel
+                carousel.addEventListener('mouseleave', () => {
+                    startAutoplay();
+                });
+            });
         </script>
     </template>
 </odoo>

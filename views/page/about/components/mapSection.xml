@@ -1,24 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="map_about_section" name="Map Home Section">
-        <section class="relative flex h-screen">
+        <section class="relative md:flex md:flex-col md:h-screen">
             <img 
-                class="h-full w-full object-cover"
+                class="h-96 md:h-full w-full object-cover object-left md:absolute inset-0"
                 src="/mpa_website/static/src/img/map_about.webp"
                 alt="Mining Material Products Hero Image"/>
-            <div class="absolute inset-0 flex h-full w-full justify-end items-center py-5 text-white px-4 md:px-8 lg:px-16">
-               <div class="bg-white p-10 w-3/5 ml-auto mt-auto mb-10">
-                    <h1 class="text-4xl font-bold mb-2">PALU</h1>
-                    <h4 class="text-xl font-semibold mb-2">Watusampu, Sulawesi Tengah</h4>
-                    <p class="mb-3">
+            <div class="hidden md:flex relative bg-transparent h-full w-full justify-center md:justify-end items-center py-5 px-3 md:px-8 lg:px-16">
+
+               <div class="bg-white p-3 md:p-8 lg:p-10 w-full md:w-4/5 lg:w-3/5 mx-4 md:mx-0 md:ml-auto mt-auto mb-10">
+                    <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-2">PALU</h1>
+                    <h4 class="text-lg md:text-xl font-semibold mb-2">Watusampu, Sulawesi Tengah</h4>
+                    <p class="text-sm md:text-base mb-3">
                         Tambang utama kami berlokasi di Palu, Sulawesi Tengah. Kawasan strategis yang dikenal dengan kandungan batuan alam berkualitas tinggi, seperti batu split, sirtu, dan pasir.
                     </p>
-                    <p>
+                    <p class="text-sm md:text-base">
                         Berlokasi dekat jalur distribusi darat dan pelabuhan, kami mampu menyediakan material dalam jumlah besar dengan pengiriman cepat dan efisien ke berbagai wilayah di Indonesia, termasuk Kalimantan, Sulawesi, dan kawasan timur Indonesia lainnya.
                     </p>
-                    <div class="flex gap-4 justify-start mt-2">
-                        <a href="/shop" class="btn-mpa-primary">See Products</a>
-                        <a href="/contactus" class="btn-mpa-outline">Contact Us</a>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-start mt-4 md:mt-6">
+                        <a href="/shop" class="btn-mpa-primary text-center">See Products</a>
+                        <a href="/contactus" class="btn-mpa-outline text-center">Contact Us</a>
+                    </div>
+               </div>
+            </div>
+            <div class="md:hidden relative bg-mpa-secondary flex h-full w-full justify-center md:justify-end items-center py-5 px-3 md:px-8 lg:px-16">
+               <div class="bg-white p-3 md:p-8 lg:p-10 w-full md:w-4/5 lg:w-3/5 mx-4 md:mx-0 md:ml-auto mt-auto mb-10">
+                    <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-2">PALU</h1>
+                    <h4 class="text-lg md:text-xl font-semibold mb-2">Watusampu, Sulawesi Tengah</h4>
+                    <p class="text-sm md:text-base mb-3">
+                        Tambang utama kami berlokasi di Palu, Sulawesi Tengah. Kawasan strategis yang dikenal dengan kandungan batuan alam berkualitas tinggi, seperti batu split, sirtu, dan pasir.
+                    </p>
+                    <p class="text-sm md:text-base">
+                        Berlokasi dekat jalur distribusi darat dan pelabuhan, kami mampu menyediakan material dalam jumlah besar dengan pengiriman cepat dan efisien ke berbagai wilayah di Indonesia, termasuk Kalimantan, Sulawesi, dan kawasan timur Indonesia lainnya.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-start mt-4 md:mt-6">
+                        <a href="/shop" class="btn-mpa-primary text-center">See Products</a>
+                        <a href="/contactus" class="btn-mpa-outline text-center">Contact Us</a>
                     </div>
                </div>
             </div>

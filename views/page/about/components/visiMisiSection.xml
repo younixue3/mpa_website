@@ -12,8 +12,63 @@
                     Misi
                 </div>
             </div>
+<div class="md:hidden" id="misi-accordion" data-accordion="collapse" data-active-classes="bg-mpa-primary text-white">
+    <!-- Menjamin Kualitas yang Konsisten -->
+    <h2 id="misi-heading-1">
+        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-white btn-mpa-primary rounded-none transition-colors duration-300" data-accordion-target="#misi-body-1" aria-expanded="true" aria-controls="misi-body-1">
+            <span class="text-xl font-semibold">Menjamin Kualitas yang Konsisten</span>
+            <svg class="w-4 h-4 shrink-0 transition-transform duration-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+            </svg>
+        </button>
+    </h2>
+    <div id="misi-body-1" class="hidden" aria-labelledby="misi-heading-1">
+        <div class="p-5 bg-white text-black rounded-none shadow-md">
+            <img src="/mpa_website/static/src/img/agregatbmin.webp" alt="Consistent Quality Guarantee" class="w-full mb-4 h-[126px] object-cover object-center rounded-none" loading="lazy" />
+            <p class="mb-2 leading-relaxed text-gray-700">
+                Berkomitmen untuk menyediakan agregat berkualitas tinggi yang secara konsisten memenuhi atau melampaui standar industri, berkontribusi pada pengembangan infrastruktur yang tahan lama.
+            </p>
+        </div>
+    </div>
+
+    <!-- Memperluas Area Layanan -->
+    <h2 id="misi-heading-2">
+        <button type="button" class="flex items-center justify-between w-full p-5 mt-3 font-medium rtl:text-right text-white btn-mpa-primary rounded-none transition-colors duration-300" data-accordion-target="#misi-body-2" aria-expanded="false" aria-controls="misi-body-2">
+            <span class="text-xl font-semibold">Memperluas Area Layanan</span>
+            <svg class="w-4 h-4 shrink-0 transition-transform duration-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+            </svg>
+        </button>
+    </h2>
+    <div id="misi-body-2" class="hidden" aria-labelledby="misi-heading-2">
+        <div class="p-5 bg-white text-black rounded-none shadow-md">
+            <img src="/mpa_website/static/src/img/DJI_0366.webp" alt="Service Area Expansion" class="w-full mb-4 h-[126px] object-cover object-center rounded-none" loading="lazy" />
+            <p class="mb-2 leading-relaxed text-gray-700">
+                Bertujuan untuk memperluas jangkauan kami ke seluruh wilayah Indonesia Timur, memastikan bahwa bahkan daerah-daerah yang paling terpencil dan kurang terlayani pun memiliki akses ke agregat berkualitas tinggi untuk kebutuhan infrastruktur mereka.
+            </p>
+        </div>
+    </div>
+
+    <!-- Memberikan Layanan Tepat Waktu -->
+    <h2 id="misi-heading-3">
+        <button type="button" class="flex items-center justify-between w-full p-5 mt-3 font-medium rtl:text-right text-white btn-mpa-primary rounded-none transition-colors duration-300" data-accordion-target="#misi-body-3" aria-expanded="false" aria-controls="misi-body-3">
+            <span class="text-xl font-semibold">Memberikan Layanan Tepat Waktu</span>
+            <svg class="w-4 h-4 shrink-0 transition-transform duration-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+            </svg>
+        </button>
+    </h2>
+    <div id="misi-body-3" class="hidden" aria-labelledby="misi-heading-3">
+        <div class="p-5 bg-white text-black rounded-none shadow-md">
+            <p class="mb-2 leading-relaxed text-gray-700">
+                Berusaha menjadi mitra yang paling dapat diandalkan bagi pelanggan kami dengan memastikan pengiriman tepat waktu, pasokan material yang konsisten, dan layanan yang fleksibel serta berorientasi pada pelanggan. Memenuhi kebutuhan unik setiap proyek, untuk menjamin bahwa jadwal konstruksi dipenuhi dan proyek selesai sesuai rencana.
+            </p>
+            <img src="/mpa_website/static/src/img/KOY00502.jpg" alt="Timely Service Delivery" class="w-full mt-4 h-[126px] object-cover object-center rounded-none" loading="lazy" />
+        </div>
+    </div>
+</div>
             <!-- Tab Container -->
-            <div class="flex gap-8">
+            <div class="hidden md:flex gap-8">
                 <!-- Vertical Tab Navigation -->
                 <div class="w-1/3 h-auto min-h-full border-r border-gray-200">
                     <ul class="flex justify-between -mr-10 flex-col text-sm font-medium space-y-3" id="default-tab" data-tabs-toggle="#default-tab-content" role="tablist">

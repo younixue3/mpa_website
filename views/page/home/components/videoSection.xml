@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="video_home_section" name="Video Home Section">
-        <section class="relative flex h-screen">
+        <section class="hidden relative md:flex h-screen">
             <video 
                 class="h-full w-full object-cover"
                 preload="auto" 

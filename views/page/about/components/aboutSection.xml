@@ -4,10 +4,11 @@
         <div class="relative bg-white py-24">
             <!-- Card that overflows to top -->
             <div class="mx-auto">
+                
                 <!-- Grid with 2 columns -->
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-2 p-3 md:p-0 md:gap-8 items-center">
                     <!-- Image column -->
-                    <div class="relative flex h-[570px] w-[570px] rounded-lg shadow-xl ml-auto">
+                    <div class="hidden relative md:flex h-[570px] w-[570px] rounded-lg shadow-xl ml-auto">
                         <div class="bg-mpa-primary flex backdrop-blur-sm w-[570px] h-[570px] top-0 right-0 absolute">
                             <img src="/mpa_website/static/src/img/KOY00459.jpg" 
                              alt="About MPA" 
@@ -15,15 +16,28 @@
                              class="w-[570px] h-[570px] bg-gray-500 object-cover object-center mt-10 -ml-10"/>
                         </div>
                     </div>
-                    
+                    <div class="md:hidden relative flex h-full w-full ml-auto">
+                        <div class="bg-mpa-primary flex backdrop-blur-sm w-[170px] h-[170px] top-0 right-0 absolute z-40">
+                            <img src="/mpa_website/static/src/img/KOY00459.jpg" 
+                             alt="About MPA" 
+                             loading="lazy"
+                             class="w-[170px] h-[170px] bg-gray-500 object-cover object-center mt-10 -ml-10"/>
+                        </div>
+                        <div class="z-50">
+                            <h3 class="font-thin italic text-black">Kualitas Unggul untuk Proyek Tangguh</h3>
+                            <h2 class="text-4xl font-bold text-mpa-secondary w-1/2 mt-20">Mitraniaga Perkasa Abadi</h2>
+                        </div>
+                    </div>
                     <!-- Text column -->
                     <div class="space-y-6">
-                        <h3 class="font-thin italic text-black">Kualitas Unggul untuk Proyek Tangguh</h3>
-                        <h2 class="text-4xl font-bold text-black">Mitraniaga Perkasa Abadi</h2>
-                        <p class="text-black leading-relaxed mb-4">
+                        <h3 class="font-thin italic text-black hidden md:block">Kualitas Unggul untuk Proyek Tangguh</h3>
+                        <h2 class="text-4xl font-bold text-black hidden md:block">Mitraniaga Perkasa Abadi</h2>
+                        <p class="text-black leading-relaxed">
                             Perusahaan yang bergerak di bidang perdagangan/pengadaan (trading) material konstruksi untuk berbagai kebutuhan pembangunan. Didirikan pada bulan Desember 2022, perusahaan kami komitmen untuk menyediakan material berkualitas tinggi guna mendukung berbagai proyek infrastruktur dan pembangunan di Indonesia, khususnya Indonesia Timur.
                         </p>
-                        <a class="btn-mpa-primary" target="_blank" href="https://www.youtube.com/watch?v=qneHlL4bl0c">Lihat Video Company Profile</a>
+                        <div class="flex md:block justify-center ">
+                            <a class="btn-mpa-primary" target="_blank" href="https://www.youtube.com/watch?v=qneHlL4bl0c">Lihat Video Company Profile</a>
+                        </div>
                     </div>
                 </div>
             </div>

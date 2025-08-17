@@ -1,21 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="hero_home_section" name="Hero Home Section">
-        <div class="relative w-full">
-            <!-- Hero Image with responsive height -->
+        <section class="relative w-full !h-[38rem] sm:h-[28rem] md:h-[32rem] lg:h-[40rem] overflow-hidden">
+            <!-- Hero Image with responsive height and loading optimization -->
             <img src="/mpa_website/static/src/img/DJI_0174.webp" 
-                alt="Hero Image" 
-                class="w-full h-[24rem] sm:h-[28rem] md:h-[32rem] bg-gray-300 object-cover object-center brightness-75"/>
+                alt="Mitraniaga Perkasa Abadi Hero Image" 
+                loading="eager"
+                fetchpriority="high"
+                class="absolute inset-0 w-full h-full bg-gray-300 object-cover object-center brightness-[0.65] transition-transform duration-700 hover:scale-105"/>
             
             <!-- Content Container with better mobile responsiveness -->
-            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white w-full px-4 sm:px-6 md:px-8">
-                <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-2 leading-tight">Mitraniaga Perkasa Abadi</h1>
-                <p class="text-base sm:text-lg md:text-xl mb-4 sm:mb-6 max-w-2xl mx-auto">Kualitas Unggul untuk Proyek Tangguh</p>
-                <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">
-                    <a href="#" class="btn-mpa-primary w-full sm:w-auto px-6 py-2">See Products</a>
-                    <a href="#" class="btn-mpa-outline w-full sm:w-auto px-6 py-2">Contact Us</a>
+            <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white sm:px-6 md:px-8">
+                <div class="max-w-4xl mx-auto">
+                    <h1 class="text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-3 sm:mb-4 leading-tight tracking-tight animate-fade-in px-6">
+                        Mitraniaga Perkasa Abadi
+                    </h1>
+                    <p class="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 max-w-2xl mx-auto font-medium opacity-90 px-6">
+                        Kualitas Unggul untuk Proyek Tangguh
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center items-center px-12 md:px-0">
+                        <a href="/shop" 
+                           class="btn-mpa-primary w-full sm:w-auto px-8 py-3 text-sm md:text-lg font-semibold transition-all duration-300 hover:scale-105">
+                            See Products
+                        </a>
+                        <a href="/contactus" 
+                           class="btn-mpa-outline w-full sm:w-auto px-8 py-3 text-sm md:text-lg font-semibold transition-all duration-300 hover:scale-105">
+                            Contact Us
+                        </a>
+                    </div>
+                    <div class="md:hidden flex flex-col sm:flex-row gap-4 justify-center items-center px-2 md:px-0 mt-10">
+                        <div class="bg-mpa-primary/80 text-white py-2 w-full">
+                            <h2 class="text-2xl font-bold">49 Hektar</h2>
+                            <h5 class="font-thin">Luas Area Tambang</h5>
+                        </div>
+                        <div class="bg-black/80 text-white py-2 w-full">
+                            <h2 class="text-2xl font-bold">4 IUP</h2>
+                            <h5 class="font-thin">Area Tambang</h5>
+                        </div>
+                        <div class="bg-mpa-secondary/80 text-white py-2 w-full">
+                            <h2 class="text-2xl font-bold">100.000m3/bulan</h2>
+                            <h5 class="font-thin">Total Kapasitas Produksi</h5>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     </template>
 </odoo>

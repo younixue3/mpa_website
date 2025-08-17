@@ -30,6 +30,7 @@
         'views/page/about/components/proyekSection.xml',
         'views/page/about/components/fasilitySection.xml',
         'views/page/about/components/legalSection.xml',
+        'views/page/about/components/guaranteeSection.xml',
         # product
         'views/page/product/index.xml',
         'views/page/product/components/heroSection.xml',

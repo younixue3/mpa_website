@@ -11,9 +11,9 @@
             <t t-call="mpa_website.about_about_section"/>
             <t t-call="mpa_website.visimisi_about_section"/>
             <t t-call="mpa_website.value_about_section"/>
-            <t t-call="mpa_website.map_about_section"/>
-            <t t-call="mpa_website.proyek_about_section"/>
             <t t-call="mpa_website.fasility_about_section"/>
+            <t t-call="mpa_website.guarantee_about_section"/>
+            <t t-call="mpa_website.map_about_section"/>
             <t t-call="mpa_website.legal_about_section"/>
 
             <t t-call="mpa_website.footer"/>
