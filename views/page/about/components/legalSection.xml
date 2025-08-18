@@ -152,7 +152,7 @@
                     </ul>
                     <div class="mt-5 flex flex-col">
                         <button class="bg-mpa-primary text-white text-xl mx-auto px-3 py-2">Butuh info lebih lanjut?</button>
-                        <button class="btn-mpa-primary bg-mpa-secondary border-mpa-secondary text-sm mt-3 mx-auto">Hubungi Kami</button>
+                        <button data-modal-target="contact-modal" data-modal-toggle="contact-modal" class="btn-mpa-primary bg-mpa-secondary border-mpa-secondary text-sm mt-3 mx-auto">Hubungi Kami</button>
                     </div>
                 </div>
             </div>

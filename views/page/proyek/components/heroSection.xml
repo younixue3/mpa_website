@@ -3,7 +3,7 @@
     <template id="hero_proyek_section" name="Hero Proyek Section">
         <div class="relative">
             <img src="/mpa_website/static/src/img/KOY00516.jpg" alt="Hero Image" class="w-full h-[32rem] bg-gray-300 object-cover object-center brightness-75"/>
-            <div class="absolute bottom-0 left-0 text-left text-white px-20">
+            <div class="absolute bottom-0 left-0 text-left text-white px-5 md:px-20">
                 <h1 class="text-2xl font-bold mb-2">Proyek</h1>
                 <p class="text-lg md:text-xl mb-6">Dipercaya Oleh Berbagai Sektor Konstruksi dan Infrastruktur di Indonesia</p>
             </div>

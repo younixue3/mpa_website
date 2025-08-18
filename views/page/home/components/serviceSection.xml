@@ -6,7 +6,7 @@
                 <h1 class="text-4xl font-bold text-center mb-4">Layanan Kami</h1>
                 <p class="text-center mb-3">Dengan sistem kerja yang profesional dan armada yang siap jalan, kami hadir untuk memastikan material berkualitas tiba tepat waktu, sesuai volume, dan sesuai spesifikasi teknis.</p>
                 <div class="flex justify-center">
-                    <a href="/contactus" class="btn-mpa-primary">Hubungi Kami</a>
+                    <button data-modal-target="contact-modal" data-modal-toggle="contact-modal" type="button" class="btn-mpa-primary">Hubungi Kami</button>
                 </div>
             </div>
             <div class="grid grid-cols-1 gap-6">

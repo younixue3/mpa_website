@@ -18,8 +18,8 @@
                         Berlokasi dekat jalur distribusi darat dan pelabuhan, kami mampu menyediakan material dalam jumlah besar dengan pengiriman cepat dan efisien ke berbagai wilayah di Indonesia, termasuk Kalimantan, Sulawesi, dan kawasan timur Indonesia lainnya.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4 justify-start mt-4 md:mt-6">
-                        <a href="/shop" class="btn-mpa-primary text-center">See Products</a>
-                        <a href="/contactus" class="btn-mpa-outline text-center">Contact Us</a>
+                        <a href="/product" class="btn-mpa-primary text-center">Lihat Produk</a>
+                        <button data-modal-target="contact-modal" data-modal-toggle="contact-modal" class="btn-mpa-outline text-center">Hubungi Kami</button>
                     </div>
                </div>
             </div>
@@ -34,8 +34,8 @@
                         Berlokasi dekat jalur distribusi darat dan pelabuhan, kami mampu menyediakan material dalam jumlah besar dengan pengiriman cepat dan efisien ke berbagai wilayah di Indonesia, termasuk Kalimantan, Sulawesi, dan kawasan timur Indonesia lainnya.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4 justify-start mt-4 md:mt-6">
-                        <a href="/shop" class="btn-mpa-primary text-center">See Products</a>
-                        <a href="/contactus" class="btn-mpa-outline text-center">Contact Us</a>
+                        <a href="/product" class="btn-mpa-primary text-center">Lihat Produk</a>
+                        <button data-modal-target="contact-modal" data-modal-toggle="contact-modal" class="btn-mpa-outline text-center">Hubungi Kami</button>
                     </div>
                </div>
             </div>

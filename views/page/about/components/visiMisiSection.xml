@@ -12,7 +12,7 @@
                     Misi
                 </div>
             </div>
-<div class="md:hidden" id="misi-accordion" data-accordion="collapse" data-active-classes="bg-mpa-primary text-white">
+<div class="md:hidden" id="misi-accordion" data-accordion="collapse" data-active-classes="bg-mpa-primary text-white" data-inactive-classes="text-white">
     <!-- Menjamin Kualitas yang Konsisten -->
     <h2 id="misi-heading-1">
         <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-white btn-mpa-primary rounded-none transition-colors duration-300" data-accordion-target="#misi-body-1" aria-expanded="true" aria-controls="misi-body-1">

@@ -2,25 +2,30 @@
 <odoo>
     <template id="about_iup_section" name="About IUP Section">
         <div class="bg-white mt-20">
-            <div class="p-20 mt-10 mb-5 text-black">
+            <div class="p-5 md:p-20 mt-10 mb-5 text-black">
                 <h1 class="text-4xl font-bold text-center mb-2">IUP</h1>
                 <p class="text-center">Perusahaan kami memiliki 4 Izin Usaha Pertambangan (IUP) aktif yang berada di bawah satu manajemen terpusat, memastikan proses penambangan berjalan secara legal, efisien, dan bertanggung jawab.</p>
             </div>
-            <div class="flex justify-center items-center gap-10 mb-10">
-                <div class="w-72 h-40">
-                    <img src="/mpa_website/static/src/img/DJI_0200.webp" alt="IUP" class="w-full h-full object-cover object-center" />
-                </div>
-                <div class="w-72 h-40">
-                    <img src="/mpa_website/static/src/img/site3.jpeg" alt="IUP" class="w-full h-full object-cover object-center" />
-                </div>
-                <div class="w-72 h-40">
-                    <img src="/mpa_website/static/src/img/site1.jpeg" alt="IUP" class="w-full h-full object-cover object-center" />
-                </div>
-                <div class="w-72 h-40">
-                    <img src="/mpa_website/static/src/img/site2.jpeg" alt="IUP" class="w-full h-full object-cover object-center" />
-                </div>
-                <div class="w-72 h-40">
-                    <img src="/mpa_website/static/src/img/IMG_3114.jpg" alt="IUP" class="w-full h-full object-cover object-center" />
+            <div class="relative mb-10">
+                <div class="flex snap-x snap-mandatory overflow-x-auto no-scrollbar pb-4">
+
+                    <div class="flex gap-10 min-w-max px-4">
+                        <div class="w-72 h-40 flex-shrink-0 snap-center">
+                            <img src="/mpa_website/static/src/img/DJI_0200.webp" alt="IUP" class="w-full h-full object-cover object-center" />
+                        </div>
+                        <div class="w-72 h-40 flex-shrink-0 snap-center">
+                            <img src="/mpa_website/static/src/img/site3.jpeg" alt="IUP" class="w-full h-full object-cover object-center" />
+                        </div>
+                        <div class="w-72 h-40 flex-shrink-0 snap-center">
+                            <img src="/mpa_website/static/src/img/site1.jpeg" alt="IUP" class="w-full h-full object-cover object-center" />
+                        </div>
+                        <div class="w-72 h-40 flex-shrink-0 snap-center">
+                            <img src="/mpa_website/static/src/img/site2.jpeg" alt="IUP" class="w-full h-full object-cover object-center" />
+                        </div>
+                        <div class="w-72 h-40 flex-shrink-0 snap-center">
+                            <img src="/mpa_website/static/src/img/IMG_3114.jpg" alt="IUP" class="w-full h-full object-cover object-center" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

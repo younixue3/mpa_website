@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="iup_iup_section" name="Hero IUP Section">
-        <div class="grid grid-cols-2">
+        <div class="grid grid-cols-1 md:grid-cols-2">
             <img class="h-96 bg-gray-500 object-cover w-full" src="/mpa_website/static/src/img/site1.jpeg" alt="IUP Section Image"/>
             <div class="bg-mpa-secondary flex flex-col items-start justify-center p-8">
-                <div class="w-full text-left text-white">
-                    <p class="italic text-lg mb-2">Spesialis Batu Split</p>
-                    <h3 class="text-2xl font-bold mb-4">PT. Watu Palu Prima</h3>
+                <div class="w-full text-center md:text-left text-white">
+                    <h3 class="text-2xl font-bold mb-4 pl-2 border-l-4 border-mpa-primary">PT. Watu Palu Prima</h3>
                     <p class="mb-6">
                         Tahun Berdiri: <b>2020</b>
                         <br></br>
@@ -16,16 +15,16 @@ Luasan: <b>6,85 ha</b>
 Kapasitas Produksi: <b>20.000 m³/bulan</b>
                     </p>
                 </div>
-                <div class="flex gap-4">
-                    <button class="btn-mpa-primary">Contact Us</button>
-                    <a target="_blank" href="https://www.google.com/maps/place/0%C2%B048'57.1%22S+119%C2%B047'56.7%22E/@-0.8158472,119.7990833,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-0.8158472!4d119.7990833?entry=ttu&amp;g_ep=EgoyMDI1MDcyMy4wIKXMDSoASAFQAw%3D%3D" class="btn-mpa-outline">See Our Location</a>
+                <div class="flex flex-col md:flex-row gap-4 w-full text-center">
+                    <button data-modal-target="contact-modal" data-modal-toggle="contact-modal" class="btn-mpa-primary">Hubungi Kami</button>
+                    <a target="_blank" href="https://www.google.com/maps/place/0%C2%B048'57.1%22S+119%C2%B047'56.7%22E/@-0.8158472,119.7990833,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-0.8158472!4d119.7990833?entry=ttu&amp;g_ep=EgoyMDI1MDcyMy4wIKXMDSoASAFQAw%3D%3D" class="btn-mpa-outline">Lihat Lokasi Kami</a>
                 </div>
             </div>
         </div>
-        <div class="grid grid-cols-2">
+        <div class="grid grid-cols-1 md:grid-cols-2">
             <div class="bg-white flex flex-col items-start justify-center p-8">
-                <div class="w-full text-left">
-                    <h3 class="text-2xl font-bold mb-4">PT. Davindo Jaya Mandiri Palu</h3>
+                <div class="w-full text-center md:text-left">
+                    <h3 class="text-2xl font-bold mb-4 pl-2 border-l-4 border-mpa-primary">PT. Davindo Jaya Mandiri Palu</h3>
                     <p class="mb-6">Tahun Berdiri: <b>2024</b>
                         <br></br>
 Luasan: <b>16,18 ha</b>
@@ -33,18 +32,18 @@ Luasan: <b>16,18 ha</b>
 
 Kapasitas Produksi: <b>10.000 m³/bulan</b></p>
                 </div>
-                <div class="flex gap-4">
-                    <button class="btn-mpa-primary">Contact Us</button>
-                    <a target="_blank" href="https://www.google.com/maps/place/0%C2%B048'50.6%22S+119%C2%B047'45.1%22E/@-0.8140667,119.7958472,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-0.8140667!4d119.7958472?entry=ttu&amp;g_ep=EgoyMDI1MDcyMy4wIKXMDSoASAFQAw%3D%3D" class="btn-mpa-outline">See Our Location</a>
+                <div class="flex flex-col md:flex-row gap-4 w-full text-center">
+                    <button data-modal-target="contact-modal" data-modal-toggle="contact-modal" class="btn-mpa-primary">Hubungi Kami</button>
+                    <a target="_blank" href="https://www.google.com/maps/place/0%C2%B048'50.6%22S+119%C2%B047'45.1%22E/@-0.8140667,119.7958472,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-0.8140667!4d119.7958472?entry=ttu&amp;g_ep=EgoyMDI1MDcyMy4wIKXMDSoASAFQAw%3D%3D" class="btn-mpa-outline">Lihat Lokasi Kami</a>
                 </div>
             </div>
             <img class="h-96 bg-gray-500 object-cover w-full" src="/mpa_website/static/src/img/site2.jpeg" alt="IUP Section Image"/>
         </div>
-        <div class="grid grid-cols-2">
+        <div class="grid grid-cols-1 md:grid-cols-2">
             <img class="h-96 bg-gray-500 object-cover w-full" src="/mpa_website/static/src/img/DJI_0331.jpg" alt="IUP Section Image"/>
             <div class="bg-mpa-secondary flex flex-col items-start justify-center p-8">
-                <div class="w-full text-left text-white">
-                    <h3 class="text-2xl font-bold mb-4">PT. Karya Sopai Sejahtera</h3>
+                <div class="w-full text-center md:text-left text-white">
+                    <h3 class="text-2xl font-bold mb-4 pl-2 border-l-4 border-mpa-primary">PT. Karya Sopai Sejahtera</h3>
                     <p class="mb-6">Tahun Berdiri: <b>2019</b>
                         <br></br>
 Luasan: <b>19,92 ha</b>
@@ -52,16 +51,16 @@ Luasan: <b>19,92 ha</b>
 
 Kapasitas Produksi: <b>40.000 m³/bulan</b></p>
                 </div>
-                <div class="flex gap-4">
-                    <button class="btn-mpa-primary">Contact Us</button>
-                    <a target="_blank" href="https://www.google.com/maps/place/0%C2%B049'09.1%22S+119%C2%B047'20.2%22E/@-0.8191889,119.7889389,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-0.8191889!4d119.7889389?entry=ttu&amp;g_ep=EgoyMDI1MDcyMy4wIKXMDSoASAFQAw%3D%3D" class="btn-mpa-outline">See Our Location</a>
+                <div class="flex flex-col md:flex-row gap-4 w-full text-center">
+                    <button data-modal-target="contact-modal" data-modal-toggle="contact-modal" class="btn-mpa-primary">Hubungi Kami</button>
+                    <a target="_blank" href="https://www.google.com/maps/place/0%C2%B049'09.1%22S+119%C2%B047'20.2%22E/@-0.8191889,119.7889389,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-0.8191889!4d119.7889389?entry=ttu&amp;g_ep=EgoyMDI1MDcyMy4wIKXMDSoASAFQAw%3D%3D" class="btn-mpa-outline">Lihat Lokasi Kami</a>
                 </div>
             </div>
         </div>
-        <div class="grid grid-cols-2">
+        <div class="grid grid-cols-1 md:grid-cols-2">
             <div class="bg-white flex flex-col items-start justify-center p-8">
-                <div class="w-full text-left">
-                    <h3 class="text-2xl font-bold mb-4">PT. Juba Pratama</h3>
+                <div class="w-full text-center md:text-left">
+                    <h3 class="text-2xl font-bold mb-4 pl-2 border-l-4 border-mpa-primary">PT. Juba Pratama</h3>
                     <p class="mb-6">Tahun Berdiri: <b>2018</b>
                         <br></br>
 Luasan: <b>8,98 ha</b>
@@ -69,9 +68,9 @@ Luasan: <b>8,98 ha</b>
 
 Kapasitas Produksi: <b>10.000 m³/bulan</b></p>
                 </div>
-                <div class="flex gap-4">
-                    <button class="btn-mpa-primary">Contact Us</button>
-                    <a target="_blank" href="https://www.google.com/maps/place/0%C2%B049'07.6%22S+119%C2%B047'32.4%22E/@-0.8187833,119.7923333,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-0.8187833!4d119.7923333?entry=ttu&amp;g_ep=EgoyMDI1MDcyMy4wIKXMDSoASAFQAw%3D%3D" class="btn-mpa-outline">See Our Location</a>
+                <div class="flex flex-col md:flex-row gap-4 w-full text-center">
+                    <button data-modal-target="contact-modal" data-modal-toggle="contact-modal" class="btn-mpa-primary">Hubungi Kami</button>
+                    <a target="_blank" href="https://www.google.com/maps/place/0%C2%B049'07.6%22S+119%C2%B047'32.4%22E/@-0.8187833,119.7923333,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-0.8187833!4d119.7923333?entry=ttu&amp;g_ep=EgoyMDI1MDcyMy4wIKXMDSoASAFQAw%3D%3D" class="btn-mpa-outline">Lihat Lokasi Kami</a>
                 </div>
             </div>
             <img class="h-96 bg-gray-500 object-cover w-full" src="/mpa_website/static/src/img/site3.jpeg" alt="IUP Section Image"/>
