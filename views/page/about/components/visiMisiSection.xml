@@ -4,9 +4,9 @@
         <div class="p-8 bg-mpa-secondary" id="vision-mission">
 
             <div class="mb-2">
-                <img src="/mpa_website/static/src/img/visi.png" alt="Vision" class="w-20 h-20 object-contain" loading="lazy"/>
+                <img src="/mpa_website/static/src/img/Visi.png" alt="Vision" class="w-20 h-20 object-contain" loading="lazy"/>
                 <p class="text-white">Menjadi penjual agregat terdepan untuk industri konstruksi Indonesia Timur.</p>
-                <img src="/mpa_website/static/src/img/misi.png" alt="Mission" class="w-20 h-20 object-contain" loading="lazy"/>
+                <img src="/mpa_website/static/src/img/Misi.png" alt="Mission" class="w-20 h-20 object-contain" loading="lazy"/>
             </div>
 <div class="md:hidden" id="misi-accordion" data-accordion="collapse" data-active-classes="bg-mpa-primary text-white" data-inactive-classes="text-white">
     <!-- Menjamin Kualitas yang Konsisten -->
