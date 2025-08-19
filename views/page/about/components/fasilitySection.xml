@@ -8,12 +8,12 @@
             </div>
             <div class="mb-10">
                 <div class="md:flex gap-5 mb-5 md:mb-16">
-                    <div class="flex relative">
+                    <div class="flex relative scale-90 md:scale-100">
                         <img src="/mpa_website/static/src/img/DJI_0249.webp" 
                                 alt="About MPA" 
                                 loading="lazy"
-                                class="w-[426px] h-[239px] bg-gray-500 object-cover object-center z-30 m-auto transform"/>
-                        <div class="absolute w-[426px] h-[239px] bg-mpa-primary -bottom-10 -right-5 z-20">
+                                class="w-full md:w-[426px] h-[239px] bg-gray-500 object-cover object-center z-30 m-auto transform"/>
+                        <div class="absolute w-full md:w-[426px] h-[239px] md:bg-mpa-primary border-4 border-mpa-primary md:border-0 -bottom-10 -right-5 z-20">
                         </div>
                     </div>
                     <div class="mt-10 md:mt-0 py-5 text-center md:text-left">
@@ -24,12 +24,12 @@
                     </div>
                 </div>
                 <div class="md:hidden md:flex gap-5 mb-5 md:mb-16">
-                    <div class="flex relative">
+                    <div class="flex relative scale-90 md:scale-100">
                         <img src="/mpa_website/static/src/img/DJI_0178.webp" 
                                 alt="About MPA" 
                                 loading="lazy"
-                                class="w-[426px] h-[239px] bg-gray-500 object-cover object-center z-30 m-auto transform"/>
-                        <div class="absolute w-[426px] h-[239px] bg-mpa-primary -bottom-10 -left-5 z-20">
+                                class="w-full md:w-[426px] h-[239px] bg-gray-500 object-cover object-center z-30 m-auto transform"/>
+                        <div class="absolute w-full md:w-[426px] h-[239px] md:bg-mpa-primary border-4 border-mpa-primary md:border-0 -bottom-10 -left-5 z-20">
                         </div>
                     </div>
                     <div class="mt-10 md:mt-0 py-5 text-center md:text-left">
@@ -39,7 +39,7 @@
                         <p class="text-white">4 area jetty mandiri seluas lebih dari 2 hektar akan menjamin kelancaran loading.</p>
                     </div>
                 </div>
-                <div class="hidden md:flex gap-5 mb-5 md:mb-16">
+                <div class="hidden md:flex justify-end gap-5 mb-5 md:mb-16">
                     <div class="py-5 text-right">
                         <div class="bg-white text-mpa-primary p-2 text-2xl font-bold mb-3 inline-block">
                             Jetty &amp; Stockpile
@@ -60,8 +60,8 @@
                         <img src="/mpa_website/static/src/img/gzvvyjdvren5hdruuq4f.webp" 
                                 alt="About MPA" 
                                 loading="lazy"
-                                class="w-[426px] h-[239px] bg-gray-500 object-cover object-center z-30 m-auto transform"/>
-                        <div class="absolute w-[426px] h-[239px] bg-mpa-primary -bottom-10 -right-5 z-20">
+                                class="w-full md:w-[426px] h-[239px] bg-gray-500 object-cover object-center z-30 m-auto transform"/>
+                        <div class="absolute w-full md:w-[426px] h-[239px] md:bg-mpa-primary border-4 border-mpa-primary md:border-0 -bottom-10 -right-5 z-20">
                         </div>
                     </div>
                     <div class="mt-10 md:mt-0 py-5 text-center md:text-left">

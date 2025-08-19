@@ -59,10 +59,27 @@
                                 
                                 <!-- 50-70 mm -->
                                 <div class="snap-center shrink-0">
-                                    <div class="h-64 w-36">
-                                        <img src="/mpa_website/static/src/img/5070mm.jpeg" alt="Batu Split 50-70 mm" class="w-full h-full object-cover object-top rounded-lg mb-2"/>
+                                    <div class="h-64 w-36 overflow-hidden rounded-lg">
+                                        <img src="/mpa_website/static/src/img/5070mm.jpeg" alt="Batu Split 50-70 mm" class="w-full h-[600px] object-cover object-top rounded-lg mb-2"/>
                                     </div>
                                     <p class="text-xl font-semibold text-center">50-70 mm</p>
+                                </div>
+                                <!-- Batu Pondasi -->
+                                <div class="snap-center shrink-0">
+                                    <div class="h-64 w-36">
+                                        <img src="/mpa_website/static/src/img/2030cmnew.png" alt="Batu Pondasi" class="w-full h-full object-cover rounded-lg mb-2"/>
+                                    </div>
+                                    <p class="text-xl font-semibold text-center">Batu Pondasi</p>
+                                    <p class="text-lg text-center">(20-30 cm)</p>
+                                </div>
+
+                                <!-- Batu Bolder -->
+                                <div class="snap-center shrink-0">
+                                    <div class="h-64 w-36">
+                                        <img src="/mpa_website/static/src/img/30cmnew.png" alt="Batu Bolder" class="w-full h-full object-cover rounded-lg mb-2"/>
+                                    </div>
+                                    <p class="text-xl font-semibold text-center">Batu Bolder</p>
+                                    <p class="text-lg text-center">30 cm up</p>
                                 </div>
                             </div>
                         </div>
@@ -159,7 +176,7 @@
                         <!-- Batu Pondasi -->
                     <div class="flex flex-col items-center">
                         <div class="h-64 w-80 mx-auto">
-                            <img src="/mpa_website/static/src/img/2030cm.jpeg" alt="Batu Pondasi" class="w-full h-full object-cover rounded-lg mb-2"/>
+                            <img src="/mpa_website/static/src/img/2030cmnew.png" alt="Batu Pondasi" class="w-full h-full object-cover rounded-lg mb-2"/>
                         </div>
                         <p class="text-white text-xl font-semibold text-center">Batu Pondasi</p>
                         <p class="text-white text-lg text-center">(20-30 cm)</p>
@@ -168,7 +185,7 @@
                     <!-- Batu Bolder -->
                     <div class="flex flex-col items-center">
                         <div class="h-64 w-80 mx-auto">
-                            <img src="/mpa_website/static/src/img/30cmup.jpeg" alt="Batu Bolder" class="w-full h-full object-cover rounded-lg mb-2"/>
+                            <img src="/mpa_website/static/src/img/30cmnew.png" alt="Batu Bolder" class="w-full h-full object-cover rounded-lg mb-2"/>
                         </div>
                         <p class="text-white text-xl font-semibold text-center">Batu Bolder</p>
                         <p class="text-white text-lg text-center">30 cm up</p>

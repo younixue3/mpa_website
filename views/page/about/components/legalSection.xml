@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="legal_about_section" name="Legal About Section">
-        <div class="container mx-auto pt-10 px-4 md:px-20">
+        <div class="container mx-auto pt-10 px-4 md:px-20" id="legal">
             <div class="mb-8">
                 <h1 class="text-3xl md:text-4xl font-bold text-center mb-4">Legalitas, Sertifikasi, dan Hasil Uji Lab</h1>
                 <p class="text-center text-gray-600">Kami berkomitmen memberikan layanan pengadaan material tambang yang legal, aman, dan sesuai standar nasional maupun internasional.</p>
@@ -151,8 +151,8 @@
                         </li>
                     </ul>
                     <div class="mt-5 flex flex-col">
-                        <button class="bg-mpa-primary text-white text-xl mx-auto px-3 py-2">Butuh info lebih lanjut?</button>
-                        <button data-modal-target="contact-modal" data-modal-toggle="contact-modal" class="btn-mpa-primary bg-mpa-secondary border-mpa-secondary text-sm mt-3 mx-auto">Hubungi Kami</button>
+                        <button class="bg-mpa-secondary text-white text-xl mx-auto px-3 py-2">Butuh info lebih lanjut?</button>
+                        <button data-modal-target="contact-modal" data-modal-toggle="contact-modal" class="btn-mpa-primary text-2xl mt-3 mx-auto">Hubungi Kami</button>
                     </div>
                 </div>
             </div>

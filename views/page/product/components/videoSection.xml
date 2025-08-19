@@ -28,17 +28,52 @@
                     <div id="default-carousel" class="relative w-full md:hidden" data-carousel="slide">
                         <!-- Carousel wrapper -->
                         <div class="relative h-[392px] overflow-hidden rounded-lg">
-                            <!-- Item 1 -->
+                            <!-- Item 1 - Batu 5-10 mm -->
                             <div class="hidden duration-700 ease-in-out" data-carousel-item="">
-                                <img src="/mpa_website/static/src/img/" 
-                                    alt="Quality Excellence" 
+                                <img src="/mpa_website/static/src/img/aset-batu/510mm.png" 
+                                    alt="Batu 5-10 mm" 
                                     loading="lazy"
                                     class="w-full h-[392px] object-cover object-center"/>
                             </div>
-                            <!-- Item 2 -->
+                            <!-- Item 2 - Batu 10-20 mm -->
                             <div class="hidden duration-700 ease-in-out" data-carousel-item="">
-                                <img src="/mpa_website/static/src/img/" 
-                                    alt="Reliability" 
+                                <img src="/mpa_website/static/src/img/aset-batu/1020mm.png" 
+                                    alt="Batu 10-20 mm" 
+                                    loading="lazy"
+                                    class="w-full h-[392px] object-cover object-center"/>
+                            </div>
+                            <!-- Item 3 - Batu 20-30 mm -->
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item="">
+                                <img src="/mpa_website/static/src/img/aset-batu/2030mm.png" 
+                                    alt="Batu 20-30 mm" 
+                                    loading="lazy"
+                                    class="w-full h-[392px] object-cover object-center"/>
+                            </div>
+                            <!-- Item 4 - Batu 30-50 mm -->
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item="">
+                                <img src="/mpa_website/static/src/img/aset-batu/3050.png" 
+                                    alt="Batu 30-50 mm" 
+                                    loading="lazy"
+                                    class="w-full h-[392px] object-cover object-center"/>
+                            </div>
+                            <!-- Item 5 - Batu 50-70 mm -->
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item="">
+                                <img src="/mpa_website/static/src/img/aset-batu/5070.png" 
+                                    alt="Batu 50-70 mm" 
+                                    loading="lazy"
+                                    class="w-full h-[392px] object-cover object-center"/>
+                            </div>
+                            <!-- Item 6 - Batu Pondasi 20 cm -->
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item="">
+                                <img src="/mpa_website/static/src/img/aset-batu/20cm.png" 
+                                    alt="Batu Pondasi 20 cm" 
+                                    loading="lazy"
+                                    class="w-full h-[392px] object-cover object-center"/>
+                            </div>
+                            <!-- Item 7 - Batu Bolder 30 cm up -->
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item="">
+                                <img src="/mpa_website/static/src/img/aset-batu/bolder.png" 
+                                    alt="Batu Bolder 30 cm up" 
                                     loading="lazy"
                                     class="w-full h-[392px] object-cover object-center"/>
                             </div>
@@ -47,10 +82,15 @@
                         <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
                             <button type="button" class="w-3 h-3 rounded-full bg-mpa-primary/50" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
                             <button type="button" class="w-3 h-3 rounded-full bg-mpa-primary/50" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                            <button type="button" class="w-3 h-3 rounded-full bg-mpa-primary/50" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+                            <button type="button" class="w-3 h-3 rounded-full bg-mpa-primary/50" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+                            <button type="button" class="w-3 h-3 rounded-full bg-mpa-primary/50" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+                            <button type="button" class="w-3 h-3 rounded-full bg-mpa-primary/50" aria-current="false" aria-label="Slide 6" data-carousel-slide-to="5"></button>
+                            <button type="button" class="w-3 h-3 rounded-full bg-mpa-primary/50" aria-current="false" aria-label="Slide 7" data-carousel-slide-to="6"></button>
                         </div>
                         <!-- Slider controls -->
                         <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev="">
-                            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-mpa-primary/30 group-hover:bg-mpa-primary/50 group-focus:ring-4 group-focus:ring-mpa-primary group-focus:outline-none">
+                            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-mpa-primary">
                                 <svg class="w-4 h-4 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
                                 </svg>
@@ -58,7 +98,7 @@
                             </span>
                         </button>
                         <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next="">
-                            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-mpa-primary/30 group-hover:bg-mpa-primary/50 group-focus:ring-4 group-focus:ring-mpa-primary group-focus:outline-none">
+                            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-mpa-primary">
                                 <svg class="w-4 h-4 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
                                 </svg>
@@ -71,7 +111,8 @@
                         <div class="flex relative h-5 mt-5">
                             <div class="w-full m-auto flex justify-center">
                                 <div class="w-2/3 flex items-center justify-center z-40 rounded-sm shadow-md">
-                                    <span class="text-white font-medium text-lg leading-tight">Collaboration</span>
+                                    <span id="title-video" class="text-white font-medium text-lg leading-tight">Collaboration</span>
+
                                 </div>
                             </div>
                         </div>
@@ -85,9 +126,9 @@
 
         <script type="text/javascript">
             document.addEventListener('DOMContentLoaded', function() {
-                const titles = ['Batu 5-10 mm', 'Batu 10-20 mm']; 
+                const titles = ['Batu 5-10 mm', 'Batu 10-20 mm', 'Batu 20-30 mm', 'Batu 30-50 mm', 'Batu 50-70 mm', 'Batu Pondasi 20 cm', 'Batu Bolder']; 
 
-                const titleElement = document.querySelector('.flex.relative.h-20 .bg-mpa-secondary span');
+                const titleElement = document.querySelector('#title-video');
                 const carousel = document.getElementById('default-carousel');
                 
                 // Jika carousel tidak ditemukan, keluar dari fungsi
@@ -109,6 +150,11 @@
                 const paragraphs = [
                     "Batu ukuran 5-10 mm atau sering disebut batu screening, merupakan hasil pemrosesan mesin pemecah batu dengan ukuran seragam dan presisi tinggi. Material ini biasa digunakan sebagai campuran utama dalam pembuatan aspal hotmix serta penebalan struktur jalan pada proses Asphalt Mixing Plant (AMO).",
                     "Batu ukuran 10-20 mm merupakan material favorit dalam dunia konstruksi. Ukurannya yang seragam dengan daya tahan tinggi menjadikannya pilihan utama untuk pengecoran struktur ringan hingga berat.",
+                    "Batu ukuran 20-30 mm merupakan material yang ideal untuk pengecoran struktur bangunan dan pondasi. Dengan ukuran yang optimal, material ini memberikan kekuatan dan stabilitas yang baik untuk berbagai aplikasi konstruksi.",
+                    "Batu ukuran 30-50 mm cocok untuk penggunaan pada proyek infrastruktur seperti jalan, jembatan, dan drainase. Material ini memiliki daya tahan tinggi terhadap tekanan dan cuaca ekstrem.",
+                    "Batu ukuran 50-70 mm sering digunakan untuk pondasi bangunan, lapisan drainase, dan stabilisasi tanah. Ukurannya yang besar memberikan kekuatan struktural yang baik untuk proyek-proyek besar.",
+                    "Batu Pondasi 20 cm merupakan material utama untuk pondasi bangunan dan infrastruktur berat. Dengan ukuran yang besar, material ini memberikan dasar yang kokoh dan stabil untuk konstruksi di atasnya.",
+                    "Batu Bolder 30 cm up adalah material berukuran besar yang ideal untuk proyek-proyek seperti tanggul, penahan erosi, dan dekorasi lansekap. Material ini memiliki ketahanan luar biasa terhadap erosi dan pergerakan tanah.",
                 ];
                 
                 const paragraphElement = document.getElementById('paragraph-title');

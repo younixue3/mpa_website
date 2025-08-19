@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="visimisi_about_section" name="Vision Mission About Section">
-        <div class="p-8 bg-mpa-secondary">
+        <div class="p-8 bg-mpa-secondary" id="vision-mission">
 
             <div class="mb-2">
-                <div class="text-2xl font-bold text-white w-12 bg-mpa-primary text-center">
-                    Visi
-                </div>
+                <img src="/mpa_website/static/src/img/visi.png" alt="Vision" class="w-20 h-20 object-contain" loading="lazy"/>
                 <p class="text-white">Menjadi penjual agregat terdepan untuk industri konstruksi Indonesia Timur.</p>
-                <div class="text-2xl font-bold text-white w-12 bg-mpa-primary text-center mt-5">
-                    Misi
-                </div>
+                <img src="/mpa_website/static/src/img/misi.png" alt="Mission" class="w-20 h-20 object-contain" loading="lazy"/>
             </div>
 <div class="md:hidden" id="misi-accordion" data-accordion="collapse" data-active-classes="bg-mpa-primary text-white" data-inactive-classes="text-white">
     <!-- Menjamin Kualitas yang Konsisten -->
     <h2 id="misi-heading-1">
-        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-white btn-mpa-primary rounded-none transition-colors duration-300" data-accordion-target="#misi-body-1" aria-expanded="true" aria-controls="misi-body-1">
+        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-white btn-mpa-primary rounded-none transition-colors duration-300 group" data-accordion-target="#misi-body-1" aria-expanded="true" aria-controls="misi-body-1">
             <span class="text-xl font-semibold">Menjamin Kualitas yang Konsisten</span>
-            <svg class="w-4 h-4 shrink-0 transition-transform duration-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+            <svg class="w-4 h-4 shrink-0 transition-transform duration-300 group-aria-expanded:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
             </svg>
         </button>
@@ -33,9 +29,9 @@
 
     <!-- Memperluas Area Layanan -->
     <h2 id="misi-heading-2">
-        <button type="button" class="flex items-center justify-between w-full p-5 mt-3 font-medium rtl:text-right text-white btn-mpa-primary rounded-none transition-colors duration-300" data-accordion-target="#misi-body-2" aria-expanded="false" aria-controls="misi-body-2">
+        <button type="button" class="flex items-center justify-between w-full p-5 mt-3 font-medium rtl:text-right text-white btn-mpa-primary rounded-none transition-colors duration-300 group" data-accordion-target="#misi-body-2" aria-expanded="false" aria-controls="misi-body-2">
             <span class="text-xl font-semibold">Memperluas Area Layanan</span>
-            <svg class="w-4 h-4 shrink-0 transition-transform duration-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+            <svg class="w-4 h-4 shrink-0 transition-transform duration-300 group-aria-expanded:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
             </svg>
         </button>
@@ -51,9 +47,9 @@
 
     <!-- Memberikan Layanan Tepat Waktu -->
     <h2 id="misi-heading-3">
-        <button type="button" class="flex items-center justify-between w-full p-5 mt-3 font-medium rtl:text-right text-white btn-mpa-primary rounded-none transition-colors duration-300" data-accordion-target="#misi-body-3" aria-expanded="false" aria-controls="misi-body-3">
+        <button type="button" class="flex items-center justify-between w-full p-5 mt-3 font-medium rtl:text-right text-white btn-mpa-primary rounded-none transition-colors duration-300 group" data-accordion-target="#misi-body-3" aria-expanded="false" aria-controls="misi-body-3">
             <span class="text-xl font-semibold">Memberikan Layanan Tepat Waktu</span>
-            <svg class="w-4 h-4 shrink-0 transition-transform duration-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+            <svg class="w-4 h-4 shrink-0 transition-transform duration-300 group-aria-expanded:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
             </svg>
         </button>

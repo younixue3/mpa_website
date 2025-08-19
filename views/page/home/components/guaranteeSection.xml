@@ -9,9 +9,9 @@
 <div class="md:hidden" id="guarantee-accordion" data-accordion="collapse" data-active-classes="bg-mpa-primary text-white" data-inactive-classes="text-white">
     <!-- Jaminan Kualitas -->
     <h2 id="guarantee-heading-1">
-        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-white btn-mpa-primary rounded-none" data-accordion-target="#guarantee-body-1" aria-expanded="true" aria-controls="guarantee-body-1">
+        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-white btn-mpa-primary rounded-none group" data-accordion-target="#guarantee-body-1" aria-expanded="true" aria-controls="guarantee-body-1">
             <span class="text-xl">Jaminan Kualitas</span>
-            <svg class="w-4 h-4 shrink-0 transition-transform" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+            <svg class="w-4 h-4 shrink-0 transition-transform group-aria-expanded:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
             </svg>
         </button>
@@ -26,9 +26,9 @@
 
     <!-- Jaminan Produksi -->
     <h2 id="guarantee-heading-2">
-        <button type="button" class="flex items-center justify-between w-full p-5 mt-3 font-medium rtl:text-right text-white btn-mpa-primary rounded-none" data-accordion-target="#guarantee-body-2" aria-expanded="false" aria-controls="guarantee-body-2">
+        <button type="button" class="flex items-center justify-between w-full p-5 mt-3 font-medium rtl:text-right text-white btn-mpa-primary rounded-none group" data-accordion-target="#guarantee-body-2" aria-expanded="false" aria-controls="guarantee-body-2">
             <span class="text-xl">Jaminan Produksi</span>
-            <svg class="w-4 h-4 shrink-0 transition-transform" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+            <svg class="w-4 h-4 shrink-0 transition-transform group-aria-expanded:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
             </svg>
         </button>
@@ -43,9 +43,9 @@
 
     <!-- Harga Kompetitif -->
     <h2 id="guarantee-heading-3">
-        <button type="button" class="flex items-center justify-between w-full p-5 mt-3 font-medium rtl:text-right text-white btn-mpa-primary rounded-none" data-accordion-target="#guarantee-body-3" aria-expanded="false" aria-controls="guarantee-body-3">
+        <button type="button" class="flex items-center justify-between w-full p-5 mt-3 font-medium rtl:text-right text-white btn-mpa-primary rounded-none group" data-accordion-target="#guarantee-body-3" aria-expanded="false" aria-controls="guarantee-body-3">
             <span class="text-xl">Harga Kompetitif</span>
-            <svg class="w-4 h-4 shrink-0 transition-transform" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+            <svg class="w-4 h-4 shrink-0 transition-transform group-aria-expanded:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
             </svg>
         </button>
