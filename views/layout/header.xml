@@ -12,22 +12,22 @@
                             <div class="items-center justify-between hidden w-full md:flex md:w-auto">
                                 <ul class="flex flex-col font-medium font-light rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white gap-5">
                                     <li>
-                                        <a href="/" t-att-class="'block py-2 px-3 md:p-0 rounded md:hover:bg-transparent font-thin' + (' text-mpa-primary' if request.httprequest.path == '/home_page' else ' text-gray-900')" aria-current="page">Beranda</a>
+                                        <a href="/" t-att-class="'block py-2 px-3 md:p-0 rounded md:hover:bg-transparent ' + (' text-mpa-primary' if request.httprequest.path == '/home_page' else ' text-gray-900')" aria-current="page">Beranda</a>
                                     </li>
                                     <li>
-                                        <a href="/about" t-att-class="'block py-2 px-3 md:p-0 rounded md:hover:bg-transparent font-thin' + (' text-mpa-primary' if request.httprequest.path == '/about' else ' text-gray-900')">Tentang</a>
+                                        <a href="/about" t-att-class="'block py-2 px-3 md:p-0 rounded md:hover:bg-transparent ' + (' text-mpa-primary' if request.httprequest.path == '/about' else ' text-gray-900')">Tentang</a>
                                     </li>
                                     <li>
-                                        <a href="/product" t-att-class="'block py-2 px-3 md:p-0 rounded md:hover:bg-transparent font-thin' + (' text-mpa-primary' if request.httprequest.path == '/product' else ' text-gray-900')">Produk</a>
+                                        <a href="/product" t-att-class="'block py-2 px-3 md:p-0 rounded md:hover:bg-transparent ' + (' text-mpa-primary' if request.httprequest.path == '/product' else ' text-gray-900')">Produk</a>
                                     </li>
                                     <li>
-                                        <a href="/iup" t-att-class="'block py-2 px-3 md:p-0 rounded md:hover:bg-transparent font-thin' + (' text-mpa-primary' if request.httprequest.path == '/iup' else ' text-gray-900')">IUP</a>
+                                        <a href="/iup" t-att-class="'block py-2 px-3 md:p-0 rounded md:hover:bg-transparent ' + (' text-mpa-primary' if request.httprequest.path == '/iup' else ' text-gray-900')">IUP</a>
                                     </li>
                                     <li>
-                                        <a href="/proyek" t-att-class="'block py-2 px-3 md:p-0 rounded md:hover:bg-transparent font-thin' + (' text-mpa-primary' if request.httprequest.path == '/proyek' else ' text-gray-900')">Proyek</a>
+                                        <a href="/proyek" t-att-class="'block py-2 px-3 md:p-0 rounded md:hover:bg-transparent ' + (' text-mpa-primary' if request.httprequest.path == '/proyek' else ' text-gray-900')">Proyek</a>
                                     </li>
                                     <!-- <li>
-                                        <a href="/blog" t-att-class="'block py-2 px-3 md:p-0 rounded md:hover:bg-transparent font-thin' + (' text-mpa-primary' if request.httprequest.path == '/blog' else ' text-gray-900')">Blog</a>
+                                        <a href="/blog" t-att-class="'block py-2 px-3 md:p-0 rounded md:hover:bg-transparent ' + (' text-mpa-primary' if request.httprequest.path == '/blog' else ' text-gray-900')">Blog</a>
                                     </li> -->
                                 </ul>
                             </div>
@@ -77,19 +77,19 @@
                 <div class="items-center justify-between w-full bg-white p-4 border-t hidden" id="navbar-cta">
                     <ul class="flex flex-col font-medium font-light space-y-4">
                         <li>
-                            <a href="/" t-att-class="'block py-2 px-3 rounded transition-colors duration-200 font-thin' + (' text-mpa-primary' if request.httprequest.path == '/home_page' else ' text-gray-900 hover:text-mpa-primary')" aria-current="page">Beranda</a>
+                            <a href="/" t-att-class="'block py-2 px-3 rounded transition-colors duration-200 ' + (' text-mpa-primary' if request.httprequest.path == '/home_page' else ' text-gray-900 hover:text-mpa-primary')" aria-current="page">Beranda</a>
                         </li>
                         <li>
-                            <a href="/about" t-att-class="'block py-2 px-3 rounded transition-colors duration-200 font-thin' + (' text-mpa-primary' if request.httprequest.path == '/about' else ' text-gray-900 hover:text-mpa-primary')">Tentang</a>
+                            <a href="/about" t-att-class="'block py-2 px-3 rounded transition-colors duration-200 ' + (' text-mpa-primary' if request.httprequest.path == '/about' else ' text-gray-900 hover:text-mpa-primary')">Tentang</a>
                         </li>
                         <li>
-                            <a href="/product" t-att-class="'block py-2 px-3 rounded transition-colors duration-200 font-thin' + (' text-mpa-primary' if request.httprequest.path == '/product' else ' text-gray-900 hover:text-mpa-primary')">Produk</a>
+                            <a href="/product" t-att-class="'block py-2 px-3 rounded transition-colors duration-200 ' + (' text-mpa-primary' if request.httprequest.path == '/product' else ' text-gray-900 hover:text-mpa-primary')">Produk</a>
                         </li>
                         <li>
-                            <a href="/iup" t-att-class="'block py-2 px-3 rounded transition-colors duration-200 font-thin' + (' text-mpa-primary' if request.httprequest.path == '/iup' else ' text-gray-900 hover:text-mpa-primary')">IUP</a>
+                            <a href="/iup" t-att-class="'block py-2 px-3 rounded transition-colors duration-200 ' + (' text-mpa-primary' if request.httprequest.path == '/iup' else ' text-gray-900 hover:text-mpa-primary')">IUP</a>
                         </li>
                         <li>
-                            <a href="/proyek" t-att-class="'block py-2 px-3 rounded transition-colors duration-200 font-thin' + (' text-mpa-primary' if request.httprequest.path == '/proyek' else ' text-gray-900 hover:text-mpa-primary')">Proyek</a>
+                            <a href="/proyek" t-att-class="'block py-2 px-3 rounded transition-colors duration-200 ' + (' text-mpa-primary' if request.httprequest.path == '/proyek' else ' text-gray-900 hover:text-mpa-primary')">Proyek</a>
                         </li>
                         <li class="md:hidden">
                                     <button id="dropdownHubungiKamiButton-mobile" data-dropdown-toggle="dropdownHubungiKami-mobile" class="btn-mpa-primary font-medium text-sm px-4 py-2 text-center items-center w-full" type="button">
@@ -121,7 +121,7 @@
                                     </div>
                                 </li>
                         <!-- <li>
-                            <a href="/blog" t-att-class="'block py-2 px-3 rounded transition-colors duration-200 font-thin' + (' text-mpa-primary' if request.httprequest.path == '/blog' else ' text-gray-900 hover:text-mpa-primary')">Blog</a>
+                            <a href="/blog" t-att-class="'block py-2 px-3 rounded transition-colors duration-200 ' + (' text-mpa-primary' if request.httprequest.path == '/blog' else ' text-gray-900 hover:text-mpa-primary')">Blog</a>
                         </li> -->
                     </ul>
                 </div>

@@ -38,7 +38,7 @@
     </h2>
     <div id="misi-body-2" class="hidden" aria-labelledby="misi-heading-2">
         <div class="p-5 bg-white text-black rounded-none shadow-md">
-            <img src="/mpa_website/static/src/img/DJI_0366.webp" alt="Service Area Expansion" class="w-full mb-4 h-[126px] object-cover object-center rounded-none" loading="lazy" />
+            <img src="/mpa_website/static/src/img/DJI_0366.webp" alt="Service Area Expansion" class="w-full mb-4 h-48 object-cover object-center rounded-none" loading="lazy" />
             <p class="mb-2 leading-relaxed text-gray-700">
                 Bertujuan untuk memperluas jangkauan kami ke seluruh wilayah Indonesia Timur, memastikan bahwa bahkan daerah-daerah yang paling terpencil dan kurang terlayani pun memiliki akses ke agregat berkualitas tinggi untuk kebutuhan infrastruktur mereka.
             </p>
@@ -59,7 +59,7 @@
             <p class="mb-2 leading-relaxed text-gray-700">
                 Berusaha menjadi mitra yang paling dapat diandalkan bagi pelanggan kami dengan memastikan pengiriman tepat waktu, pasokan material yang konsisten, dan layanan yang fleksibel serta berorientasi pada pelanggan. Memenuhi kebutuhan unik setiap proyek, untuk menjamin bahwa jadwal konstruksi dipenuhi dan proyek selesai sesuai rencana.
             </p>
-            <img src="/mpa_website/static/src/img/KOY00502.jpg" alt="Timely Service Delivery" class="w-full mt-4 h-[126px] object-cover object-center rounded-none" loading="lazy" />
+            <img src="/mpa_website/static/src/img/KOY00502.jpg" alt="Timely Service Delivery" class="w-full mt-4 h-48 object-cover object-center rounded-none" loading="lazy" />
         </div>
     </div>
 </div>

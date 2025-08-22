@@ -1,33 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="about_iup_section" name="About IUP Section">
+        <!-- Load jQuery if not already loaded -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        
         <div class="bg-white mt-20">
             <div class="p-5 md:p-20 mt-10 mb-5 text-black">
                 <h1 class="text-4xl font-bold text-center mb-2">IUP</h1>
                 <p class="text-center">Perusahaan kami memiliki 4 Izin Usaha Pertambangan (IUP) aktif yang berada di bawah satu manajemen terpusat, memastikan proses penambangan berjalan secara legal, efisien, dan bertanggung jawab.</p>
             </div>
-            <div class="relative mb-10">
-                <div class="flex snap-x snap-mandatory overflow-x-auto no-scrollbar pb-4">
-
-                    <div class="flex gap-10 min-w-max px-4">
-                        <div class="w-72 h-40 flex-shrink-0 snap-center">
-                            <img src="/mpa_website/static/src/img/DJI_0200.webp" alt="IUP" class="w-full h-full object-cover object-center" />
-                        </div>
-                        <div class="w-72 h-40 flex-shrink-0 snap-center">
-                            <img src="/mpa_website/static/src/img/site3.jpeg" alt="IUP" class="w-full h-full object-cover object-center" />
-                        </div>
-                        <div class="w-72 h-40 flex-shrink-0 snap-center">
-                            <img src="/mpa_website/static/src/img/site1.jpeg" alt="IUP" class="w-full h-full object-cover object-center" />
-                        </div>
-                        <div class="w-72 h-40 flex-shrink-0 snap-center">
-                            <img src="/mpa_website/static/src/img/site2.jpeg" alt="IUP" class="w-full h-full object-cover object-center" />
-                        </div>
-                        <div class="w-72 h-40 flex-shrink-0 snap-center">
-                            <img src="/mpa_website/static/src/img/IMG_3114.jpg" alt="IUP" class="w-full h-full object-cover object-center" />
-                        </div>
+            <div class="relative mb-10 overflow-hidden">
+                <div id="marquee-container" class="flex gap-10 px-4">
+                    <div class="w-72 h-40 flex-shrink-0">
+                        <img src="/mpa_website/static/src/img/DJI_0200.webp" alt="IUP" class="w-full h-full object-cover object-center" />
+                    </div>
+                    <div class="w-72 h-40 flex-shrink-0">
+                        <img src="/mpa_website/static/src/img/site3.jpeg" alt="IUP" class="w-full h-full object-cover object-center" />
+                    </div>
+                    <div class="w-72 h-40 flex-shrink-0">
+                        <img src="/mpa_website/static/src/img/site1.jpeg" alt="IUP" class="w-full h-full object-cover object-center" />
+                    </div>
+                    <div class="w-72 h-40 flex-shrink-0">
+                        <img src="/mpa_website/static/src/img/site2.jpeg" alt="IUP" class="w-full h-full object-cover object-center" />
+                    </div>
+                    <div class="w-72 h-40 flex-shrink-0">
+                        <img src="/mpa_website/static/src/img/IMG_3114.jpg" alt="IUP" class="w-full h-full object-cover object-center" />
                     </div>
                 </div>
             </div>
         </div>
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                // Clone the images for seamless looping
+                const $marqueeContainer = $('#marquee-container');
+                const $images = $marqueeContainer.children().clone();
+                $marqueeContainer.append($images);
+                
+                // Set initial position
+                let position = 0;
+                const speed = 1; // pixels per frame
+                
+                // Animation function
+                function animateMarquee() {
+                    position -= speed;
+                    
+                    // Reset position for seamless loop when first set of images is out of view
+                    if (position &lt;= -($marqueeContainer.children().first().outerWidth(true) * ($marqueeContainer.children().length / 2))) {
+                        position = 0;
+                    }
+                    
+                    $marqueeContainer.css('transform', `translateX(${position}px)`);
+                    requestAnimationFrame(animateMarquee);
+                }
+                
+                // Start animation
+                animateMarquee();
+                
+                // Pause on hover
+                $marqueeContainer.hover(
+                    function() {
+                        $(this).css('animation-play-state', 'paused');
+                    },
+                    function() {
+                        $(this).css('animation-play-state', 'running');
+                    }
+                );
+            });
+        </script>
     </template>
 </odoo>

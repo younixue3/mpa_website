@@ -35,15 +35,15 @@
                     <div class="md:hidden flex flex-col sm:flex-row gap-4 justify-center items-center px-2 md:px-0 mt-10">
                         <div class="bg-white/80 text-white py-2 w-full">
                             <h2 class="text-2xl font-bold text-mpa-primary">49 Hektar</h2>
-                            <h5 class="font-thin text-mpa-secondary">Luas Area Tambang</h5>
+                            <h5 class=" text-mpa-secondary">Luas Area Tambang</h5>
                         </div>
                         <div class="bg-white/80 text-white py-2 w-full">
                             <h2 class="text-2xl font-bold text-mpa-primary">4 IUP</h2>
-                            <h5 class="font-thin text-mpa-secondary">Area Tambang</h5>
+                            <h5 class=" text-mpa-secondary">Area Tambang</h5>
                         </div>
                         <div class="bg-white/80 text-white py-2 w-full">
                             <h2 class="text-2xl font-bold text-mpa-primary">100.000m3/bulan</h2>
-                            <h5 class="font-thin text-mpa-secondary">Total Kapasitas Produksi</h5>
+                            <h5 class=" text-mpa-secondary">Total Kapasitas Produksi</h5>
                         </div>
                     </div>
                 </div>

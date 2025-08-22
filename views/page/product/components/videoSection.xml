@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="video_product_section" name="Video Product Section">
-        <section class="relative flex h-[70rem] md:h-screen">
+        <!-- Load jQuery and Owl Carousel CDN -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"/>
+
+        <section class="relative flex h-[75rem] md:h-screen">
             <video 
                 class="hidden md:block h-full w-full object-cover"
-
                 preload="auto" 
                 autoplay="autoplay"
                 loop="loop"
@@ -24,129 +29,84 @@
                 <button data-modal-target="contact-modal" data-modal-toggle="contact-modal" class="btn-mpa-primary">
                     Hubung Kami
                 </button>
-                <div>
-                    <div id="default-carousel" class="relative w-full md:hidden" data-carousel="slide">
-                        <!-- Carousel wrapper -->
-                        <div class="relative h-[392px] overflow-hidden rounded-lg">
-                            <!-- Item 1 - Batu 5-10 mm -->
-                            <div class="hidden duration-700 ease-in-out" data-carousel-item="">
-                                <img src="/mpa_website/static/src/img/aset-batu/510mm.png" 
-                                    alt="Batu 5-10 mm" 
-                                    loading="lazy"
-                                    class="w-full h-[392px] object-cover object-center"/>
-                            </div>
-                            <!-- Item 2 - Batu 10-20 mm -->
-                            <div class="hidden duration-700 ease-in-out" data-carousel-item="">
-                                <img src="/mpa_website/static/src/img/aset-batu/1020mm.png" 
-                                    alt="Batu 10-20 mm" 
-                                    loading="lazy"
-                                    class="w-full h-[392px] object-cover object-center"/>
-                            </div>
-                            <!-- Item 3 - Batu 20-30 mm -->
-                            <div class="hidden duration-700 ease-in-out" data-carousel-item="">
-                                <img src="/mpa_website/static/src/img/aset-batu/2030mm.png" 
-                                    alt="Batu 20-30 mm" 
-                                    loading="lazy"
-                                    class="w-full h-[392px] object-cover object-center"/>
-                            </div>
-                            <!-- Item 4 - Batu 30-50 mm -->
-                            <div class="hidden duration-700 ease-in-out" data-carousel-item="">
-                                <img src="/mpa_website/static/src/img/aset-batu/3050.png" 
-                                    alt="Batu 30-50 mm" 
-                                    loading="lazy"
-                                    class="w-full h-[392px] object-cover object-center"/>
-                            </div>
-                            <!-- Item 5 - Batu 50-70 mm -->
-                            <div class="hidden duration-700 ease-in-out" data-carousel-item="">
-                                <img src="/mpa_website/static/src/img/aset-batu/5070.png" 
-                                    alt="Batu 50-70 mm" 
-                                    loading="lazy"
-                                    class="w-full h-[392px] object-cover object-center"/>
-                            </div>
-                            <!-- Item 6 - Batu Pondasi 20 cm -->
-                            <div class="hidden duration-700 ease-in-out" data-carousel-item="">
-                                <img src="/mpa_website/static/src/img/aset-batu/20cm.png" 
-                                    alt="Batu Pondasi 20 cm" 
-                                    loading="lazy"
-                                    class="w-full h-[392px] object-cover object-center"/>
-                            </div>
-                            <!-- Item 7 - Batu Bolder 30 cm up -->
-                            <div class="hidden duration-700 ease-in-out" data-carousel-item="">
-                                <img src="/mpa_website/static/src/img/aset-batu/bolder.png" 
-                                    alt="Batu Bolder 30 cm up" 
-                                    loading="lazy"
-                                    class="w-full h-[392px] object-cover object-center"/>
-                            </div>
-                        </div>
-                        <!-- Slider indicators -->
-                        <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
-                            <button type="button" class="w-3 h-3 rounded-full bg-mpa-primary/50" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-                            <button type="button" class="w-3 h-3 rounded-full bg-mpa-primary/50" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-                            <button type="button" class="w-3 h-3 rounded-full bg-mpa-primary/50" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-                            <button type="button" class="w-3 h-3 rounded-full bg-mpa-primary/50" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
-                            <button type="button" class="w-3 h-3 rounded-full bg-mpa-primary/50" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
-                            <button type="button" class="w-3 h-3 rounded-full bg-mpa-primary/50" aria-current="false" aria-label="Slide 6" data-carousel-slide-to="5"></button>
-                            <button type="button" class="w-3 h-3 rounded-full bg-mpa-primary/50" aria-current="false" aria-label="Slide 7" data-carousel-slide-to="6"></button>
-                        </div>
-                        <!-- Slider controls -->
-                        <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev="">
-                            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-mpa-primary">
-                                <svg class="w-4 h-4 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
-                                </svg>
-                                <span class="sr-only">Previous</span>
-                            </span>
-                        </button>
-                        <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next="">
-                            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-mpa-primary">
-                                <svg class="w-4 h-4 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
-                                </svg>
-                                <span class="sr-only">Next</span>
-                            </span>
-                        </button>
-                    </div>
-                    <!-- Here Title Section -->
-                    <div class="md:hidden">
-                        <div class="flex relative h-5 mt-5">
-                            <div class="w-full m-auto flex justify-center">
-                                <div class="w-2/3 flex items-center justify-center z-40 rounded-sm shadow-md">
-                                    <span id="title-video" class="text-white font-medium text-lg leading-tight">Collaboration</span>
 
-                                </div>
+                <div id="video-carousel-mobile" class="owl-carousel owl-theme md:hidden w-full">
+                    <div class="item">
+                        <img src="/mpa_website/static/src/img/aset-batu/510mm.png" 
+                            alt="Batu 5-10 mm" 
+                            loading="lazy"
+                            class="w-full h-[392px] object-cover object-center"/>
+                    </div>
+                    <div class="item">
+                        <img src="/mpa_website/static/src/img/aset-batu/1020mm.png" 
+                            alt="Batu 10-20 mm" 
+                            loading="lazy"
+                            class="w-full h-[392px] object-cover object-center"/>
+                    </div>
+                    <div class="item">
+                        <img src="/mpa_website/static/src/img/aset-batu/2030mm.png" 
+                            alt="Batu 20-30 mm" 
+                            loading="lazy"
+                            class="w-full h-[392px] object-cover object-center"/>
+                    </div>
+                    <div class="item">
+                        <img src="/mpa_website/static/src/img/aset-batu/3050.png" 
+                            alt="Batu 30-50 mm" 
+                            loading="lazy"
+                            class="w-full h-[392px] object-cover object-center"/>
+                    </div>
+                    <div class="item">
+                        <img src="/mpa_website/static/src/img/aset-batu/5070.png" 
+                            alt="Batu 50-70 mm" 
+                            loading="lazy"
+                            class="w-full h-[392px] object-cover object-center"/>
+                    </div>
+                    <div class="item">
+                        <img src="/mpa_website/static/src/img/aset-batu/20cm.png" 
+                            alt="Batu Pondasi 20 cm" 
+                            loading="lazy"
+                            class="w-full h-[392px] object-cover object-center"/>
+                    </div>
+                    <div class="item">
+                        <img src="/mpa_website/static/src/img/aset-batu/bolder.png" 
+                            alt="Batu Bolder 30 cm up" 
+                            loading="lazy"
+                            class="w-full h-[392px] object-cover object-center"/>
+                    </div>
+                </div>
+
+                <!-- Custom Navigation Buttons -->
+                <div class="absolute top-1/2 transform -translate-y-1/2 w-full px-4 flex justify-between z-10 md:hidden">
+                    <button class="owl-prev-video inline-flex items-center justify-center w-10 h-10 rounded-full bg-mpa-primary">
+                        <svg class="w-4 h-4 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                        </svg>
+                    </button>
+                    <button class="owl-next-video inline-flex items-center justify-center w-10 h-10 rounded-full bg-mpa-primary">
+                        <svg class="w-4 h-4 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="md:hidden w-full text-white p-5 mt-5">
+                    <div class="flex relative">
+                        <div class="w-full m-auto flex justify-center">
+                            <div class="w-2/3 flex items-center justify-center z-40">
+                                <span id="title-video" class="text-white font-medium text-lg leading-tight">Batu 5-10 mm</span>
                             </div>
                         </div>
-                        <p id="paragraph-title" class="mt-2 text-center">
-                            Batu ukuran 5-10 mm atau sering disebut batu screening, merupakan hasil pemrosesan mesin pemecah batu dengan ukuran seragam dan presisi tinggi. Material ini biasa digunakan sebagai campuran utama dalam pembuatan aspal hotmix serta penebalan struktur jalan pada proses Asphalt Mixing Plant (AMO).
-                        </p>
                     </div>
+                    <p id="paragraph-title" class="mt-2 text-center">
+                        Batu ukuran 5-10 mm atau sering disebut batu screening, merupakan hasil pemrosesan mesin pemecah batu dengan ukuran seragam dan presisi tinggi. Material ini biasa digunakan sebagai campuran utama dalam pembuatan aspal hotmix serta penebalan struktur jalan pada proses Asphalt Mixing Plant (AMO).
+                    </p>
                 </div>
             </div>
         </section>
 
         <script type="text/javascript">
-            document.addEventListener('DOMContentLoaded', function() {
-                const titles = ['Batu 5-10 mm', 'Batu 10-20 mm', 'Batu 20-30 mm', 'Batu 30-50 mm', 'Batu 50-70 mm', 'Batu Pondasi 20 cm', 'Batu Bolder']; 
-
-                const titleElement = document.querySelector('#title-video');
-                const carousel = document.getElementById('default-carousel');
-                
-                // Jika carousel tidak ditemukan, keluar dari fungsi
-                if (!carousel) return;
-                
-                function setTitle(name) { 
-                    if (titleElement) {
-                        titleElement.textContent = name; 
-                    }
-                } 
-
-                const items = carousel.querySelectorAll('[data-carousel-item]'); 
-                const prevButton = carousel.querySelector('[data-carousel-prev]'); 
-                const nextButton = carousel.querySelector('[data-carousel-next]'); 
-                const indicators = carousel.querySelectorAll('[data-carousel-slide-to]');
-                let currentIndex = 0; 
-                let autoplayInterval;
-
+            $(document).ready(function(){
+                const titles = ['Batu 5-10 mm', 'Batu 10-20 mm', 'Batu 20-30 mm', 'Batu 30-50 mm', 'Batu 50-70 mm', 'Batu Pondasi 20 cm', 'Batu Bolder'];
                 const paragraphs = [
                     "Batu ukuran 5-10 mm atau sering disebut batu screening, merupakan hasil pemrosesan mesin pemecah batu dengan ukuran seragam dan presisi tinggi. Material ini biasa digunakan sebagai campuran utama dalam pembuatan aspal hotmix serta penebalan struktur jalan pada proses Asphalt Mixing Plant (AMO).",
                     "Batu ukuran 10-20 mm merupakan material favorit dalam dunia konstruksi. Ukurannya yang seragam dengan daya tahan tinggi menjadikannya pilihan utama untuk pengecoran struktur ringan hingga berat.",
@@ -154,95 +114,35 @@
                     "Batu ukuran 30-50 mm cocok untuk penggunaan pada proyek infrastruktur seperti jalan, jembatan, dan drainase. Material ini memiliki daya tahan tinggi terhadap tekanan dan cuaca ekstrem.",
                     "Batu ukuran 50-70 mm sering digunakan untuk pondasi bangunan, lapisan drainase, dan stabilisasi tanah. Ukurannya yang besar memberikan kekuatan struktural yang baik untuk proyek-proyek besar.",
                     "Batu Pondasi 20 cm merupakan material utama untuk pondasi bangunan dan infrastruktur berat. Dengan ukuran yang besar, material ini memberikan dasar yang kokoh dan stabil untuk konstruksi di atasnya.",
-                    "Batu Bolder 30 cm up adalah material berukuran besar yang ideal untuk proyek-proyek seperti tanggul, penahan erosi, dan dekorasi lansekap. Material ini memiliki ketahanan luar biasa terhadap erosi dan pergerakan tanah.",
+                    "Batu Bolder 30 cm up adalah material berukuran besar yang ideal untuk proyek-proyek seperti tanggul, penahan erosi, dan dekorasi lansekap. Material ini memiliki ketahanan luar biasa terhadap erosi dan pergerakan tanah."
                 ];
-                
-                const paragraphElement = document.getElementById('paragraph-title');
-                
-                function showItem(index) { 
-                    // Update carousel items
-                    items.forEach(i => {
-                        i.classList.remove('block');
-                        i.classList.add('hidden');
-                    }); 
-                    items[index].classList.remove('hidden');
-                    items[index].classList.add('block'); 
-                    
-                    // Update indicators
-                    indicators.forEach((indicator, i) => {
-                        if (i === index) {
-                            indicator.setAttribute('aria-current', 'true');
-                            indicator.classList.add('bg-mpa-primary');
-                            indicator.classList.remove('bg-mpa-primary/50');
-                        } else {
-                            indicator.setAttribute('aria-current', 'false');
-                            indicator.classList.remove('bg-mpa-primary');
-                            indicator.classList.add('bg-mpa-primary/50');
+
+                const owl_mobile = $("#video-carousel-mobile").owlCarousel({
+                    center: true,
+                    items: 1,
+                    loop: true,
+                    autoplay: true,
+                    autoplayTimeout: 5000,
+                    autoplayHoverPause: true,
+                    margin: 20,
+                    nav: false,
+                    dots: true,
+                    onChanged: function(event) {
+                        if (event.item) {
+                            const currentIndex = event.item.index - 4 === 7 ? 0 : event.item.index - 4 === -1 ? 6 : event.item.index - 4;
+
+                            $("#title-video").text(titles[currentIndex]);
+                            $("#paragraph-title").text(paragraphs[currentIndex]);
                         }
-                    });
-                    
-                    // Update title and paragraph
-                    setTitle(titles[index]);
-                    if (paragraphElement) {
-                        paragraphElement.textContent = paragraphs[index];
                     }
-                } 
-
-                // Initialize first item
-                showItem(0);
-
-                // Add click event for indicators
-                indicators.forEach((indicator, index) => {
-                    indicator.addEventListener('click', () => {
-                        currentIndex = index;
-                        showItem(currentIndex);
-                        
-                        // Reset autoplay timer when manually changing slides
-                        resetAutoplay();
-                    });
                 });
 
-                prevButton.addEventListener('click', () => { 
-                    currentIndex = (currentIndex - 1 + items.length) % items.length; 
-                    showItem(currentIndex); 
-                    
-                    // Reset autoplay timer when manually changing slides
-                    resetAutoplay();
-                }); 
-
-                nextButton.addEventListener('click', () => { 
-                    currentIndex = (currentIndex + 1) % items.length; 
-                    showItem(currentIndex); 
-                    
-                    // Reset autoplay timer when manually changing slides
-                    resetAutoplay();
-                }); 
-                
-                // Function to start autoplay
-                function startAutoplay() {
-                    autoplayInterval = setInterval(() => {
-                        currentIndex = (currentIndex + 1) % items.length;
-                        showItem(currentIndex);
-                    }, 5000);
-                }
-                
-                // Function to reset autoplay
-                function resetAutoplay() {
-                    clearInterval(autoplayInterval);
-                    startAutoplay();
-                }
-                
-                // Start autoplay
-                startAutoplay();
-                
-                // Pause autoplay when hovering over carousel
-                carousel.addEventListener('mouseenter', () => {
-                    clearInterval(autoplayInterval);
+                // Custom Navigation Events Mobile
+                $('.owl-next-video').click(function() {
+                    owl_mobile.trigger('next.owl.carousel');
                 });
-                
-                // Resume autoplay when mouse leaves carousel
-                carousel.addEventListener('mouseleave', () => {
-                    startAutoplay();
+                $('.owl-prev-video').click(function() {
+                    owl_mobile.trigger('prev.owl.carousel');
                 });
             });
         </script>

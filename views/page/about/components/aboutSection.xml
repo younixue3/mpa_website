@@ -24,13 +24,13 @@
                              class="w-[170px] h-[170px] bg-gray-500 object-cover object-center mt-10 -ml-10"/>
                         </div>
                         <div class="z-50">
-                            <h3 class="font-thin italic text-black">Kualitas Unggul untuk Proyek Tangguh</h3>
+                            <h3 class=" italic text-black">Kualitas Unggul untuk Proyek Tangguh</h3>
                             <h2 class="text-4xl font-bold text-mpa-secondary w-1/2 mt-20">Mitraniaga Perkasa Abadi</h2>
                         </div>
                     </div>
                     <!-- Text column -->
                     <div class="space-y-6">
-                        <h3 class="font-thin italic text-black hidden md:block">Kualitas Unggul untuk Proyek Tangguh</h3>
+                        <h3 class=" italic text-black hidden md:block">Kualitas Unggul untuk Proyek Tangguh</h3>
                         <h2 class="text-4xl font-bold text-black hidden md:block">Mitraniaga Perkasa Abadi</h2>
                         <p class="text-black leading-relaxed">
                             Perusahaan yang bergerak di bidang perdagangan/pengadaan (trading) material konstruksi untuk berbagai kebutuhan pembangunan. Didirikan pada bulan Desember 2022, perusahaan kami komitmen untuk menyediakan material berkualitas tinggi guna mendukung berbagai proyek infrastruktur dan pembangunan di Indonesia, khususnya Indonesia Timur.

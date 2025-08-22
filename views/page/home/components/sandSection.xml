@@ -3,25 +3,25 @@
     <template id="pasir_home_section" name="About Home Section">
         <div class="hidden md:grid grid-cols-2 gap-2">
             <div class="relative">
-                <img src="/mpa_website/static/src/img/pasircuci.jpeg" alt="Pasir Cuci" class="w-full h-64 bg-gray-500 object-cover object-center"/>
+                <img src="/mpa_website/static/src/img/pasircuci.jpeg" alt="Pasir Cuci" class="w-full h-80 bg-gray-500 object-cover object-center"/>
                 <div class="absolute bottom-10 left-1/2 -translate-x-1/2 bg-mpa-secondary px-12 py-4">
                     <h3 class="text-white text-xl font-semibold">Pasir Cuci</h3>
                 </div>
             </div>
             <div class="relative">
-                <img src="/mpa_website/static/src/img/abubatumin.webp" alt="Abu Batu" class="w-full h-64 bg-gray-500 object-cover object-center"/>
+                <img src="/mpa_website/static/src/img/abubatumin.webp" alt="Abu Batu" class="w-full h-80 bg-gray-500 object-cover object-center"/>
                 <div class="absolute bottom-10 left-1/2 -translate-x-1/2 bg-mpa-secondary px-12 py-4">
                     <h3 class="text-white text-xl font-semibold">Abu Batu</h3>
                 </div>
             </div>
             <div class="relative">
-                <img src="/mpa_website/static/src/img/agregatamin.webp" alt="Agregat A" class="w-full h-64 bg-gray-500 object-cover object-center"/>
+                <img src="/mpa_website/static/src/img/agregatamin.webp" alt="Agregat A" class="w-full h-80 bg-gray-500 object-cover object-center"/>
                 <div class="absolute bottom-10 left-1/2 -translate-x-1/2 bg-mpa-secondary px-12 py-4">
                     <h3 class="text-white text-xl font-semibold">Agregat A</h3>
                 </div>
             </div>
             <div class="relative">
-                <img src="/mpa_website/static/src/img/agregatbmin.webp" alt="Agregat B" class="w-full h-64 bg-gray-500 object-cover object-center"/>
+                <img src="/mpa_website/static/src/img/agregatbmin.webp" alt="Agregat B" class="w-full h-80 bg-gray-500 object-cover object-center"/>
                 <div class="absolute bottom-10 left-1/2 -translate-x-1/2 bg-mpa-secondary px-12 py-4">
                     <h3 class="text-white text-xl font-semibold">Agregat B</h3>
                 </div>

@@ -1,70 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="fasility_about_section" name="fasility About Section">
-        <div class="p-5 md:p-20 bg-mpa-secondary mt-20">
+        <div class="p-5 md:p-20 bg-mpa-secondary mt-20" id="fasility">
             <div class="mt-10 mb-5 text-white">
                 <h1 class="text-4xl font-bold text-center mb-2">Armada &amp; Fasilitas</h1>
                 <p class="text-center">Untuk mendukung kelancaran produksi dan distribusi material tambang, kami didukung oleh fasilitas operasional dan armada pengangkut yang siap melayani kebutuhan proyek skala kecil hingga besar.</p>
             </div>
             <div class="mb-10">
-                <div class="md:flex gap-5 mb-5 md:mb-16">
-                    <div class="flex relative scale-90 md:scale-100">
-                        <img src="/mpa_website/static/src/img/DJI_0249.webp" 
+                <div class="md:flex gap-5 md:gap-10 mb-5">
+                    <div class="flex relative md:w-2/5">
+                        <img src="/mpa_website/static/src/img/gzvvyjdvren5hdruuq4f.webp" 
                                 alt="About MPA" 
                                 loading="lazy"
                                 class="w-full md:w-[426px] h-[239px] bg-gray-500 object-cover object-center z-30 m-auto transform"/>
-                        <div class="absolute w-full md:w-[426px] h-[239px] md:bg-mpa-primary border-4 border-mpa-primary md:border-0 -bottom-10 -right-5 z-20">
+                        <div class="absolute w-full md:w-[426px] h-[239px] border-4 border-mpa-primary -bottom-5 -right-5 z-20">
                         </div>
                     </div>
-                    <div class="mt-10 md:mt-0 py-5 text-center md:text-left">
+                    <div class="mt-10 md:mt-0 py-5 text-center md:text-left md:w-3/5">
                         <div class="bg-white text-mpa-primary p-2 text-2xl font-bold mb-3 inline-block">
                             Mesin Crusher
                         </div>
                         <p class="text-white">Grup kami memiliki 4 Plant Stone Crusher dan 2 Plant Sand Washer yang siap menyediakan produk batu terbaik sesuai kebutuhan pelanggan kami.</p>
                     </div>
                 </div>
-                <div class="md:hidden md:flex gap-5 mb-5 md:mb-16">
-                    <div class="flex relative scale-90 md:scale-100">
+                <div class="md:hidden md:flex gap-5 md:gap-10 mb-5 md:mb-16">
+                    <div class="flex relative md:w-2/5">
                         <img src="/mpa_website/static/src/img/DJI_0178.webp" 
                                 alt="About MPA" 
                                 loading="lazy"
-                                class="w-full md:w-[426px] h-[239px] bg-gray-500 object-cover object-center z-30 m-auto transform"/>
-                        <div class="absolute w-full md:w-[426px] h-[239px] md:bg-mpa-primary border-4 border-mpa-primary md:border-0 -bottom-10 -left-5 z-20">
+                                class="w-full h-[239px] bg-gray-500 object-cover object-center z-30 m-auto transform"/>
+                        <div class="absolute w-full h-[239px] border-4 border-mpa-primary -bottom-5 -left-5 z-20">
                         </div>
                     </div>
-                    <div class="mt-10 md:mt-0 py-5 text-center md:text-left">
+                    <div class="mt-10 md:mt-0 py-5 text-center md:text-left md:w-3/5">
                         <div class="bg-white text-mpa-primary p-2 text-2xl font-bold mb-3 inline-block">
                             Jetty &amp; Stockpile
                         </div>
                         <p class="text-white">4 area jetty mandiri seluas lebih dari 2 hektar akan menjamin kelancaran loading.</p>
                     </div>
                 </div>
-                <div class="hidden md:flex justify-end gap-5 mb-5 md:mb-16">
-                    <div class="py-5 text-right">
+                <div class="hidden md:flex justify-end gap-10 mb-5 md:mb-16">
+                    <div class="py-5 text-right md:w-3/5">
+
                         <div class="bg-white text-mpa-primary p-2 text-2xl font-bold mb-3 inline-block">
                             Jetty &amp; Stockpile
                         </div>
                         <p class="text-white">4 area jetty mandiri seluas lebih dari 2 hektar akan menjamin kelancaran loading.</p>
                     </div>
-                    <div class="flex relative">
+                    <div class="flex relative md:w-2/5">
+
                         <img src="/mpa_website/static/src/img/DJI_0178.webp" 
                                 alt="About MPA" 
                                 loading="lazy"
                                 class="w-[426px] h-[239px] bg-gray-500 object-cover object-center z-30 m-auto transform"/>
-                        <div class="absolute w-[426px] h-[239px] bg-mpa-primary -bottom-10 -left-5 z-20">
+                        <div class="absolute w-[426px] h-[239px] border-4 border-mpa-primary -bottom-5 -left-5 z-20">
+
                         </div>
                     </div>
                 </div>
-                <div class="md:flex gap-5 mb-5">
-                    <div class="flex relative">
+                <div class="md:flex gap-5 md:gap-10 mb-5">
+                    <div class="flex relative md:w-2/5">
                         <img src="/mpa_website/static/src/img/gzvvyjdvren5hdruuq4f.webp" 
                                 alt="About MPA" 
                                 loading="lazy"
                                 class="w-full md:w-[426px] h-[239px] bg-gray-500 object-cover object-center z-30 m-auto transform"/>
-                        <div class="absolute w-full md:w-[426px] h-[239px] md:bg-mpa-primary border-4 border-mpa-primary md:border-0 -bottom-10 -right-5 z-20">
+                        <div class="absolute w-full md:w-[426px] h-[239px] border-4 border-mpa-primary -bottom-5 -right-5 z-20">
                         </div>
                     </div>
-                    <div class="mt-10 md:mt-0 py-5 text-center md:text-left">
+                    <div class="mt-10 md:mt-0 py-5 text-center md:text-left md:w-3/5">
+
                         <div class="bg-white text-mpa-primary p-2 text-2xl font-bold mb-3 inline-block">
                             Armada Distribusi
                         </div>
