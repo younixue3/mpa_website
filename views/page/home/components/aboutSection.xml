@@ -53,7 +53,7 @@
                             Perusahaan yang bergerak di bidang perdagangan/pengadaan (trading) material konstruksi untuk berbagai kebutuhan pembangunan. Didirikan pada bulan Desember 2022, perusahaan kami komitmen untuk menyediakan material berkualitas tinggi guna mendukung berbagai proyek infrastruktur dan pembangunan di Indonesia, khususnya Indonesia Timur.
                         </p>
                         <div class="flex md:block justify-center ">
-                            <button class="btn-mpa-primary">Mengenal Lebih Jauh</button>
+                            <a href="/about" class="btn-mpa-primary">Mengenal Lebih Jauh</a>
                         </div>
                     </div>
                 </div>
