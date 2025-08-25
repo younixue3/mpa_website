@@ -10,6 +10,7 @@
             <t t-call="mpa_website.hero_product_section"/>
             <t t-call="mpa_website.video_product_section"/>
             <t t-call="mpa_website.material_product_section"/>
+            <t t-call="mpa_website.material_desktop_product_section"/>
             <!-- <t t-call="mpa_website.proyek_product_section"/> -->
 
             <t t-call="mpa_website.footer"/>

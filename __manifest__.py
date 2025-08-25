@@ -37,6 +37,7 @@
         'views/page/product/components/videoSection.xml',
         'views/page/product/components/proyekSection.xml',
         'views/page/product/components/materialSection.xml',
+        'views/page/product/components/materialDesktopSection.xml',
         'views/page/product/components/videoSection.xml',
         # iup
         'views/page/iup/index.xml',
