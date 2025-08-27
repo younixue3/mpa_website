@@ -1,8 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="video_home_section" name="Video Home Section">
-        <section class="hidden relative md:flex h-screen">
-            <video 
+        <section class="w-full h-screen flex video-section-trigger overflow-hidden">
+            <canvas class="h-screen w-full video-section" id="hero-lightpass" />
+            <div class="absolute w-full h-full flex relative">
+                <div id="510mm" class="absolute top-16 right-48 text-left transform opacity-0 transition-all ease-in-out duration-500">
+                    <h3 class="text-3xl font-bold">Batu</h3>
+                    <h4 class="text-2xl font-bold text-nowrap">5-10 mm</h4>
+                </div>
+                <div id="1020mm" class="absolute top-56 right-96 text-left transform opacity-0 transition-all ease-in-out duration-500">
+                    <h3 class="text-3xl font-bold">Batu</h3>
+                    <h4 class="text-2xl font-bold text-nowrap">10-20 mm</h4>
+                </div>
+                <div id="2030mm" class="absolute top-80 right-[35rem] text-left transform opacity-0 transition-all ease-in-out duration-500">
+                    <h3 class="text-3xl font-bold">Batu</h3>
+                    <h4 class="text-2xl font-bold text-nowrap">20-30 mm</h4>
+                </div>
+                <div id="3050mm" class="absolute top-[28rem] right-[22rem] text-left transform opacity-0 transition-all ease-in-out duration-500">
+                    <h3 class="text-3xl font-bold">Batu</h3>
+                    <h4 class="text-2xl font-bold text-nowrap">30-50 mm</h4>
+                </div>
+                <div id="5070mm" class="absolute top-[32rem] right-[25rem] text-left transform opacity-0 transition-all ease-in-out duration-500">
+                    <h3 class="text-3xl font-bold">Batu</h3>
+                    <h4 class="text-2xl font-bold text-nowrap">50-70 mm</h4>
+                </div>
+                <div id="pondasi" class="absolute top-24 right-96 text-left transform opacity-0 transition-all ease-in-out duration-500">
+                    <h3 class="text-3xl font-bold">Batu Pondasi</h3>
+                    <h4 class="text-2xl font-bold text-nowrap">20-30 cm</h4>
+                </div>
+                <div id="bolder" class="absolute top-96 right-[38rem] text-left transform opacity-0 transition-all ease-in-out duration-500">
+                    <h3 class="text-3xl font-bold">Batu Bolder</h3>
+                    <h4 class="text-2xl font-bold text-nowrap">30 cm up</h4>
+                </div>
+            </div>
+            <!-- <video 
                 class="h-full w-full object-cover"
                 preload="auto" 
                 autoplay="autoplay"
@@ -10,11 +41,128 @@
                 playsinline="playsinline">
                 <source src="/mpa_website/static/src/video/produk_home_new.mp4" type="video/mp4"/>
                 <p class="text-gray-700 dark:text-gray-400">Your browser does not support the video tag.</p>
-            </video>
+            </video> -->
         </section>
 
         <script type="text/javascript">
+            document.addEventListener("DOMContentLoaded", () => {
+                // Register GSAP ScrollTrigger plugin
+                gsap.registerPlugin(ScrollTrigger);
 
+                // Canvas setup
+                const canvas = document.getElementById("hero-lightpass");
+                const context = canvas.getContext("2d");
+
+                // Set canvas dimensions
+                const setCanvasDimensions = () => {
+                    canvas.width = window.innerWidth;
+                    canvas.height = window.innerHeight;
+                };
+                setCanvasDimensions();
+                window.addEventListener('resize', setCanvasDimensions);
+
+                // Frame sequence configuration
+                const frameCount = 1847;
+                const currentFrame = index => (
+                    `/mpa_website/static/src/video/video-sequence/frame_${(index + 1).toString().padStart(5, '0')}.jpg`
+                );
+
+                // Preload images
+                const images = [];
+                const imagePromises = [];
+                
+                for (let i = 0; i &lt; frameCount; i++) {
+                    const img = new Image();
+                    const promise = new Promise((resolve) => {
+                        img.onload = resolve;
+                    });
+                    img.src = currentFrame(i);
+                    images.push(img);
+                    imagePromises.push(promise);
+                }
+                console.log(images)
+
+                // Animation state
+                const animationState = {
+                    frame: 0
+                };
+
+                // GSAP animations
+                gsap.to(animationState, {
+                    frame: frameCount - 1,
+                    snap: "frame",
+                    ease: "none",
+                    scrollTrigger: {
+                        trigger: ".video-section-trigger",
+                        scrub: 0.5,
+                        pin: true,
+                        pinSpacing: true,
+                        start: "top top",
+                        end: "+=2000%",
+                        anticipatePin: 1
+                    },
+                    onUpdate: render
+                });
+
+                // Render function with proper scaling
+                function render() {
+                    if (!images[animationState.frame]) return;
+                    
+                    context.clearRect(0, 0, canvas.width, canvas.height);
+                    
+                    const img = images[animationState.frame];
+                    const scale = Math.max(
+                        canvas.width / img.width,
+                        canvas.height / img.height
+                    );
+                    
+                    const x = (canvas.width - img.width * scale) / 2;
+                    const y = (canvas.height - img.height * scale) / 2;
+                    
+                    context.drawImage(
+                        img,
+                        x, y,
+                        img.width * scale,
+                        img.height * scale
+                    );
+                    
+                    // Mengubah opacity elemen 510mm saat frame mencapai 660
+                    const element510mm = document.getElementById('510mm');
+                    const element1020mm = document.getElementById('1020mm');
+                    const element2030mm = document.getElementById('2030mm');
+                    const element3050mm = document.getElementById('3050mm');
+                    const element5070mm = document.getElementById('5070mm');
+                    const elementPondasi = document.getElementById('pondasi');
+                    const elementBolder = document.getElementById('bolder');
+                    const elements = [
+                        { el: element510mm, frames: [695, 860] },
+                        { el: element1020mm, frames: [860, 1045] },
+                        { el: element2030mm, frames: [1045, 1230] },
+                        { el: element3050mm, frames: [1230, 1415] },
+                        { el: element5070mm, frames: [1415, 1630] },
+                        { el: elementPondasi, frames: [1630, 1815] },
+                        { el: elementBolder, frames: [1815, 1847] }
+                    ];
+
+                    elements.forEach(({el, frames}) => {
+                        if (el) {
+                            const [showFrame, hideFrame] = frames;
+                            if (animationState.frame >= showFrame &amp;&amp; animationState.frame &lt; hideFrame) {
+                                el.classList.remove('opacity-0');
+                                el.classList.add('opacity-100');
+                            } else {
+                                el.classList.remove('opacity-100');
+                                el.classList.add('opacity-0');
+                            }
+                        }
+                    });
+                }
+
+                // Initialize render once first image is loaded
+                Promise.all(imagePromises).then(() => {
+                    render();
+                });
+            });
         </script>
     </template>
 </odoo>
