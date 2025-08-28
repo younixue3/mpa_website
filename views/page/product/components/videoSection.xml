@@ -1,148 +1,166 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="video_product_section" name="Video Product Section">
-        <!-- Load jQuery and Owl Carousel CDN -->
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"/>
-
-        <section class="relative flex h-[75rem] md:h-screen">
-            <video 
-                class="hidden md:block h-full w-full object-cover"
-                preload="auto" 
-                autoplay="autoplay"
-                loop="loop"
-                muted="muted"
-                playsinline="playsinline">
-                <source src="/mpa_website/static/src/video/produk_tulisan1.mov" type="video/mp4"/>
-                <p class="text-gray-700 dark:text-gray-400">Your browser does not support the video tag.</p>
-            </video>
-            <img src="/mpa_website/static/src/img/DJI_0309.jpg" class="md:hidden h-full object-cover object-right backdrop-brightness-50" />
-            <div class="absolute inset-0 flex flex-col items-center py-5 text-white px-4 md:px-8 lg:px-16">
-                <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-8 tracking-tight drop-shadow-lg">
-                    Produk Material Tambang
-                </h1>
-                <div class="max-w-4xl text-center mb-6 font-light">
-                    Kami menyediakan berbagai jenis batu tambang yang telah melalui proses pemilahan, pemecahan, dan pengujian kualitas untuk memastikan kekuatan, kepadatan, dan konsistensi material. Cocok untuk berbagai kebutuhan konstruksi mulai dari perumahan, jalan, jembatan, hingga proyek skala besar industri. Semua produk kami telah melalui proses penyortiran dan pengujian mutu yang ketat.
+        <section class="hidden md:block w-full h-screen flex video-section-trigger overflow-hidden">
+            <canvas class="h-screen w-full video-section" id="hero-lightpass" />
+            <div class="absolute w-full h-full flex relative">
+                <div id="510mm" class="absolute bottom-[7.5rem] right-[8rem] text-left text-white transform opacity-0 transition-all ease-in-out duration-500">
+                    <h3 class="text-3xl font-bold text-nowrap">Batu 5-10 mm</h3>
+                    <p class="text-lg w-[44rem]">Batu ukuran 5–10 mm, atau sering disebut batu screening, merupakan hasil pemrosesan mesin pemecah batu dengan ukuran seragam dan presisi tinggi. Material ini biasa digunakan sebagai campuran utama dalam pembuatan aspal hotmix serta penebalan struktur jalan pada proses Asphalt Mixing Plant (AMP).</p>
                 </div>
-                <button data-modal-target="contact-modal" data-modal-toggle="contact-modal" class="btn-mpa-primary">
-                    Hubung Kami
-                </button>
-
-                <div id="video-carousel-mobile" class="owl-carousel owl-theme md:hidden w-full">
-                    <div class="item">
-                        <img src="/mpa_website/static/src/img/aset-batu/510mm.png" 
-                            alt="Batu 5-10 mm" 
-                            loading="lazy"
-                            class="w-full h-[392px] object-cover object-center"/>
-                    </div>
-                    <div class="item">
-                        <img src="/mpa_website/static/src/img/aset-batu/1020mm.png" 
-                            alt="Batu 10-20 mm" 
-                            loading="lazy"
-                            class="w-full h-[392px] object-cover object-center"/>
-                    </div>
-                    <div class="item">
-                        <img src="/mpa_website/static/src/img/aset-batu/2030mm.png" 
-                            alt="Batu 20-30 mm" 
-                            loading="lazy"
-                            class="w-full h-[392px] object-cover object-center"/>
-                    </div>
-                    <div class="item">
-                        <img src="/mpa_website/static/src/img/aset-batu/3050.png" 
-                            alt="Batu 30-50 mm" 
-                            loading="lazy"
-                            class="w-full h-[392px] object-cover object-center"/>
-                    </div>
-                    <div class="item">
-                        <img src="/mpa_website/static/src/img/aset-batu/5070.png" 
-                            alt="Batu 50-70 mm" 
-                            loading="lazy"
-                            class="w-full h-[392px] object-cover object-center"/>
-                    </div>
-                    <div class="item">
-                        <img src="/mpa_website/static/src/img/aset-batu/20cm.png" 
-                            alt="Batu Pondasi 20 cm" 
-                            loading="lazy"
-                            class="w-full h-[392px] object-cover object-center"/>
-                    </div>
-                    <div class="item">
-                        <img src="/mpa_website/static/src/img/aset-batu/bolder.png" 
-                            alt="Batu Bolder 30 cm up" 
-                            loading="lazy"
-                            class="w-full h-[392px] object-cover object-center"/>
-                    </div>
+                <div id="1020mm" class="absolute bottom-[9.5rem] right-[8rem] text-left text-white transform opacity-0 transition-all ease-in-out duration-500">
+                    <h3 class="text-3xl font-bold text-nowrap">Batu 10-20 mm</h3>
+                    <p class="text-lg w-[44rem]">Batu ukuran 10–20 mm merupakan material favorit dalam dunia konstruksi. Ukurannya yang seragam dengan daya tahan tinggi menjadikannya pilihan utama untuk pengecoran struktur ringan hingga berat.</p>
                 </div>
-
-                <!-- Custom Navigation Buttons -->
-                <div class="absolute top-1/2 transform -translate-y-1/2 w-full px-4 flex justify-between z-10 md:hidden">
-                    <button class="owl-prev-video inline-flex items-center justify-center w-10 h-10 rounded-full bg-mpa-primary">
-                        <svg class="w-4 h-4 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
-                        </svg>
-                    </button>
-                    <button class="owl-next-video inline-flex items-center justify-center w-10 h-10 rounded-full bg-mpa-primary">
-                        <svg class="w-4 h-4 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
-                        </svg>
-                    </button>
+                <div id="2030mm" class="absolute bottom-[7.5rem] right-[8rem] text-left text-white transform opacity-0 transition-all ease-in-out duration-500">
+                    <h3 class="text-3xl font-bold text-nowrap">Batu 20-30 mm</h3>
+                    <p class="text-lg w-[44rem]">Batu ukuran 20–30 mm merupakan material andalan untuk berbagai kebutuhan konstruksi, khususnya pada pengecoran beton horizontal seperti lantai kerja dan struktur dasar. Ukurannya yang ideal memberikan kepadatan dan daya ikat optimal dalam campuran beton.</p>
                 </div>
-
-                <div class="md:hidden w-full text-white p-5 mt-5">
-                    <div class="flex relative">
-                        <div class="w-full m-auto flex justify-center">
-                            <div class="w-2/3 flex items-center justify-center z-40">
-                                <span id="title-video" class="text-white font-medium text-lg leading-tight">Batu 5-10 mm</span>
-                            </div>
-                        </div>
-                    </div>
-                    <p id="paragraph-title" class="mt-2 text-center">
-                        Batu ukuran 5-10 mm atau sering disebut batu screening, merupakan hasil pemrosesan mesin pemecah batu dengan ukuran seragam dan presisi tinggi. Material ini biasa digunakan sebagai campuran utama dalam pembuatan aspal hotmix serta penebalan struktur jalan pada proses Asphalt Mixing Plant (AMO).
-                    </p>
+                <div id="3050mm" class="absolute bottom-[9.5rem] right-[8rem] text-left text-white transform opacity-0 transition-all ease-in-out duration-500">
+                    <h3 class="text-3xl font-bold text-nowrap">Batu 30-50 mm</h3>
+                    <p class="text-lg w-[44rem]">Batu ukuran 30-50 mm memiliki ukuran ideal untuk kebutuhan konstruksi dengan beban tinggi. Umumnya digunakan sebagai lapisan dasar badan jalan, penyangga bantalan rel kereta, hingga pemberat pipa di dasar laut atau proyek bawah permukaan lainnya.</p>
+                </div>
+                <div id="5070mm" class="absolute bottom-[9.5rem] right-[8rem] text-left text-white transform opacity-0 transition-all ease-in-out duration-500">
+                    <h3 class="text-3xl font-bold text-nowrap">Batu 50-70 mm</h3>
+                    <p class="text-lg w-[44rem]">Batu ukuran 50–70 mm digunakan pada bagian struktur paling bawah dalam proyek infrastruktur besar. Material ini memberikan kestabilan tinggi dan ruang antar butiran yang ideal untuk drainase.</p>
+                </div>
+                <div id="pondasi" class="absolute bottom-[7.5rem] right-[8rem] text-left text-white transform opacity-0 transition-all ease-in-out duration-500">
+                    <h3 class="text-3xl font-bold text-nowrap">Batu Pondasi (20-30 cm)</h3>
+                    <p class="text-lg w-[44rem]">Batu pondasi berukuran 20–30 cm banyak digunakan untuk konstruksi bangunan seperti rumah, ruko, pabrik, hingga bangunan bertingkat. Ukurannya yang besar membuat batu ini memiliki kemampuan menahan beban struktur di atasnya secara optimal.</p>
+                </div>
+                <div id="bolder" class="absolute bottom-[9.5rem] right-[8rem] text-left text-white transform opacity-0 transition-all ease-in-out duration-500">
+                    <h3 class="text-3xl font-bold text-nowrap">Batu Bolder (30 cm up)</h3>
+                    <p class="text-lg w-[44rem]">Batu bolder berukuran lebih dari 30 cm merupakan material utama dalam proyek-proyek reklamasi, tanggul sungai, dan perlindungan pantai. Bobot dan ukurannya sangat efektif untuk menahan arus air, ombak, maupun longsoran tanah.</p>
                 </div>
             </div>
+            <!-- <video 
+                class="h-full w-full object-cover"
+                preload="auto" 
+                autoplay="autoplay"
+                muted="muted"
+                playsinline="playsinline">
+                <source src="/mpa_website/static/src/video/produk_home_new.mp4" type="video/mp4"/>
+                <p class="text-gray-700 dark:text-gray-400">Your browser does not support the video tag.</p>
+            </video> -->
         </section>
 
         <script type="text/javascript">
-            $(document).ready(function(){
-                const titles = ['Batu 5-10 mm', 'Batu 10-20 mm', 'Batu 20-30 mm', 'Batu 30-50 mm', 'Batu 50-70 mm', 'Batu Pondasi 20 cm', 'Batu Bolder'];
-                const paragraphs = [
-                    "Batu ukuran 5-10 mm atau sering disebut batu screening, merupakan hasil pemrosesan mesin pemecah batu dengan ukuran seragam dan presisi tinggi. Material ini biasa digunakan sebagai campuran utama dalam pembuatan aspal hotmix serta penebalan struktur jalan pada proses Asphalt Mixing Plant (AMO).",
-                    "Batu ukuran 10-20 mm merupakan material favorit dalam dunia konstruksi. Ukurannya yang seragam dengan daya tahan tinggi menjadikannya pilihan utama untuk pengecoran struktur ringan hingga berat.",
-                    "Batu ukuran 20-30 mm merupakan material yang ideal untuk pengecoran struktur bangunan dan pondasi. Dengan ukuran yang optimal, material ini memberikan kekuatan dan stabilitas yang baik untuk berbagai aplikasi konstruksi.",
-                    "Batu ukuran 30-50 mm cocok untuk penggunaan pada proyek infrastruktur seperti jalan, jembatan, dan drainase. Material ini memiliki daya tahan tinggi terhadap tekanan dan cuaca ekstrem.",
-                    "Batu ukuran 50-70 mm sering digunakan untuk pondasi bangunan, lapisan drainase, dan stabilisasi tanah. Ukurannya yang besar memberikan kekuatan struktural yang baik untuk proyek-proyek besar.",
-                    "Batu Pondasi 20 cm merupakan material utama untuk pondasi bangunan dan infrastruktur berat. Dengan ukuran yang besar, material ini memberikan dasar yang kokoh dan stabil untuk konstruksi di atasnya.",
-                    "Batu Bolder 30 cm up adalah material berukuran besar yang ideal untuk proyek-proyek seperti tanggul, penahan erosi, dan dekorasi lansekap. Material ini memiliki ketahanan luar biasa terhadap erosi dan pergerakan tanah."
-                ];
+            document.addEventListener("DOMContentLoaded", () => {
+                // Register GSAP ScrollTrigger plugin
+                gsap.registerPlugin(ScrollTrigger);
 
-                const owl_mobile = $("#video-carousel-mobile").owlCarousel({
-                    center: true,
-                    items: 1,
-                    loop: true,
-                    autoplay: true,
-                    autoplayTimeout: 5000,
-                    autoplayHoverPause: true,
-                    margin: 20,
-                    nav: false,
-                    dots: true,
-                    onChanged: function(event) {
-                        if (event.item) {
-                            const currentIndex = event.item.index - 4 === 7 ? 0 : event.item.index - 4 === -1 ? 6 : event.item.index - 4;
+                // Canvas setup
+                const canvas = document.getElementById("hero-lightpass");
+                const context = canvas.getContext("2d");
 
-                            $("#title-video").text(titles[currentIndex]);
-                            $("#paragraph-title").text(paragraphs[currentIndex]);
+                // Set canvas dimensions
+                const setCanvasDimensions = () => {
+                    canvas.width = window.innerWidth;
+                    canvas.height = window.innerHeight;
+                };
+                setCanvasDimensions();
+                window.addEventListener('resize', setCanvasDimensions);
+
+                // Frame sequence configuration
+                const frameCount = 2238;
+                const currentFrame = index => (
+                    `/mpa_website/static/src/video/produk-video-sequence/frame_${(index + 1).toString().padStart(5, '0')}.jpg`
+                );
+
+                // Preload images
+                const images = [];
+                const imagePromises = [];
+                
+                for (let i = 0; i &lt; frameCount; i++) {
+                    const img = new Image();
+                    const promise = new Promise((resolve) => {
+                        img.onload = resolve;
+                    });
+                    img.src = currentFrame(i);
+                    images.push(img);
+                    imagePromises.push(promise);
+                }
+                console.log(images)
+
+                // Animation state
+                const animationState = {
+                    frame: 0
+                };
+
+                // GSAP animations
+                gsap.to(animationState, {
+                    frame: frameCount - 1,
+                    snap: "frame",
+                    ease: "none",
+                    scrollTrigger: {
+                        trigger: ".video-section-trigger",
+                        scrub: 0.5,
+                        pin: true,
+                        pinSpacing: true,
+                        start: "top top",
+                        end: "+=2000%",
+                        anticipatePin: 1
+                    },
+                    onUpdate: render
+                });
+
+                // Render function with proper scaling
+                function render() {
+                    if (!images[animationState.frame]) return;
+                    
+                    context.clearRect(0, 0, canvas.width, canvas.height);
+                    
+                    const img = images[animationState.frame];
+                    const scale = Math.max(
+                        canvas.width / img.width,
+                        canvas.height / img.height
+                    );
+                    
+                    const x = (canvas.width - img.width * scale) / 2;
+                    const y = (canvas.height - img.height * scale) / 2;
+                    
+                    context.drawImage(
+                        img,
+                        x, y,
+                        img.width * scale,
+                        img.height * scale
+                    );
+                    
+                    // Mengubah opacity elemen 510mm saat frame mencapai 660
+                    const element510mm = document.getElementById('510mm');
+                    const element1020mm = document.getElementById('1020mm');
+                    const element2030mm = document.getElementById('2030mm');
+                    const element3050mm = document.getElementById('3050mm');
+                    const element5070mm = document.getElementById('5070mm');
+                    const elementPondasi = document.getElementById('pondasi');
+                    const elementBolder = document.getElementById('bolder');
+                    const elements = [
+                        { el: element510mm, frames: [240, 302] },
+                        { el: element1020mm, frames: [540, 602] },
+                        { el: element2030mm, frames: [840, 902] },
+                        { el: element3050mm, frames: [1140, 1202] },
+                        { el: element5070mm, frames: [1440, 1502] },
+                        { el: elementPondasi, frames: [1740, 1802] },
+                        { el: elementBolder, frames: [2040, 2102] }
+                    ];
+
+                    elements.forEach(({el, frames}) => {
+                        if (el) {
+                            const [showFrame, hideFrame] = frames;
+                            if (animationState.frame >= showFrame &amp;&amp; animationState.frame &lt; hideFrame) {
+                                el.classList.remove('opacity-0');
+                                el.classList.add('opacity-100');
+                            } else {
+                                el.classList.remove('opacity-100');
+                                el.classList.add('opacity-0');
+                            }
                         }
-                    }
-                });
+                    });
+                }
 
-                // Custom Navigation Events Mobile
-                $('.owl-next-video').click(function() {
-                    owl_mobile.trigger('next.owl.carousel');
-                });
-                $('.owl-prev-video').click(function() {
-                    owl_mobile.trigger('prev.owl.carousel');
+                // Initialize render once first image is loaded
+                Promise.all(imagePromises).then(() => {
+                    render();
                 });
             });
         </script>
