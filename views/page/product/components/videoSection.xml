@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="video_product_section" name="Video Product Section">
-        <section class="hidden md:block w-full h-screen flex video-section-trigger overflow-hidden">
+        <section class="hidden md:flex w-full h-screen video-section-trigger overflow-hidden">
             <canvas class="h-screen w-full video-section" id="hero-lightpass" />
             <div class="absolute w-full h-full flex relative">
                 <div id="510mm" class="absolute bottom-[7.5rem] right-[8rem] text-left text-white transform opacity-0 transition-all ease-in-out duration-500">
