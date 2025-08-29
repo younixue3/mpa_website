@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="about_home_section" name="About Home Section">
-        <div class="relative bg-mpa-secondary py-24">
+        <div class="relative bg-mpa-secondary py-24 z-50">
             <!-- Card that overflows to top -->
             <div class="mx-auto">
                 <div class="hidden md:block bg-white/95 border border-mpa-primary p-4 -mt-48 mb-16 mx-20">

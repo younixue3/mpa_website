@@ -4,31 +4,31 @@
         <section class="w-full h-screen md:hidden flex video-mobile-section-trigger overflow-hidden">
             <canvas class="h-screen w-full video-mobile-section" id="product-animation-canvas" />
             <div class="absolute w-full h-full flex relative">
-                <div id="stone-510mm" class="absolute w-full top-10 right-[22rem] text-center text-white transform opacity-0 transition-all ease-in-out duration-500">
+                <div id="stone-510mm" class="absolute w-full top-32 right-[22rem] text-center text-white transform opacity-0 transition-all ease-in-out duration-500">
                     <h3 class="text-3xl font-bold text-nowrap w-[90vw]">Batu 5-10 mm</h3>
                     <p class="text-lg w-[90vw]">Batu ukuran 5–10 mm, atau sering disebut batu screening, merupakan hasil pemrosesan mesin pemecah batu dengan ukuran seragam dan presisi tinggi. Material ini biasa digunakan sebagai campuran utama dalam pembuatan aspal hotmix serta penebalan struktur jalan pada proses Asphalt Mixing Plant (AMP).</p>
                 </div>
-                <div id="stone-1020mm" class="absolute w-full top-10 right-[22rem] text-center text-white transform opacity-0 transition-all ease-in-out duration-500">
+                <div id="stone-1020mm" class="absolute w-full top-32 right-[22rem] text-center text-white transform opacity-0 transition-all ease-in-out duration-500">
                     <h3 class="text-3xl font-bold text-nowrap w-[90vw]">Batu 10-20 mm</h3>
                     <p class="text-lg w-[90vw]">Batu ukuran 10–20 mm merupakan material favorit dalam dunia konstruksi. Ukurannya yang seragam dengan daya tahan tinggi menjadikannya pilihan utama untuk pengecoran struktur ringan hingga berat.</p>
                 </div>
-                <div id="stone-2030mm" class="absolute w-full top-10 right-[22rem] text-center text-white transform opacity-0 transition-all ease-in-out duration-500">
+                <div id="stone-2030mm" class="absolute w-full top-32 right-[22rem] text-center text-white transform opacity-0 transition-all ease-in-out duration-500">
                     <h3 class="text-3xl font-bold text-nowrap w-[90vw]">Batu 20-30 mm</h3>
                     <p class="text-lg w-[90vw]">Batu ukuran 20–30 mm merupakan material andalan untuk berbagai kebutuhan konstruksi, khususnya pada pengecoran beton horizontal seperti lantai kerja dan struktur dasar. Ukurannya yang ideal memberikan kepadatan dan daya ikat optimal dalam campuran beton.</p>
                 </div>
-                <div id="stone-3050mm" class="absolute w-full top-10 right-[22rem] text-center text-white transform opacity-0 transition-all ease-in-out duration-500">
+                <div id="stone-3050mm" class="absolute w-full top-32 right-[22rem] text-center text-white transform opacity-0 transition-all ease-in-out duration-500">
                     <h3 class="text-3xl font-bold text-nowrap w-[90vw]">Batu 30-50 mm</h3>
                     <p class="text-lg w-[90vw]">Batu ukuran 30-50 mm memiliki ukuran ideal untuk kebutuhan konstruksi dengan beban tinggi. Umumnya digunakan sebagai lapisan dasar badan jalan, penyangga bantalan rel kereta, hingga pemberat pipa di dasar laut atau proyek bawah permukaan lainnya.</p>
                 </div>
-                <div id="stone-5070mm" class="absolute w-full top-10 right-[22rem] text-center text-white transform opacity-0 transition-all ease-in-out duration-500">
+                <div id="stone-5070mm" class="absolute w-full top-32 right-[22rem] text-center text-white transform opacity-0 transition-all ease-in-out duration-500">
                     <h3 class="text-3xl font-bold text-nowrap w-[90vw]">Batu 50-70 mm</h3>
                     <p class="text-lg w-[90vw]">Batu ukuran 50–70 mm digunakan pada bagian struktur paling bawah dalam proyek infrastruktur besar. Material ini memberikan kestabilan tinggi dan ruang antar butiran yang ideal untuk drainase.</p>
                 </div>
-                <div id="stone-foundation" class="absolute w-full top-10 right-[22rem] text-center text-white transform opacity-0 transition-all ease-in-out duration-500">
+                <div id="stone-foundation" class="absolute w-full top-32 right-[22rem] text-center text-white transform opacity-0 transition-all ease-in-out duration-500">
                     <h3 class="text-3xl font-bold text-nowrap w-[90vw]">Batu Pondasi (20-30 cm)</h3>
                     <p class="text-lg w-[90vw]">Batu pondasi berukuran 20–30 cm banyak digunakan untuk konstruksi bangunan seperti rumah, ruko, pabrik, hingga bangunan bertingkat. Ukurannya yang besar membuat batu ini memiliki kemampuan menahan beban struktur di atasnya secara optimal.</p>
                 </div>
-                <div id="stone-boulder" class="absolute w-full top-10 right-[22rem] text-center text-white transform opacity-0 transition-all ease-in-out duration-500">
+                <div id="stone-boulder" class="absolute w-full top-32 right-[22rem] text-center text-white transform opacity-0 transition-all ease-in-out duration-500">
                     <h3 class="text-3xl font-bold text-nowrap w-[90vw]">Batu Bolder (30 cm up)</h3>
                     <p class="text-lg w-[90vw]">Batu bolder berukuran lebih dari 30 cm merupakan material utama dalam proyek-proyek reklamasi, tanggul sungai, dan perlindungan pantai. Bobot dan ukurannya sangat efektif untuk menahan arus air, ombak, maupun longsoran tanah.</p>
                 </div>

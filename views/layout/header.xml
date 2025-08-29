@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="navbar" name="Navbar">
-        <nav class="bg-white border-gray-200">
+        <nav class="bg-white border-gray-200 fixed w-full" style="z-index: 99999999;">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between p-4 mx-auto">
-                <a href="/home_page" class="flex items-center space-x-3 rtl:space-x-reverse">
-                    <img src="/mpa_website/static/logo-mpa.png" class="h-16" alt="MPA Logo" />
+                <a href="/home_page" class="flex items-center space-x-3 rtl:space-x-reverse hover:opacity-80 transition-opacity">
+                    <img src="/mpa_website/static/logo-mpa.png" class="h-16 w-auto object-contain" alt="MPA Logo" />
+                    <span id="navbar-brand" class="hidden md:hidden text-gray-800 font-bold text-lg w-32">
+                        Mitraniaga Perkasa Abadi
+                    </span>
                 </a>
                 <div class="flex gap-4 justify-end">
                     <div class="flex items-center md:order-2">
@@ -127,5 +130,17 @@
                 </div>
             </div>
         </nav>
+        <div class="w-full h-20 bg-white"></div>
+        <script>
+            window.addEventListener('scroll', function() {
+                const wrapwrap = document.getElementById('wrapwrap');
+                const navbarBrand = document.getElementById('navbar-brand');
+                if (window.scrollY >= 100) {
+                    navbarBrand.classList.remove('hidden');
+                } else {
+                    navbarBrand.classList.add('hidden');
+                }
+            });
+        </script>
     </template>
 </odoo>
