@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="video_home_section" name="Video Home Section">
-        <section class="w-full h-screen flex video-section-trigger overflow-hidden">
+        <section class="hidden w-full h-screen md:flex video-section-trigger overflow-hidden">
             <canvas class="h-screen w-full video-section" id="hero-lightpass" />
             <div class="absolute w-full h-full flex relative">
                 <div id="510mm" class="absolute top-16 right-48 text-left transform opacity-0 transition-all ease-in-out duration-500">
@@ -80,7 +80,6 @@
                     images.push(img);
                     imagePromises.push(promise);
                 }
-                console.log(images)
 
                 // Animation state
                 const animationState = {
