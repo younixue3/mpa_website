@@ -4,6 +4,9 @@
         <section class="hidden w-full h-screen md:flex video-section-trigger overflow-hidden">
             <canvas class="h-screen w-full video-section" id="hero-lightpass" />
             <div class="absolute w-full h-full flex relative">
+                <div id="title_video" class="absolute bottom-28 right-48 text-left transform font-bold transition-all ease-in-out duration-500">
+                    <h3 class="text-5xl font-bold text-nowrap">Produk Kami</h3>
+                </div>
                 <div id="510mm" class="absolute top-16 right-48 text-left transform opacity-0 transition-all ease-in-out duration-500">
                     <h3 class="text-3xl font-bold">Batu</h3>
                     <h4 class="text-2xl font-bold text-nowrap">5-10 mm</h4>
@@ -126,6 +129,7 @@
                     );
                     
                     // Mengubah opacity elemen 510mm saat frame mencapai 660
+                    const elementTitle = document.getElementById('title_video');
                     const element510mm = document.getElementById('510mm');
                     const element1020mm = document.getElementById('1020mm');
                     const element2030mm = document.getElementById('2030mm');
@@ -134,6 +138,7 @@
                     const elementPondasi = document.getElementById('pondasi');
                     const elementBolder = document.getElementById('bolder');
                     const elements = [
+                        { el: elementTitle, frames: [0, 569] },
                         { el: element510mm, frames: [695, 860] },
                         { el: element1020mm, frames: [860, 1045] },
                         { el: element2030mm, frames: [1045, 1230] },

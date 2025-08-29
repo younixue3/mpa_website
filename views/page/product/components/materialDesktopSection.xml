@@ -130,7 +130,7 @@
 
                 const owl_desktop = $("#product-carousel-desktop").owlCarousel({
                     center: true,
-                    items: 1,
+                    items: 3,
                     loop: true,
                     autoplay: true,
                     autoplayTimeout: 5000,
@@ -139,18 +139,10 @@
                     margin: 20,
                     nav: false,
                     dots: true,
-                    responsive: {
-                        0: {
-                            items: 1
-                        },
-                        1024: {
-                            items: 3
-                        }
-                    },
                     onChanged: function(event) {
                         if (event.item) {
-                            const currentIndex = event.item.index - 3 === 5 ? 0 : event.item.index - 3 === -1 ? 3 : event.item.index - 3;
-
+                            const currentIndex = event.item.index - 3;
+                            console.log(productTitlesDesktop[currentIndex])
                             $("#product-title").text(productTitlesDesktop[currentIndex]);
                             $("#product-paragraph").text(productParagraphsDesktop[currentIndex]);
                         }
