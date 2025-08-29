@@ -80,7 +80,6 @@
                     images.push(img);
                     imagePromises.push(promise);
                 }
-                console.log(images)
 
                 // Animation state
                 const animationState = {
