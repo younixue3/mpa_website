@@ -65,7 +65,7 @@
                 window.addEventListener('resize', setCanvasDimensions);
 
                 // Frame sequence configuration
-                const frameCount = 1847;
+                const frameCount = 959;
                 const currentFrame = index => (
                     `/mpa_website/static/src/video/video-sequence/frame_${(index + 1).toString().padStart(5, '0')}.jpg`
                 );
@@ -138,14 +138,14 @@
                     const elementPondasi = document.getElementById('pondasi');
                     const elementBolder = document.getElementById('bolder');
                     const elements = [
-                        { el: elementTitle, frames: [0, 569] },
-                        { el: element510mm, frames: [695, 860] },
-                        { el: element1020mm, frames: [860, 1045] },
-                        { el: element2030mm, frames: [1045, 1230] },
-                        { el: element3050mm, frames: [1230, 1415] },
-                        { el: element5070mm, frames: [1415, 1630] },
-                        { el: elementPondasi, frames: [1630, 1815] },
-                        { el: elementBolder, frames: [1815, 1847] }
+                        { el: elementTitle, frames: [0, 130] },
+                        { el: element510mm, frames: [195, 285] },
+                        { el: element1020mm, frames: [285, 350] },
+                        { el: element2030mm, frames: [375, 465] },
+                        { el: element3050mm, frames: [465, 555] },
+                        { el: element5070mm, frames: [555, 665] },
+                        { el: elementPondasi, frames: [665, 755] },
+                        { el: elementBolder, frames: [755, 959] }
                     ];
 
                     elements.forEach(({el, frames}) => {

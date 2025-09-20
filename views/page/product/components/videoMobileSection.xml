@@ -49,7 +49,7 @@
                 updateCanvasSize();
                 window.addEventListener('resize', updateCanvasSize);
 
-                const totalFrames = 2100;
+                const totalFrames = 1049;
                 const frameImages = new Array(totalFrames);
                 let currentLoadedFrame = 0;
 
@@ -139,13 +139,13 @@
 
                     // Stone elements animation remains unchanged
                     const stoneElements = [
-                        { element: document.getElementById('stone-510mm'), timing: [240, 302] },
-                        { element: document.getElementById('stone-1020mm'), timing: [540, 602] },
-                        { element: document.getElementById('stone-2030mm'), timing: [840, 902] },
-                        { element: document.getElementById('stone-3050mm'), timing: [1140, 1202] },
-                        { element: document.getElementById('stone-5070mm'), timing: [1440, 1502] },
-                        { element: document.getElementById('stone-foundation'), timing: [1740, 1802] },
-                        { element: document.getElementById('stone-boulder'), timing: [2040, 2102] }
+                        { element: document.getElementById('stone-510mm'), timing: [60, 160] },
+                        { element: document.getElementById('stone-1020mm'), timing: [210, 310] },
+                        { element: document.getElementById('stone-2030mm'), timing: [360, 460] },
+                        { element: document.getElementById('stone-3050mm'), timing: [510, 610] },
+                        { element: document.getElementById('stone-5070mm'), timing: [660, 760] },
+                        { element: document.getElementById('stone-foundation'), timing: [810, 910] },
+                        { element: document.getElementById('stone-boulder'), timing: [960, 1010] }
                     ];
 
                     stoneElements.forEach(({element, timing}) => {
